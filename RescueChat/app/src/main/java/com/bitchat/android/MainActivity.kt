@@ -677,6 +677,7 @@ class MainActivity : OrientationAwareActivity() {
                 // Set up mesh service delegate and start services
                 meshService.delegate = chatViewModel
                 meshService.startServices()
+                com.bitchat.android.sos.SosDetectionService.start(this@MainActivity)
                 
                 Log.d("MainActivity", "Mesh service started successfully")
                 

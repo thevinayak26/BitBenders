@@ -402,6 +402,12 @@ class BluetoothMeshService(private val context: Context) {
                         }
                     }
                 } catch (_: Exception) { }
+                try {
+                    com.bitchat.android.sos.SosMessageBridge.maybeForwardIncomingMeshContent(
+                        context = context,
+                        content = message.content
+                    )
+                } catch (_: Exception) { }
                 // And forward to UI delegate if attached
                 delegate?.didReceiveMessage(message)
 

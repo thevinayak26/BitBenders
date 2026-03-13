@@ -24,7 +24,10 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.zIndex
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import androidx.lifecycle.viewmodel.compose.viewModel
 import com.bitchat.android.model.BitchatMessage
+import com.bitchat.android.sos.SosScreen
+import com.bitchat.android.sos.SosViewModel
 import com.bitchat.android.ui.media.FullScreenImageViewer
 
 /**
@@ -66,6 +69,7 @@ fun ChatScreen(viewModel: ChatViewModel) {
     var passwordInput by remember { mutableStateOf("") }
     var showLocationChannelsSheet by remember { mutableStateOf(false) }
     var showLocationNotesSheet by remember { mutableStateOf(false) }
+    var showSosSheet by remember { mutableStateOf(false) }
     var showUserSheet by remember { mutableStateOf(false) }
     var selectedUserForSheet by remember { mutableStateOf("") }
     var selectedMessageForSheet by remember { mutableStateOf<BitchatMessage?>(null) }
@@ -252,7 +256,8 @@ fun ChatScreen(viewModel: ChatViewModel) {
             onShowAppInfo = { viewModel.showAppInfo() },
             onPanicClear = { viewModel.panicClearAllData() },
             onLocationChannelsClick = { showLocationChannelsSheet = true },
-            onLocationNotesClick = { showLocationNotesSheet = true }
+            onLocationNotesClick = { showLocationNotesSheet = true },
+            onSosClick = { showSosSheet = true }
         )
 
         // Divider under header - positioned after status bar + header height
@@ -329,6 +334,8 @@ fun ChatScreen(viewModel: ChatViewModel) {
         onLocationChannelsSheetDismiss = { showLocationChannelsSheet = false },
         showLocationNotesSheet = showLocationNotesSheet,
         onLocationNotesSheetDismiss = { showLocationNotesSheet = false },
+        showSosSheet = showSosSheet,
+        onSosSheetDismiss = { showSosSheet = false },
         showUserSheet = showUserSheet,
         onUserSheetDismiss = { 
             showUserSheet = false
@@ -419,7 +426,8 @@ private fun ChatFloatingHeader(
     onShowAppInfo: () -> Unit,
     onPanicClear: () -> Unit,
     onLocationChannelsClick: () -> Unit,
-    onLocationNotesClick: () -> Unit
+    onLocationNotesClick: () -> Unit,
+    onSosClick: () -> Unit
 ) {
     val context = androidx.compose.ui.platform.LocalContext.current
     val locationManager = remember { com.bitchat.android.geohash.LocationChannelManager.getInstance(context) }
@@ -452,7 +460,8 @@ private fun ChatFloatingHeader(
                         // Ensure location is loaded before showing sheet
                         locationManager.refreshChannels()
                         onLocationNotesClick()
-                    }
+                    },
+                    onSosClick = onSosClick
                 )
             },
             colors = TopAppBarDefaults.topAppBarColors(
@@ -478,6 +487,8 @@ private fun ChatDialogs(
     onLocationChannelsSheetDismiss: () -> Unit,
     showLocationNotesSheet: Boolean,
     onLocationNotesSheetDismiss: () -> Unit,
+    showSosSheet: Boolean,
+    onSosSheetDismiss: () -> Unit,
     showUserSheet: Boolean,
     onUserSheetDismiss: () -> Unit,
     selectedUserForSheet: String,
@@ -532,6 +543,13 @@ private fun ChatDialogs(
             viewModel = viewModel,
             onDismiss = onLocationNotesSheetDismiss
         )
+    }
+
+    if (showSosSheet) {
+        val sosViewModel: SosViewModel = viewModel()
+        ModalBottomSheet(onDismissRequest = onSosSheetDismiss) {
+            SosScreen(vm = sosViewModel)
+        }
     }
     
     // User action sheet

@@ -226,7 +226,8 @@ fun ChatHeaderContent(
     onTripleClick: () -> Unit,
     onShowAppInfo: () -> Unit,
     onLocationChannelsClick: () -> Unit,
-    onLocationNotesClick: () -> Unit
+    onLocationNotesClick: () -> Unit,
+    onSosClick: () -> Unit
 ) {
     val colorScheme = MaterialTheme.colorScheme
 
@@ -250,6 +251,7 @@ fun ChatHeaderContent(
                 onSidebarClick = onSidebarClick,
                 onLocationChannelsClick = onLocationChannelsClick,
                 onLocationNotesClick = onLocationNotesClick,
+                onSosClick = onSosClick,
                 viewModel = viewModel
             )
         }
@@ -331,6 +333,7 @@ private fun MainHeader(
     onSidebarClick: () -> Unit,
     onLocationChannelsClick: () -> Unit,
     onLocationNotesClick: () -> Unit,
+    onSosClick: () -> Unit,
     viewModel: ChatViewModel
 ) {
     val colorScheme = MaterialTheme.colorScheme
@@ -428,6 +431,15 @@ private fun MainHeader(
             LocationNotesButton(
                 viewModel = viewModel,
                 onClick = onLocationNotesClick
+            )
+
+            Icon(
+                imageVector = Icons.Filled.Warning,
+                contentDescription = stringResource(R.string.cd_emergency_sos),
+                modifier = Modifier
+                    .size(18.dp)
+                    .clickable { onSosClick() },
+                tint = Color(0xFFE74C3C)
             )
 
             // Tor status dot when Tor is enabled
