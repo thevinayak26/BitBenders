@@ -29,7 +29,9 @@ class GatewayBridgeService : Service() {
         val sosJson = intent?.getStringExtra(EXTRA_SOS_JSON) ?: return START_NOT_STICKY
         scope.launch {
             try {
-                post("/sos", sosJson)
+                val normalizedJson = runCatching { SosPacket.fromWireFormat(sosJson).toJson() }
+                    .getOrElse { sosJson }
+                post("/sos", normalizedJson)
             } catch (e: Exception) {
                 Log.w("GatewayBridgeService", "Could not reach server: ${e.message}")
             }

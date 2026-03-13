@@ -25,4 +25,17 @@ object SosStateStore {
             confirmedByRescuer = rescuerId
         )
     }
+
+    fun setLatestSos(packet: SosPacket) {
+        _uiState.value = _uiState.value.copy(
+            latestLatitude = packet.latitude,
+            latestLongitude = packet.longitude,
+            latestInstructionText = packet.toHumanInstruction()
+        )
+    }
+
+    fun setDisasterRisk(risk: DisasterRisk) {
+        if (_uiState.value.disasterRisk == risk) return
+        _uiState.value = _uiState.value.copy(disasterRisk = risk)
+    }
 }

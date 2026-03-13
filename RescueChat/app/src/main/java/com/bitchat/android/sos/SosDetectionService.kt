@@ -4,7 +4,6 @@ import android.app.Notification
 import android.app.NotificationChannel
 import android.app.NotificationManager
 import android.app.Service
-import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.content.IntentFilter
@@ -36,6 +35,7 @@ import kotlinx.coroutines.cancel
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import org.json.JSONObject
+import kotlin.math.pow
 import kotlin.math.sqrt
 
 class SosDetectionService : Service(), SensorEventListener {
@@ -46,14 +46,20 @@ class SosDetectionService : Service(), SensorEventListener {
 
         const val ACTION_MANUAL_SOS = "com.bitchat.android.sos.ACTION_MANUAL_SOS"
         const val ACTION_CANCEL_SOS = "com.bitchat.android.sos.ACTION_CANCEL_SOS"
+        const val ACTION_INCOMING_SOS = "com.bitchat.android.sos.ACTION_INCOMING_SOS"
+        const val ACTION_INCOMING_ACK = "com.bitchat.android.sos.ACTION_INCOMING_ACK"
+        const val EXTRA_JSON = "json"
 
         const val IMPACT_THRESHOLD = 25f
         const val FALL_THRESHOLD = 2f
         const val COOLDOWN_MS = 30_000L
 
-        fun start(context: Context, action: String? = null) {
+        fun start(context: Context, action: String? = null, jsonPayload: String? = null) {
             val intent = Intent(context, SosDetectionService::class.java).apply {
                 this.action = action
+                if (!jsonPayload.isNullOrBlank()) {
+                    putExtra(EXTRA_JSON, jsonPayload)
+                }
             }
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
                 context.startForegroundService(intent)
@@ -83,25 +89,11 @@ class SosDetectionService : Service(), SensorEventListener {
     private var locationCallback: LocationCallback? = null
     private var ackPollingJob: Job? = null
     private val seenServerAckIds = mutableSetOf<String>()
+    private val recentMagnitudes = ArrayDeque<Float>()
+    private val recentSpikesMs = ArrayDeque<Long>()
 
     private val nodeId: String by lazy {
         Settings.Secure.getString(contentResolver, Settings.Secure.ANDROID_ID)
-    }
-
-    private val meshReceiver = object : BroadcastReceiver() {
-        override fun onReceive(context: Context, intent: Intent) {
-            val json = intent.getStringExtra(SosMessageBridge.EXTRA_JSON) ?: return
-            when (intent.action) {
-                SosMessageBridge.ACTION_INCOMING_SOS -> {
-                    runCatching { SosPacket.fromJson(json) }
-                        .onSuccess { sosManager.onSosReceived(it) }
-                }
-                SosMessageBridge.ACTION_INCOMING_ACK -> {
-                    runCatching { AckPacket.fromJson(json) }
-                        .onSuccess { sosManager.onAckReceived(it, nodeId) }
-                }
-            }
-        }
     }
 
     override fun onCreate() {
@@ -111,6 +103,7 @@ class SosDetectionService : Service(), SensorEventListener {
         sosManager = SosManager()
 
         sosManager.onBroadcastSos = { packet ->
+            SosStateStore.setLatestSos(packet)
             MeshServiceHolder.meshService?.sendMessage("${SosMessageBridge.SOS_PREFIX}${packet.toJson()}")
             if (SosStateStore.uiState.value.isGatewayMode) {
                 startService(
@@ -138,7 +131,6 @@ class SosDetectionService : Service(), SensorEventListener {
 
         setupWakeLock()
         startForeground(NOTIFICATION_ID, buildNotification())
-        registerMeshReceiver()
         startLocationUpdates()
         registerAccelerometer()
         startAckPolling()
@@ -148,21 +140,27 @@ class SosDetectionService : Service(), SensorEventListener {
         when (intent?.action) {
             ACTION_MANUAL_SOS -> triggerManualSos()
             ACTION_CANCEL_SOS -> sosManager.cancelSos()
+            ACTION_INCOMING_SOS -> {
+                val json = intent.getStringExtra(EXTRA_JSON)
+                if (!json.isNullOrBlank()) {
+                    runCatching { SosPacket.fromJson(json) }
+                        .recoverCatching { SosPacket.fromWireFormat(json) }
+                        .onSuccess {
+                            SosStateStore.setLatestSos(it)
+                            sosManager.onSosReceived(it, nodeId)
+                        }
+                }
+            }
+            ACTION_INCOMING_ACK -> {
+                val json = intent.getStringExtra(EXTRA_JSON)
+                if (!json.isNullOrBlank()) {
+                    runCatching { AckPacket.fromJson(json) }
+                        .recoverCatching { AckPacket.fromWireFormat(json) }
+                        .onSuccess { sosManager.onAckReceived(it, nodeId) }
+                }
+            }
         }
         return START_STICKY
-    }
-
-    private fun registerMeshReceiver() {
-        val filter = IntentFilter().apply {
-            addAction(SosMessageBridge.ACTION_INCOMING_SOS)
-            addAction(SosMessageBridge.ACTION_INCOMING_ACK)
-        }
-        if (Build.VERSION.SDK_INT >= 33) {
-            registerReceiver(meshReceiver, filter, RECEIVER_NOT_EXPORTED)
-        } else {
-            @Suppress("DEPRECATION")
-            registerReceiver(meshReceiver, filter)
-        }
     }
 
     private fun buildNotification(): Notification {
@@ -223,6 +221,7 @@ class SosDetectionService : Service(), SensorEventListener {
         )
 
         if (magnitude < FALL_THRESHOLD) isInFreefall = true
+        updateDisasterPrediction(magnitude)
 
         if (magnitude > IMPACT_THRESHOLD) {
             val type = if (isInFreefall) SosType.FALL else SosType.CRASH
@@ -257,7 +256,35 @@ class SosDetectionService : Service(), SensorEventListener {
             sosType = type,
             ttl = getTtl(type, battery)
         )
+        SosStateStore.setLatestSos(packet)
         sosManager.triggerSos(packet)
+    }
+
+    private fun updateDisasterPrediction(magnitude: Float) {
+        if (recentMagnitudes.size >= 40) recentMagnitudes.removeFirst()
+        recentMagnitudes.addLast(magnitude)
+
+        val now = System.currentTimeMillis()
+        if (magnitude > 18f) recentSpikesMs.addLast(now)
+        while (recentSpikesMs.isNotEmpty() && now - recentSpikesMs.first() > 20_000L) {
+            recentSpikesMs.removeFirst()
+        }
+
+        val sample = recentMagnitudes.toList()
+        val mean = sample.average().toFloat()
+        val variance = if (sample.isNotEmpty()) {
+            sample.map { (it - mean).pow(2) }.average().toFloat()
+        } else {
+            0f
+        }
+        val stdDev = sqrt(variance)
+
+        val risk = when {
+            recentSpikesMs.size >= 6 || stdDev > 4.5f -> DisasterRisk.HIGH
+            recentSpikesMs.size >= 3 || stdDev > 2.5f -> DisasterRisk.ELEVATED
+            else -> DisasterRisk.LOW
+        }
+        SosStateStore.setDisasterRisk(risk)
     }
 
     private fun getBatteryLevel(): Int {
@@ -303,10 +330,6 @@ class SosDetectionService : Service(), SensorEventListener {
 
     override fun onDestroy() {
         super.onDestroy()
-        try {
-            unregisterReceiver(meshReceiver)
-        } catch (_: Exception) {
-        }
         locationCallback?.let {
             runCatching { fusedLocationClient.removeLocationUpdates(it) }
         }

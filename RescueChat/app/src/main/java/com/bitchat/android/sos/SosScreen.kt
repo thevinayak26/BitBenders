@@ -1,5 +1,7 @@
 package com.bitchat.android.sos
 
+import android.content.Intent
+import android.net.Uri
 import androidx.compose.animation.core.FastOutSlowInEasing
 import androidx.compose.animation.core.RepeatMode
 import androidx.compose.animation.core.animateFloat
@@ -23,6 +25,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.scale
@@ -34,6 +37,7 @@ import androidx.compose.ui.unit.sp
 @Composable
 fun SosScreen(vm: SosViewModel) {
     val ui by vm.uiState.collectAsState()
+    val context = LocalContext.current
 
     val pulse = rememberInfiniteTransition(label = "sos_pulse")
     val scale by pulse.animateFloat(
@@ -72,6 +76,25 @@ fun SosScreen(vm: SosViewModel) {
             else -> {
             }
         }
+
+        Spacer(Modifier.height(12.dp))
+        val riskColor = when (ui.disasterRisk) {
+            DisasterRisk.HIGH -> Color(0xFFC62828)
+            DisasterRisk.ELEVATED -> Color(0xFFF57C00)
+            DisasterRisk.LOW -> Color(0xFF2E7D32)
+        }
+        Text(
+            text = "Predicted risk: ${ui.disasterRisk.name}",
+            color = riskColor,
+            fontWeight = FontWeight.SemiBold,
+            fontSize = 14.sp
+        )
+        Text(
+            text = ui.latestInstructionText,
+            color = Color.Gray,
+            fontSize = 12.sp,
+            modifier = Modifier.padding(horizontal = 8.dp)
+        )
 
         Spacer(Modifier.height(48.dp))
 
@@ -125,5 +148,23 @@ fun SosScreen(vm: SosViewModel) {
             fontSize = 12.sp,
             color = Color.Gray
         )
+
+        Spacer(Modifier.height(12.dp))
+        Button(
+            onClick = {
+                val lat = ui.latestLatitude
+                val lon = ui.latestLongitude
+                if (lat != null && lon != null) {
+                    val uri = Uri.parse("https://www.google.com/maps/search/?api=1&query=$lat,$lon")
+                    val intent = Intent(Intent.ACTION_VIEW, uri).apply {
+                        addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                    }
+                    context.startActivity(intent)
+                }
+            },
+            enabled = ui.latestLatitude != null && ui.latestLongitude != null
+        ) {
+            Text("Open Last SOS Location in Google Maps")
+        }
     }
 }

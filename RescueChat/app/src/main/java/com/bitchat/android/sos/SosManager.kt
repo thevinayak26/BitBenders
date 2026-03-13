@@ -51,7 +51,8 @@ class SosManager {
         }
     }
 
-    fun onSosReceived(packet: SosPacket) {
+    fun onSosReceived(packet: SosPacket, myNodeId: String) {
+        if (packet.nodeId == myNodeId) return
         if (packet.id in seenSosIds || packet.ttl <= 0) return
         seenSosIds.add(packet.id)
         onBroadcastSos?.invoke(packet.copy(ttl = packet.ttl - 1))
