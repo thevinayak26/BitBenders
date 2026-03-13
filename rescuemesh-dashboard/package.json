@@ -1,0 +1,18 @@
+{
+  "name": "rescuemesh-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "next": "^15.5.10",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-leaflet": "^4.2.1",
+    "socket.io-client": "^4.8.1"
+  }
+}
