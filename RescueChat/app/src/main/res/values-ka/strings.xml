@@ -1,355 +1,355 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">bitchat</string>
+    <string name="app_name">RescueChat</string>
 
-    <!-- ნებართვების ახსნა -->
-    <string name="permission_bluetooth_rationale">Bluetooth-ის ნებართვა საჭიროა, რომ ინტერნეტის გარეშე პირდაპირ ისაუბროთ სხვებთან.</string>
-    <string name="permission_location_rationale">მდებარეობის ნებართვა საჭიროა ახლომდებარე მოწყობილობების Bluetooth-ით საპოვნელად.</string>
-    <string name="permission_notification_rationale">შეტყობინებების ნებართვა საჭიროა ახალი შეტყობინებების შეგახსენებლად.</string>
+    <!-- áƒœáƒ”áƒ‘áƒáƒ áƒ—áƒ•áƒ”áƒ‘áƒ˜áƒ¡ áƒáƒ®áƒ¡áƒœáƒ -->
+    <string name="permission_bluetooth_rationale">Bluetooth-áƒ˜áƒ¡ áƒœáƒ”áƒ‘áƒáƒ áƒ—áƒ•áƒ áƒ¡áƒáƒ­áƒ˜áƒ áƒáƒ, áƒ áƒáƒ› áƒ˜áƒœáƒ¢áƒ”áƒ áƒœáƒ”áƒ¢áƒ˜áƒ¡ áƒ’áƒáƒ áƒ”áƒ¨áƒ” áƒžáƒ˜áƒ áƒ“áƒáƒžáƒ˜áƒ  áƒ˜áƒ¡áƒáƒ£áƒ‘áƒ áƒáƒ— áƒ¡áƒ®áƒ•áƒ”áƒ‘áƒ—áƒáƒœ.</string>
+    <string name="permission_location_rationale">áƒ›áƒ“áƒ”áƒ‘áƒáƒ áƒ”áƒáƒ‘áƒ˜áƒ¡ áƒœáƒ”áƒ‘áƒáƒ áƒ—áƒ•áƒ áƒ¡áƒáƒ­áƒ˜áƒ áƒáƒ áƒáƒ®áƒšáƒáƒ›áƒ“áƒ”áƒ‘áƒáƒ áƒ” áƒ›áƒáƒ¬áƒ§áƒáƒ‘áƒ˜áƒšáƒáƒ‘áƒ”áƒ‘áƒ˜áƒ¡ Bluetooth-áƒ˜áƒ— áƒ¡áƒáƒžáƒáƒ•áƒœáƒ”áƒšáƒáƒ“.</string>
+    <string name="permission_notification_rationale">áƒ¨áƒ”áƒ¢áƒ§áƒáƒ‘áƒ˜áƒœáƒ”áƒ‘áƒ”áƒ‘áƒ˜áƒ¡ áƒœáƒ”áƒ‘áƒáƒ áƒ—áƒ•áƒ áƒ¡áƒáƒ­áƒ˜áƒ áƒáƒ áƒáƒ®áƒáƒšáƒ˜ áƒ¨áƒ”áƒ¢áƒ§áƒáƒ‘áƒ˜áƒœáƒ”áƒ‘áƒ”áƒ‘áƒ˜áƒ¡ áƒ¨áƒ”áƒ’áƒáƒ®áƒ¡áƒ”áƒœáƒ”áƒ‘áƒšáƒáƒ“.</string>
 
-    <!-- Placeholder-ები / საბაზისო UI -->
-    <string name="nickname_hint">მეტსახელი</string>
-    <string name="message_hint">შეიყვანეთ შეტყობინება…</string>
-    <string name="channel_password_hint">პაროლი</string>
-    <string name="join_channel">არხში შეუერთება</string>
-    <string name="leave_channel">გამოსვლა</string>
-    <string name="send_message">გაგზავნა</string>
-    <string name="show_commands">ბრძანებების ჩვენება</string>
-    <string name="back">უკან</string>
-    <string name="people">ხალხი</string>
-    <string name="channels">არხები</string>
-    <string name="online_users">ონლაინ მომხმარებლები</string>
-    <string name="no_one_connected">არავინ არის დაკავშირებული</string>
-    <string name="emergency_clear_hint">სამჯერ დააჭირეთ ყველა მონაცემის წასაშლელად</string>
-    <string name="your_network">თქვენი ქსელი</string>
+    <!-- Placeholder-áƒ”áƒ‘áƒ˜ / áƒ¡áƒáƒ‘áƒáƒ–áƒ˜áƒ¡áƒ UI -->
+    <string name="nickname_hint">áƒ›áƒ”áƒ¢áƒ¡áƒáƒ®áƒ”áƒšáƒ˜</string>
+    <string name="message_hint">áƒ¨áƒ”áƒ˜áƒ§áƒ•áƒáƒœáƒ”áƒ— áƒ¨áƒ”áƒ¢áƒ§áƒáƒ‘áƒ˜áƒœáƒ”áƒ‘áƒâ€¦</string>
+    <string name="channel_password_hint">áƒžáƒáƒ áƒáƒšáƒ˜</string>
+    <string name="join_channel">áƒáƒ áƒ®áƒ¨áƒ˜ áƒ¨áƒ”áƒ£áƒ”áƒ áƒ—áƒ”áƒ‘áƒ</string>
+    <string name="leave_channel">áƒ’áƒáƒ›áƒáƒ¡áƒ•áƒšáƒ</string>
+    <string name="send_message">áƒ’áƒáƒ’áƒ–áƒáƒ•áƒœáƒ</string>
+    <string name="show_commands">áƒ‘áƒ áƒ«áƒáƒœáƒ”áƒ‘áƒ”áƒ‘áƒ˜áƒ¡ áƒ©áƒ•áƒ”áƒœáƒ”áƒ‘áƒ</string>
+    <string name="back">áƒ£áƒ™áƒáƒœ</string>
+    <string name="people">áƒ®áƒáƒšáƒ®áƒ˜</string>
+    <string name="channels">áƒáƒ áƒ®áƒ”áƒ‘áƒ˜</string>
+    <string name="online_users">áƒáƒœáƒšáƒáƒ˜áƒœ áƒ›áƒáƒ›áƒ®áƒ›áƒáƒ áƒ”áƒ‘áƒšáƒ”áƒ‘áƒ˜</string>
+    <string name="no_one_connected">áƒáƒ áƒáƒ•áƒ˜áƒœ áƒáƒ áƒ˜áƒ¡ áƒ“áƒáƒ™áƒáƒ•áƒ¨áƒ˜áƒ áƒ”áƒ‘áƒ£áƒšáƒ˜</string>
+    <string name="emergency_clear_hint">áƒ¡áƒáƒ›áƒ¯áƒ”áƒ  áƒ“áƒáƒáƒ­áƒ˜áƒ áƒ”áƒ— áƒ§áƒ•áƒ”áƒšáƒ áƒ›áƒáƒœáƒáƒªáƒ”áƒ›áƒ˜áƒ¡ áƒ¬áƒáƒ¡áƒáƒ¨áƒšáƒ”áƒšáƒáƒ“</string>
+    <string name="your_network">áƒ—áƒ¥áƒ•áƒ”áƒœáƒ˜ áƒ¥áƒ¡áƒ”áƒšáƒ˜</string>
 
-    <!-- ბატარეის ოპტიმიზაცია -->
-    <string name="battery_optimization_detected">ბატარეის ოპტიმიზაცია აღმოჩნდა</string>
-    <string name="battery_optimization_disabled">ბატარეის ოპტიმიზაცია გამორთულია</string>
-    <string name="battery_optimization_not_required">ბატარეის ოპტიმიზაცია არ არის საჭირო</string>
-    <string name="battery_optimization_checking">ბატარეის ოპტიმიზაციის შემოწმება</string>
-    <string name="battery_optimization_why_disable">რატომ უნდა გამოირთოს ბატარეის ოპტიმიზაცია?</string>
-    <string name="battery_optimization_explanation">bitchat მუშაობს ფონში, რათა ახლომდებარე მოწყობილობებთან mesh-კავშირები შეინარჩუნოს. ბატარეის ოპტიმიზაციამ შეიძლება დააწყვეტინოს ეს კავშირები, რის გამოც შეტყობინებები დაგვიანდეს ან დაიკარგოს.\n\nბატარეის ოპტიმიზაციის გამორთვა უზრუნველყოფს სანდო peer-to-peer კომუნიკაციას.</string>
-    <string name="battery_optimization_disable_button">ბატარეის ოპტიმიზაციის გამორთვა</string>
-    <string name="battery_optimization_note">შენიშვნა: შეგიძლიათ შეცვალოთ მოგვიანებით Android-ის პარამეტრებში &gt; აპები &gt; bitchat &gt; ბატარეა.</string>
-    <string name="battery_optimization_not_supported_explanation">თქვენს მოწყობილობას ბატარეის ოპტიმიზაცია არ სჭირდება. bitchat ჩვეულებრივ იმუშავებს.</string>
-    <string name="battery_optimization_not_supported_message">თქვენს მოწყობილობას ბატარეის ოპტიმიზაცია არ სჭირდება. bitchat ჩვეულებრივ იმუშავებს.</string>
-    <string name="battery_optimization_success_message">bitchat შეძლებს სანდოდ იმუშაოს ფონში</string>
-    <string name="battery_optimization_benefits">• შეტყობინებების სანდო მიწოდება\n• mesh-კავშირის შენარჩუნება\n• ფონური გადაგზავნა\n• გათიშვების თავიდან აცილება</string>
-    <string name="battery_optimization_check_again">თავიდან შემოწმება</string>
-    <string name="battery_optimization_skip">ახლა გამოტოვება</string>
-    <string name="battery_optimization_continue">გაგრძელება</string>
-    <string name="retry">კვლავ ცდა</string>
-    <string name="skip">გამოტოვება</string>
+    <!-- áƒ‘áƒáƒ¢áƒáƒ áƒ”áƒ˜áƒ¡ áƒáƒžáƒ¢áƒ˜áƒ›áƒ˜áƒ–áƒáƒªáƒ˜áƒ -->
+    <string name="battery_optimization_detected">áƒ‘áƒáƒ¢áƒáƒ áƒ”áƒ˜áƒ¡ áƒáƒžáƒ¢áƒ˜áƒ›áƒ˜áƒ–áƒáƒªáƒ˜áƒ áƒáƒ¦áƒ›áƒáƒ©áƒœáƒ“áƒ</string>
+    <string name="battery_optimization_disabled">áƒ‘áƒáƒ¢áƒáƒ áƒ”áƒ˜áƒ¡ áƒáƒžáƒ¢áƒ˜áƒ›áƒ˜áƒ–áƒáƒªáƒ˜áƒ áƒ’áƒáƒ›áƒáƒ áƒ—áƒ£áƒšáƒ˜áƒ</string>
+    <string name="battery_optimization_not_required">áƒ‘áƒáƒ¢áƒáƒ áƒ”áƒ˜áƒ¡ áƒáƒžáƒ¢áƒ˜áƒ›áƒ˜áƒ–áƒáƒªáƒ˜áƒ áƒáƒ  áƒáƒ áƒ˜áƒ¡ áƒ¡áƒáƒ­áƒ˜áƒ áƒ</string>
+    <string name="battery_optimization_checking">áƒ‘áƒáƒ¢áƒáƒ áƒ”áƒ˜áƒ¡ áƒáƒžáƒ¢áƒ˜áƒ›áƒ˜áƒ–áƒáƒªáƒ˜áƒ˜áƒ¡ áƒ¨áƒ”áƒ›áƒáƒ¬áƒ›áƒ”áƒ‘áƒ</string>
+    <string name="battery_optimization_why_disable">áƒ áƒáƒ¢áƒáƒ› áƒ£áƒœáƒ“áƒ áƒ’áƒáƒ›áƒáƒ˜áƒ áƒ—áƒáƒ¡ áƒ‘áƒáƒ¢áƒáƒ áƒ”áƒ˜áƒ¡ áƒáƒžáƒ¢áƒ˜áƒ›áƒ˜áƒ–áƒáƒªáƒ˜áƒ?</string>
+    <string name="battery_optimization_explanation">bitchat áƒ›áƒ£áƒ¨áƒáƒáƒ‘áƒ¡ áƒ¤áƒáƒœáƒ¨áƒ˜, áƒ áƒáƒ—áƒ áƒáƒ®áƒšáƒáƒ›áƒ“áƒ”áƒ‘áƒáƒ áƒ” áƒ›áƒáƒ¬áƒ§áƒáƒ‘áƒ˜áƒšáƒáƒ‘áƒ”áƒ‘áƒ—áƒáƒœ mesh-áƒ™áƒáƒ•áƒ¨áƒ˜áƒ áƒ”áƒ‘áƒ˜ áƒ¨áƒ”áƒ˜áƒœáƒáƒ áƒ©áƒ£áƒœáƒáƒ¡. áƒ‘áƒáƒ¢áƒáƒ áƒ”áƒ˜áƒ¡ áƒáƒžáƒ¢áƒ˜áƒ›áƒ˜áƒ–áƒáƒªáƒ˜áƒáƒ› áƒ¨áƒ”áƒ˜áƒ«áƒšáƒ”áƒ‘áƒ áƒ“áƒáƒáƒ¬áƒ§áƒ•áƒ”áƒ¢áƒ˜áƒœáƒáƒ¡ áƒ”áƒ¡ áƒ™áƒáƒ•áƒ¨áƒ˜áƒ áƒ”áƒ‘áƒ˜, áƒ áƒ˜áƒ¡ áƒ’áƒáƒ›áƒáƒª áƒ¨áƒ”áƒ¢áƒ§áƒáƒ‘áƒ˜áƒœáƒ”áƒ‘áƒ”áƒ‘áƒ˜ áƒ“áƒáƒ’áƒ•áƒ˜áƒáƒœáƒ“áƒ”áƒ¡ áƒáƒœ áƒ“áƒáƒ˜áƒ™áƒáƒ áƒ’áƒáƒ¡.\n\náƒ‘áƒáƒ¢áƒáƒ áƒ”áƒ˜áƒ¡ áƒáƒžáƒ¢áƒ˜áƒ›áƒ˜áƒ–áƒáƒªáƒ˜áƒ˜áƒ¡ áƒ’áƒáƒ›áƒáƒ áƒ—áƒ•áƒ áƒ£áƒ–áƒ áƒ£áƒœáƒ•áƒ”áƒšáƒ§áƒáƒ¤áƒ¡ áƒ¡áƒáƒœáƒ“áƒ peer-to-peer áƒ™áƒáƒ›áƒ£áƒœáƒ˜áƒ™áƒáƒªáƒ˜áƒáƒ¡.</string>
+    <string name="battery_optimization_disable_button">áƒ‘áƒáƒ¢áƒáƒ áƒ”áƒ˜áƒ¡ áƒáƒžáƒ¢áƒ˜áƒ›áƒ˜áƒ–áƒáƒªáƒ˜áƒ˜áƒ¡ áƒ’áƒáƒ›áƒáƒ áƒ—áƒ•áƒ</string>
+    <string name="battery_optimization_note">áƒ¨áƒ”áƒœáƒ˜áƒ¨áƒ•áƒœáƒ: áƒ¨áƒ”áƒ’áƒ˜áƒ«áƒšáƒ˜áƒáƒ— áƒ¨áƒ”áƒªáƒ•áƒáƒšáƒáƒ— áƒ›áƒáƒ’áƒ•áƒ˜áƒáƒœáƒ”áƒ‘áƒ˜áƒ— Android-áƒ˜áƒ¡ áƒžáƒáƒ áƒáƒ›áƒ”áƒ¢áƒ áƒ”áƒ‘áƒ¨áƒ˜ &gt; áƒáƒžáƒ”áƒ‘áƒ˜ &gt; bitchat &gt; áƒ‘áƒáƒ¢áƒáƒ áƒ”áƒ.</string>
+    <string name="battery_optimization_not_supported_explanation">áƒ—áƒ¥áƒ•áƒ”áƒœáƒ¡ áƒ›áƒáƒ¬áƒ§áƒáƒ‘áƒ˜áƒšáƒáƒ‘áƒáƒ¡ áƒ‘áƒáƒ¢áƒáƒ áƒ”áƒ˜áƒ¡ áƒáƒžáƒ¢áƒ˜áƒ›áƒ˜áƒ–áƒáƒªáƒ˜áƒ áƒáƒ  áƒ¡áƒ­áƒ˜áƒ áƒ“áƒ”áƒ‘áƒ. bitchat áƒ©áƒ•áƒ”áƒ£áƒšáƒ”áƒ‘áƒ áƒ˜áƒ• áƒ˜áƒ›áƒ£áƒ¨áƒáƒ•áƒ”áƒ‘áƒ¡.</string>
+    <string name="battery_optimization_not_supported_message">áƒ—áƒ¥áƒ•áƒ”áƒœáƒ¡ áƒ›áƒáƒ¬áƒ§áƒáƒ‘áƒ˜áƒšáƒáƒ‘áƒáƒ¡ áƒ‘áƒáƒ¢áƒáƒ áƒ”áƒ˜áƒ¡ áƒáƒžáƒ¢áƒ˜áƒ›áƒ˜áƒ–áƒáƒªáƒ˜áƒ áƒáƒ  áƒ¡áƒ­áƒ˜áƒ áƒ“áƒ”áƒ‘áƒ. bitchat áƒ©áƒ•áƒ”áƒ£áƒšáƒ”áƒ‘áƒ áƒ˜áƒ• áƒ˜áƒ›áƒ£áƒ¨áƒáƒ•áƒ”áƒ‘áƒ¡.</string>
+    <string name="battery_optimization_success_message">bitchat áƒ¨áƒ”áƒ«áƒšáƒ”áƒ‘áƒ¡ áƒ¡áƒáƒœáƒ“áƒáƒ“ áƒ˜áƒ›áƒ£áƒ¨áƒáƒáƒ¡ áƒ¤áƒáƒœáƒ¨áƒ˜</string>
+    <string name="battery_optimization_benefits">â€¢ áƒ¨áƒ”áƒ¢áƒ§áƒáƒ‘áƒ˜áƒœáƒ”áƒ‘áƒ”áƒ‘áƒ˜áƒ¡ áƒ¡áƒáƒœáƒ“áƒ áƒ›áƒ˜áƒ¬áƒáƒ“áƒ”áƒ‘áƒ\nâ€¢ mesh-áƒ™áƒáƒ•áƒ¨áƒ˜áƒ áƒ˜áƒ¡ áƒ¨áƒ”áƒœáƒáƒ áƒ©áƒ£áƒœáƒ”áƒ‘áƒ\nâ€¢ áƒ¤áƒáƒœáƒ£áƒ áƒ˜ áƒ’áƒáƒ“áƒáƒ’áƒ–áƒáƒ•áƒœáƒ\nâ€¢ áƒ’áƒáƒ—áƒ˜áƒ¨áƒ•áƒ”áƒ‘áƒ˜áƒ¡ áƒ—áƒáƒ•áƒ˜áƒ“áƒáƒœ áƒáƒªáƒ˜áƒšáƒ”áƒ‘áƒ</string>
+    <string name="battery_optimization_check_again">áƒ—áƒáƒ•áƒ˜áƒ“áƒáƒœ áƒ¨áƒ”áƒ›áƒáƒ¬áƒ›áƒ”áƒ‘áƒ</string>
+    <string name="battery_optimization_skip">áƒáƒ®áƒšáƒ áƒ’áƒáƒ›áƒáƒ¢áƒáƒ•áƒ”áƒ‘áƒ</string>
+    <string name="battery_optimization_continue">áƒ’áƒáƒ’áƒ áƒ«áƒ”áƒšáƒ”áƒ‘áƒ</string>
+    <string name="retry">áƒ™áƒ•áƒšáƒáƒ• áƒªáƒ“áƒ</string>
+    <string name="skip">áƒ’áƒáƒ›áƒáƒ¢áƒáƒ•áƒ”áƒ‘áƒ</string>
 
-    <!-- შეტყობინებები -->
-    <string name="notification_summary_more">და კიდევ %1$d</string>
-    <string name="notification_messages_from_people">%2$d ადამიანიდან %1$d შეტყობინება</string>
-    <string name="notification_more_conversations">და კიდევ %1$d საუბარი</string>
-    <string name="notification_active_peers_title">👥 bitchatter-ები ახლოს!</string>
-    <string name="notification_active_peers_one">1 ადამიანი ახლოს</string>
-    <string name="notification_active_peers_many">ახლოს %1$d ადამიანი</string>
-    <string name="notification_new_messages">ახალი შეტყობინებები</string>
-    <string name="notification_new_location_messages">მდებარეობის ახალი შეტყობინებები</string>
-    <string name="notification_mentions_in">ხსენება %1$s-ში</string>
-    <string name="notification_mentions_in_more">ხსენება %1$s-ში (+%2$d)</string>
-    <string name="notification_mentions_in_plural">%2$s-ში %1$d ხსენება</string>
-    <string name="notification_new_activity_in">ახალი აქტივობა %1$s-ში</string>
-    <string name="notification_messages_in">შეტყობინებები %1$s-ში</string>
-    <string name="notification_joined_conversation">%1$s შეუერთდა საუბარს</string>
-    <string name="notification_geohash_summary_title_mentions">bitchat – %1$d ხსენება</string>
-    <string name="notification_geohash_summary_title">bitchat – მდებარეობის ჩათები</string>
-    <string name="notification_geohash_summary_text">%2$d ადგილიდან %1$d შეტყობინება</string>
-    <string name="notification_mesh_mention_title_singular">mesh-ჩათში ხსენება</string>
-    <string name="notification_mesh_mention_title_plural">mesh-ჩათში %1$d ხსენება</string>
-    <string name="notification_more_locations">და კიდევ %1$d ადგილი</string>
-    <string name="notification_and_more">და კიდევ %1$d</string>
+    <!-- áƒ¨áƒ”áƒ¢áƒ§áƒáƒ‘áƒ˜áƒœáƒ”áƒ‘áƒ”áƒ‘áƒ˜ -->
+    <string name="notification_summary_more">áƒ“áƒ áƒ™áƒ˜áƒ“áƒ”áƒ• %1$d</string>
+    <string name="notification_messages_from_people">%2$d áƒáƒ“áƒáƒ›áƒ˜áƒáƒœáƒ˜áƒ“áƒáƒœ %1$d áƒ¨áƒ”áƒ¢áƒ§áƒáƒ‘áƒ˜áƒœáƒ”áƒ‘áƒ</string>
+    <string name="notification_more_conversations">áƒ“áƒ áƒ™áƒ˜áƒ“áƒ”áƒ• %1$d áƒ¡áƒáƒ£áƒ‘áƒáƒ áƒ˜</string>
+    <string name="notification_active_peers_title">ðŸ‘¥ bitchatter-áƒ”áƒ‘áƒ˜ áƒáƒ®áƒšáƒáƒ¡!</string>
+    <string name="notification_active_peers_one">1 áƒáƒ“áƒáƒ›áƒ˜áƒáƒœáƒ˜ áƒáƒ®áƒšáƒáƒ¡</string>
+    <string name="notification_active_peers_many">áƒáƒ®áƒšáƒáƒ¡ %1$d áƒáƒ“áƒáƒ›áƒ˜áƒáƒœáƒ˜</string>
+    <string name="notification_new_messages">áƒáƒ®áƒáƒšáƒ˜ áƒ¨áƒ”áƒ¢áƒ§áƒáƒ‘áƒ˜áƒœáƒ”áƒ‘áƒ”áƒ‘áƒ˜</string>
+    <string name="notification_new_location_messages">áƒ›áƒ“áƒ”áƒ‘áƒáƒ áƒ”áƒáƒ‘áƒ˜áƒ¡ áƒáƒ®áƒáƒšáƒ˜ áƒ¨áƒ”áƒ¢áƒ§áƒáƒ‘áƒ˜áƒœáƒ”áƒ‘áƒ”áƒ‘áƒ˜</string>
+    <string name="notification_mentions_in">áƒ®áƒ¡áƒ”áƒœáƒ”áƒ‘áƒ %1$s-áƒ¨áƒ˜</string>
+    <string name="notification_mentions_in_more">áƒ®áƒ¡áƒ”áƒœáƒ”áƒ‘áƒ %1$s-áƒ¨áƒ˜ (+%2$d)</string>
+    <string name="notification_mentions_in_plural">%2$s-áƒ¨áƒ˜ %1$d áƒ®áƒ¡áƒ”áƒœáƒ”áƒ‘áƒ</string>
+    <string name="notification_new_activity_in">áƒáƒ®áƒáƒšáƒ˜ áƒáƒ¥áƒ¢áƒ˜áƒ•áƒáƒ‘áƒ %1$s-áƒ¨áƒ˜</string>
+    <string name="notification_messages_in">áƒ¨áƒ”áƒ¢áƒ§áƒáƒ‘áƒ˜áƒœáƒ”áƒ‘áƒ”áƒ‘áƒ˜ %1$s-áƒ¨áƒ˜</string>
+    <string name="notification_joined_conversation">%1$s áƒ¨áƒ”áƒ£áƒ”áƒ áƒ—áƒ“áƒ áƒ¡áƒáƒ£áƒ‘áƒáƒ áƒ¡</string>
+    <string name="notification_geohash_summary_title_mentions">bitchat â€“ %1$d áƒ®áƒ¡áƒ”áƒœáƒ”áƒ‘áƒ</string>
+    <string name="notification_geohash_summary_title">bitchat â€“ áƒ›áƒ“áƒ”áƒ‘áƒáƒ áƒ”áƒáƒ‘áƒ˜áƒ¡ áƒ©áƒáƒ—áƒ”áƒ‘áƒ˜</string>
+    <string name="notification_geohash_summary_text">%2$d áƒáƒ“áƒ’áƒ˜áƒšáƒ˜áƒ“áƒáƒœ %1$d áƒ¨áƒ”áƒ¢áƒ§áƒáƒ‘áƒ˜áƒœáƒ”áƒ‘áƒ</string>
+    <string name="notification_mesh_mention_title_singular">mesh-áƒ©áƒáƒ—áƒ¨áƒ˜ áƒ®áƒ¡áƒ”áƒœáƒ”áƒ‘áƒ</string>
+    <string name="notification_mesh_mention_title_plural">mesh-áƒ©áƒáƒ—áƒ¨áƒ˜ %1$d áƒ®áƒ¡áƒ”áƒœáƒ”áƒ‘áƒ</string>
+    <string name="notification_more_locations">áƒ“áƒ áƒ™áƒ˜áƒ“áƒ”áƒ• %1$d áƒáƒ“áƒ’áƒ˜áƒšáƒ˜</string>
+    <string name="notification_and_more">áƒ“áƒ áƒ™áƒ˜áƒ“áƒ”áƒ• %1$d</string>
 
-    <!-- რჩეულების ხელმისაწვდომობა -->
-    <string name="cd_add_favorite">რჩეულებში დამატება</string>
-    <string name="cd_remove_favorite">რჩეულებიდან წაშლა</string>
-    <string name="cd_add_bookmark">სანიშნეს დამატება</string>
+    <!-- áƒ áƒ©áƒ”áƒ£áƒšáƒ”áƒ‘áƒ˜áƒ¡ áƒ®áƒ”áƒšáƒ›áƒ˜áƒ¡áƒáƒ¬áƒ•áƒ“áƒáƒ›áƒáƒ‘áƒ -->
+    <string name="cd_add_favorite">áƒ áƒ©áƒ”áƒ£áƒšáƒ”áƒ‘áƒ¨áƒ˜ áƒ“áƒáƒ›áƒáƒ¢áƒ”áƒ‘áƒ</string>
+    <string name="cd_remove_favorite">áƒ áƒ©áƒ”áƒ£áƒšáƒ”áƒ‘áƒ˜áƒ“áƒáƒœ áƒ¬áƒáƒ¨áƒšáƒ</string>
+    <string name="cd_add_bookmark">áƒ¡áƒáƒœáƒ˜áƒ¨áƒœáƒ”áƒ¡ áƒ“áƒáƒ›áƒáƒ¢áƒ”áƒ‘áƒ</string>
 
-    <!-- ჩათის სათაური &amp; ხელმისაწვდომობა -->
-    <string name="chat_back">უკან</string>
-    <string name="chat_channel_prefix">არხი: %1$s</string>
-    <string name="chat_leave">გასვლა</string>
-    <string name="cd_nostr_reachable">მისაწვდომია Nostr-ით</string>
-    <string name="cd_unread_private_messages">წაუკითხავი პირადი შეტყობინებები</string>
-    <string name="cd_toggle_bookmark">სანიშნეს გადართვა</string>
-    <string name="cd_teleported">ტელეპორტირებული</string>
-    <string name="cd_tor_status">Tor-ის სტატუსი</string>
-    <string name="cd_connected_peers">დაკავშირებული პირები</string>
-    <string name="cd_geohash_participants">geohash მონაწილეები</string>
-    <string name="cd_ready_for_handshake">მზადაა ხელის ჩამოსართმევად</string>
-    <string name="cd_handshake_in_progress">მიმდინარეობს ხელის ჩამორთმევა</string>
-    <string name="cd_encrypted">ბოლო-მდე დაშიფვრა</string>
-    <string name="cd_handshake_failed">ხელის ჩამორთმევა წარუმატებლად დასრულდა</string>
+    <!-- áƒ©áƒáƒ—áƒ˜áƒ¡ áƒ¡áƒáƒ—áƒáƒ£áƒ áƒ˜ &amp; áƒ®áƒ”áƒšáƒ›áƒ˜áƒ¡áƒáƒ¬áƒ•áƒ“áƒáƒ›áƒáƒ‘áƒ -->
+    <string name="chat_back">áƒ£áƒ™áƒáƒœ</string>
+    <string name="chat_channel_prefix">áƒáƒ áƒ®áƒ˜: %1$s</string>
+    <string name="chat_leave">áƒ’áƒáƒ¡áƒ•áƒšáƒ</string>
+    <string name="cd_nostr_reachable">áƒ›áƒ˜áƒ¡áƒáƒ¬áƒ•áƒ“áƒáƒ›áƒ˜áƒ Nostr-áƒ˜áƒ—</string>
+    <string name="cd_unread_private_messages">áƒ¬áƒáƒ£áƒ™áƒ˜áƒ—áƒ®áƒáƒ•áƒ˜ áƒžáƒ˜áƒ áƒáƒ“áƒ˜ áƒ¨áƒ”áƒ¢áƒ§áƒáƒ‘áƒ˜áƒœáƒ”áƒ‘áƒ”áƒ‘áƒ˜</string>
+    <string name="cd_toggle_bookmark">áƒ¡áƒáƒœáƒ˜áƒ¨áƒœáƒ”áƒ¡ áƒ’áƒáƒ“áƒáƒ áƒ—áƒ•áƒ</string>
+    <string name="cd_teleported">áƒ¢áƒ”áƒšáƒ”áƒžáƒáƒ áƒ¢áƒ˜áƒ áƒ”áƒ‘áƒ£áƒšáƒ˜</string>
+    <string name="cd_tor_status">Tor-áƒ˜áƒ¡ áƒ¡áƒ¢áƒáƒ¢áƒ£áƒ¡áƒ˜</string>
+    <string name="cd_connected_peers">áƒ“áƒáƒ™áƒáƒ•áƒ¨áƒ˜áƒ áƒ”áƒ‘áƒ£áƒšáƒ˜ áƒžáƒ˜áƒ áƒ”áƒ‘áƒ˜</string>
+    <string name="cd_geohash_participants">geohash áƒ›áƒáƒœáƒáƒ¬áƒ˜áƒšáƒ”áƒ”áƒ‘áƒ˜</string>
+    <string name="cd_ready_for_handshake">áƒ›áƒ–áƒáƒ“áƒáƒ áƒ®áƒ”áƒšáƒ˜áƒ¡ áƒ©áƒáƒ›áƒáƒ¡áƒáƒ áƒ—áƒ›áƒ”áƒ•áƒáƒ“</string>
+    <string name="cd_handshake_in_progress">áƒ›áƒ˜áƒ›áƒ“áƒ˜áƒœáƒáƒ áƒ”áƒáƒ‘áƒ¡ áƒ®áƒ”áƒšáƒ˜áƒ¡ áƒ©áƒáƒ›áƒáƒ áƒ—áƒ›áƒ”áƒ•áƒ</string>
+    <string name="cd_encrypted">áƒ‘áƒáƒšáƒ-áƒ›áƒ“áƒ” áƒ“áƒáƒ¨áƒ˜áƒ¤áƒ•áƒ áƒ</string>
+    <string name="cd_handshake_failed">áƒ®áƒ”áƒšáƒ˜áƒ¡ áƒ©áƒáƒ›áƒáƒ áƒ—áƒ›áƒ”áƒ•áƒ áƒ¬áƒáƒ áƒ£áƒ›áƒáƒ¢áƒ”áƒ‘áƒšáƒáƒ“ áƒ“áƒáƒ¡áƒ áƒ£áƒšáƒ“áƒ</string>
 
-    <!-- ფაილის დამთვალიერებელი დიალოგი -->
-    <string name="file_viewer_title">📎 ფაილი მიღებულია</string>
-    <string name="file_viewer_name">📄 %1$s</string>
-    <string name="file_viewer_size">📏 ზომა: %1$s</string>
-    <string name="file_viewer_type">🏷️ ტიპი: %1$s</string>
-    <string name="file_viewer_open_save">📂 გახსნა / შენახვა</string>
-    <string name="close_with_emoji">❌ დახურვა</string>
-    <string name="pick_image">სურათის არჩევა</string>
+    <!-- áƒ¤áƒáƒ˜áƒšáƒ˜áƒ¡ áƒ“áƒáƒ›áƒ—áƒ•áƒáƒšáƒ˜áƒ”áƒ áƒ”áƒ‘áƒ”áƒšáƒ˜ áƒ“áƒ˜áƒáƒšáƒáƒ’áƒ˜ -->
+    <string name="file_viewer_title">ðŸ“Ž áƒ¤áƒáƒ˜áƒšáƒ˜ áƒ›áƒ˜áƒ¦áƒ”áƒ‘áƒ£áƒšáƒ˜áƒ</string>
+    <string name="file_viewer_name">ðŸ“„ %1$s</string>
+    <string name="file_viewer_size">ðŸ“ áƒ–áƒáƒ›áƒ: %1$s</string>
+    <string name="file_viewer_type">ðŸ·ï¸ áƒ¢áƒ˜áƒžáƒ˜: %1$s</string>
+    <string name="file_viewer_open_save">ðŸ“‚ áƒ’áƒáƒ®áƒ¡áƒœáƒ / áƒ¨áƒ”áƒœáƒáƒ®áƒ•áƒ</string>
+    <string name="close_with_emoji">âŒ áƒ“áƒáƒ®áƒ£áƒ áƒ•áƒ</string>
+    <string name="pick_image">áƒ¡áƒ£áƒ áƒáƒ—áƒ˜áƒ¡ áƒáƒ áƒ©áƒ”áƒ•áƒ</string>
 
-    <!-- შიტი "შესახებ" -->
-    <string name="about_tagline">დეცენტრალიზებული mesh-ჩათი ბოლო-მდე დაშიფვრით</string>
-    <string name="about_offline_mesh_title">ოფლაინ mesh-ჩათი</string>
-    <string name="about_offline_mesh_desc">ესაუბრეთ პირდაპირ Bluetooth LE-ის საშუალებით ინტერნეტის ან სერვერების გარეშე. შეტყობინებები გადაიგზავნება ახლომდებარე მოწყობილობებზე, რათა გაიზარდოს დაფარვა.</string>
-    <string name="about_online_geohash_title">ონლაინ geohash არხები</string>
-    <string name="about_online_geohash_desc">დაუკავშირდით ახლომდებარე ხალხს geohash-ზე დაფუძნებული არხებით. გააფართოვეთ mesh საჯარო ინტერნეტ რილეებით.</string>
-    <string name="about_e2e_title">ბოლო-მდე დაშიფვრა</string>
-    <string name="about_e2e_desc">პირადი შეტყობინებები დაშიფრულია. არხის შეტყობინებები საჯაროა.</string>
-    <string name="about_appearance">გარეგნობა</string>
-    <string name="about_system">სისტემა</string>
-    <string name="about_light">ღია</string>
-    <string name="about_dark">მუქი</string>
+    <!-- áƒ¨áƒ˜áƒ¢áƒ˜ "áƒ¨áƒ”áƒ¡áƒáƒ®áƒ”áƒ‘" -->
+    <string name="about_tagline">áƒ“áƒ”áƒªáƒ”áƒœáƒ¢áƒ áƒáƒšáƒ˜áƒ–áƒ”áƒ‘áƒ£áƒšáƒ˜ mesh-áƒ©áƒáƒ—áƒ˜ áƒ‘áƒáƒšáƒ-áƒ›áƒ“áƒ” áƒ“áƒáƒ¨áƒ˜áƒ¤áƒ•áƒ áƒ˜áƒ—</string>
+    <string name="about_offline_mesh_title">áƒáƒ¤áƒšáƒáƒ˜áƒœ mesh-áƒ©áƒáƒ—áƒ˜</string>
+    <string name="about_offline_mesh_desc">áƒ”áƒ¡áƒáƒ£áƒ‘áƒ áƒ”áƒ— áƒžáƒ˜áƒ áƒ“áƒáƒžáƒ˜áƒ  Bluetooth LE-áƒ˜áƒ¡ áƒ¡áƒáƒ¨áƒ£áƒáƒšáƒ”áƒ‘áƒ˜áƒ— áƒ˜áƒœáƒ¢áƒ”áƒ áƒœáƒ”áƒ¢áƒ˜áƒ¡ áƒáƒœ áƒ¡áƒ”áƒ áƒ•áƒ”áƒ áƒ”áƒ‘áƒ˜áƒ¡ áƒ’áƒáƒ áƒ”áƒ¨áƒ”. áƒ¨áƒ”áƒ¢áƒ§áƒáƒ‘áƒ˜áƒœáƒ”áƒ‘áƒ”áƒ‘áƒ˜ áƒ’áƒáƒ“áƒáƒ˜áƒ’áƒ–áƒáƒ•áƒœáƒ”áƒ‘áƒ áƒáƒ®áƒšáƒáƒ›áƒ“áƒ”áƒ‘áƒáƒ áƒ” áƒ›áƒáƒ¬áƒ§áƒáƒ‘áƒ˜áƒšáƒáƒ‘áƒ”áƒ‘áƒ–áƒ”, áƒ áƒáƒ—áƒ áƒ’áƒáƒ˜áƒ–áƒáƒ áƒ“áƒáƒ¡ áƒ“áƒáƒ¤áƒáƒ áƒ•áƒ.</string>
+    <string name="about_online_geohash_title">áƒáƒœáƒšáƒáƒ˜áƒœ geohash áƒáƒ áƒ®áƒ”áƒ‘áƒ˜</string>
+    <string name="about_online_geohash_desc">áƒ“áƒáƒ£áƒ™áƒáƒ•áƒ¨áƒ˜áƒ áƒ“áƒ˜áƒ— áƒáƒ®áƒšáƒáƒ›áƒ“áƒ”áƒ‘áƒáƒ áƒ” áƒ®áƒáƒšáƒ®áƒ¡ geohash-áƒ–áƒ” áƒ“áƒáƒ¤áƒ£áƒ«áƒœáƒ”áƒ‘áƒ£áƒšáƒ˜ áƒáƒ áƒ®áƒ”áƒ‘áƒ˜áƒ—. áƒ’áƒáƒáƒ¤áƒáƒ áƒ—áƒáƒ•áƒ”áƒ— mesh áƒ¡áƒáƒ¯áƒáƒ áƒ áƒ˜áƒœáƒ¢áƒ”áƒ áƒœáƒ”áƒ¢ áƒ áƒ˜áƒšáƒ”áƒ”áƒ‘áƒ˜áƒ—.</string>
+    <string name="about_e2e_title">áƒ‘áƒáƒšáƒ-áƒ›áƒ“áƒ” áƒ“áƒáƒ¨áƒ˜áƒ¤áƒ•áƒ áƒ</string>
+    <string name="about_e2e_desc">áƒžáƒ˜áƒ áƒáƒ“áƒ˜ áƒ¨áƒ”áƒ¢áƒ§áƒáƒ‘áƒ˜áƒœáƒ”áƒ‘áƒ”áƒ‘áƒ˜ áƒ“áƒáƒ¨áƒ˜áƒ¤áƒ áƒ£áƒšáƒ˜áƒ. áƒáƒ áƒ®áƒ˜áƒ¡ áƒ¨áƒ”áƒ¢áƒ§áƒáƒ‘áƒ˜áƒœáƒ”áƒ‘áƒ”áƒ‘áƒ˜ áƒ¡áƒáƒ¯áƒáƒ áƒáƒ.</string>
+    <string name="about_appearance">áƒ’áƒáƒ áƒ”áƒ’áƒœáƒáƒ‘áƒ</string>
+    <string name="about_system">áƒ¡áƒ˜áƒ¡áƒ¢áƒ”áƒ›áƒ</string>
+    <string name="about_light">áƒ¦áƒ˜áƒ</string>
+    <string name="about_dark">áƒ›áƒ£áƒ¥áƒ˜</string>
     <string name="about_pow">Proof of Work</string>
-    <string name="about_pow_off">PoW გამორთულია</string>
-    <string name="about_pow_on">PoW ჩართულია</string>
-    <string name="about_pow_tip">დაამატეთ Proof of Work geohash შეტყობინებებს სპამის შესამცირებლად.</string>
-    <string name="about_pow_difficulty">სირთულე: %1$d ბიტი (~%2$s)</string>
-    <string name="about_pow_difficulty_attempts">სირთულე %1$d მოითხოვს ~%2$s ჰეშის მცდელობას</string>
-    <string name="about_pow_desc_none">Proof of Work საჭირო არ არის</string>
-    <string name="about_pow_desc_very_low">ძალიან დაბალი – მინიმალური სპამის დაცვა</string>
-    <string name="about_pow_desc_low">დაბალი – საბაზისო დაცვა</string>
-    <string name="about_pow_desc_medium">საშუალო – კარგი დაცვა</string>
-    <string name="about_pow_desc_high">მაღალი – ძლიერი დაცვა</string>
-    <string name="about_pow_desc_very_high">ძალიან მაღალი – შეიძლება გამოიწვიოს დაყოვნება</string>
-    <string name="about_pow_desc_extreme">ექსტრემალური – საჭიროებს დიდ გამოთვლით რესურსს</string>
-    <string name="about_network">ქსელი</string>
-    <string name="about_tor_off">Tor გამორთულია</string>
-    <string name="about_tor_on">Tor ჩართულია</string>
-    <string name="about_tor_route">ინტერნეტ ტრაფიკის Tor-ით მარშრუტიზაცია პერსონალურობისთვის.</string>
-    <string name="about_tor_status">Tor სტატუსი: %1$s, ჩატვირთვა %2$d%%</string>
-    <string name="about_last">ბოლო: %1$s</string>
-    <string name="about_emergency_title">სასწრაფო მონაცემების წაშლა</string>
-    <string name="about_emergency_tip">რჩევა: დააჭირეთ აპის სათაურს სამჯერ ყველა შენახული მონაცემის – შეტყობინებების, გასაღებებისა და პარამეტრების – წასაშლელად.</string>
-    <string name="about_debug_settings">დebug პარამეტრები</string>
-    <string name="about_footer">ღია კოდი • კონფიდენციალობა პირველია • დეცენტრალიზებული</string>
-    <string name="close_plain">დახურვა</string>
-    <string name="cancel_lower">გაუქმება</string>
+    <string name="about_pow_off">PoW áƒ’áƒáƒ›áƒáƒ áƒ—áƒ£áƒšáƒ˜áƒ</string>
+    <string name="about_pow_on">PoW áƒ©áƒáƒ áƒ—áƒ£áƒšáƒ˜áƒ</string>
+    <string name="about_pow_tip">áƒ“áƒáƒáƒ›áƒáƒ¢áƒ”áƒ— Proof of Work geohash áƒ¨áƒ”áƒ¢áƒ§áƒáƒ‘áƒ˜áƒœáƒ”áƒ‘áƒ”áƒ‘áƒ¡ áƒ¡áƒžáƒáƒ›áƒ˜áƒ¡ áƒ¨áƒ”áƒ¡áƒáƒ›áƒªáƒ˜áƒ áƒ”áƒ‘áƒšáƒáƒ“.</string>
+    <string name="about_pow_difficulty">áƒ¡áƒ˜áƒ áƒ—áƒ£áƒšáƒ”: %1$d áƒ‘áƒ˜áƒ¢áƒ˜ (~%2$s)</string>
+    <string name="about_pow_difficulty_attempts">áƒ¡áƒ˜áƒ áƒ—áƒ£áƒšáƒ” %1$d áƒ›áƒáƒ˜áƒ—áƒ®áƒáƒ•áƒ¡ ~%2$s áƒ°áƒ”áƒ¨áƒ˜áƒ¡ áƒ›áƒªáƒ“áƒ”áƒšáƒáƒ‘áƒáƒ¡</string>
+    <string name="about_pow_desc_none">Proof of Work áƒ¡áƒáƒ­áƒ˜áƒ áƒ áƒáƒ  áƒáƒ áƒ˜áƒ¡</string>
+    <string name="about_pow_desc_very_low">áƒ«áƒáƒšáƒ˜áƒáƒœ áƒ“áƒáƒ‘áƒáƒšáƒ˜ â€“ áƒ›áƒ˜áƒœáƒ˜áƒ›áƒáƒšáƒ£áƒ áƒ˜ áƒ¡áƒžáƒáƒ›áƒ˜áƒ¡ áƒ“áƒáƒªáƒ•áƒ</string>
+    <string name="about_pow_desc_low">áƒ“áƒáƒ‘áƒáƒšáƒ˜ â€“ áƒ¡áƒáƒ‘áƒáƒ–áƒ˜áƒ¡áƒ áƒ“áƒáƒªáƒ•áƒ</string>
+    <string name="about_pow_desc_medium">áƒ¡áƒáƒ¨áƒ£áƒáƒšáƒ â€“ áƒ™áƒáƒ áƒ’áƒ˜ áƒ“áƒáƒªáƒ•áƒ</string>
+    <string name="about_pow_desc_high">áƒ›áƒáƒ¦áƒáƒšáƒ˜ â€“ áƒ«áƒšáƒ˜áƒ”áƒ áƒ˜ áƒ“áƒáƒªáƒ•áƒ</string>
+    <string name="about_pow_desc_very_high">áƒ«áƒáƒšáƒ˜áƒáƒœ áƒ›áƒáƒ¦áƒáƒšáƒ˜ â€“ áƒ¨áƒ”áƒ˜áƒ«áƒšáƒ”áƒ‘áƒ áƒ’áƒáƒ›áƒáƒ˜áƒ¬áƒ•áƒ˜áƒáƒ¡ áƒ“áƒáƒ§áƒáƒ•áƒœáƒ”áƒ‘áƒ</string>
+    <string name="about_pow_desc_extreme">áƒ”áƒ¥áƒ¡áƒ¢áƒ áƒ”áƒ›áƒáƒšáƒ£áƒ áƒ˜ â€“ áƒ¡áƒáƒ­áƒ˜áƒ áƒáƒ”áƒ‘áƒ¡ áƒ“áƒ˜áƒ“ áƒ’áƒáƒ›áƒáƒ—áƒ•áƒšáƒ˜áƒ— áƒ áƒ”áƒ¡áƒ£áƒ áƒ¡áƒ¡</string>
+    <string name="about_network">áƒ¥áƒ¡áƒ”áƒšáƒ˜</string>
+    <string name="about_tor_off">Tor áƒ’áƒáƒ›áƒáƒ áƒ—áƒ£áƒšáƒ˜áƒ</string>
+    <string name="about_tor_on">Tor áƒ©áƒáƒ áƒ—áƒ£áƒšáƒ˜áƒ</string>
+    <string name="about_tor_route">áƒ˜áƒœáƒ¢áƒ”áƒ áƒœáƒ”áƒ¢ áƒ¢áƒ áƒáƒ¤áƒ˜áƒ™áƒ˜áƒ¡ Tor-áƒ˜áƒ— áƒ›áƒáƒ áƒ¨áƒ áƒ£áƒ¢áƒ˜áƒ–áƒáƒªáƒ˜áƒ áƒžáƒ”áƒ áƒ¡áƒáƒœáƒáƒšáƒ£áƒ áƒáƒ‘áƒ˜áƒ¡áƒ—áƒ•áƒ˜áƒ¡.</string>
+    <string name="about_tor_status">Tor áƒ¡áƒ¢áƒáƒ¢áƒ£áƒ¡áƒ˜: %1$s, áƒ©áƒáƒ¢áƒ•áƒ˜áƒ áƒ—áƒ•áƒ %2$d%%</string>
+    <string name="about_last">áƒ‘áƒáƒšáƒ: %1$s</string>
+    <string name="about_emergency_title">áƒ¡áƒáƒ¡áƒ¬áƒ áƒáƒ¤áƒ áƒ›áƒáƒœáƒáƒªáƒ”áƒ›áƒ”áƒ‘áƒ˜áƒ¡ áƒ¬áƒáƒ¨áƒšáƒ</string>
+    <string name="about_emergency_tip">áƒ áƒ©áƒ”áƒ•áƒ: áƒ“áƒáƒáƒ­áƒ˜áƒ áƒ”áƒ— áƒáƒžáƒ˜áƒ¡ áƒ¡áƒáƒ—áƒáƒ£áƒ áƒ¡ áƒ¡áƒáƒ›áƒ¯áƒ”áƒ  áƒ§áƒ•áƒ”áƒšáƒ áƒ¨áƒ”áƒœáƒáƒ®áƒ£áƒšáƒ˜ áƒ›áƒáƒœáƒáƒªáƒ”áƒ›áƒ˜áƒ¡ â€“ áƒ¨áƒ”áƒ¢áƒ§áƒáƒ‘áƒ˜áƒœáƒ”áƒ‘áƒ”áƒ‘áƒ˜áƒ¡, áƒ’áƒáƒ¡áƒáƒ¦áƒ”áƒ‘áƒ”áƒ‘áƒ˜áƒ¡áƒ áƒ“áƒ áƒžáƒáƒ áƒáƒ›áƒ”áƒ¢áƒ áƒ”áƒ‘áƒ˜áƒ¡ â€“ áƒ¬áƒáƒ¡áƒáƒ¨áƒšáƒ”áƒšáƒáƒ“.</string>
+    <string name="about_debug_settings">áƒ“ebug áƒžáƒáƒ áƒáƒ›áƒ”áƒ¢áƒ áƒ”áƒ‘áƒ˜</string>
+    <string name="about_footer">áƒ¦áƒ˜áƒ áƒ™áƒáƒ“áƒ˜ â€¢ áƒ™áƒáƒœáƒ¤áƒ˜áƒ“áƒ”áƒœáƒªáƒ˜áƒáƒšáƒáƒ‘áƒ áƒžáƒ˜áƒ áƒ•áƒ”áƒšáƒ˜áƒ â€¢ áƒ“áƒ”áƒªáƒ”áƒœáƒ¢áƒ áƒáƒšáƒ˜áƒ–áƒ”áƒ‘áƒ£áƒšáƒ˜</string>
+    <string name="close_plain">áƒ“áƒáƒ®áƒ£áƒ áƒ•áƒ</string>
+    <string name="cancel_lower">áƒ’áƒáƒ£áƒ¥áƒ›áƒ”áƒ‘áƒ</string>
 
-    <!-- ზოგადი კონტენტის აღწერები -->
-    <string name="cd_warning">გაფრთხილება</string>
-    <string name="cd_location_services">მდებარეობის სერვისები</string>
-    <string name="cd_privacy">კონფიდენციალობა</string>
-    <string name="cd_error">შეცდომა</string>
-    <string name="cd_battery_optimization">ბატარეის ოპტიმიზაცია</string>
-    <string name="cd_benefits">სარგებელი</string>
-    <string name="cd_checking_battery_optimization">ბატარეის ოპტიმიზაციის შემოწმება</string>
-    <string name="cd_not_supported_battery_optimization">ბატარეის ოპტიმიზაცია მხარდაჭერილი არ არის</string>
+    <!-- áƒ–áƒáƒ’áƒáƒ“áƒ˜ áƒ™áƒáƒœáƒ¢áƒ”áƒœáƒ¢áƒ˜áƒ¡ áƒáƒ¦áƒ¬áƒ”áƒ áƒ”áƒ‘áƒ˜ -->
+    <string name="cd_warning">áƒ’áƒáƒ¤áƒ áƒ—áƒ®áƒ˜áƒšáƒ”áƒ‘áƒ</string>
+    <string name="cd_location_services">áƒ›áƒ“áƒ”áƒ‘áƒáƒ áƒ”áƒáƒ‘áƒ˜áƒ¡ áƒ¡áƒ”áƒ áƒ•áƒ˜áƒ¡áƒ”áƒ‘áƒ˜</string>
+    <string name="cd_privacy">áƒ™áƒáƒœáƒ¤áƒ˜áƒ“áƒ”áƒœáƒªáƒ˜áƒáƒšáƒáƒ‘áƒ</string>
+    <string name="cd_error">áƒ¨áƒ”áƒªáƒ“áƒáƒ›áƒ</string>
+    <string name="cd_battery_optimization">áƒ‘áƒáƒ¢áƒáƒ áƒ”áƒ˜áƒ¡ áƒáƒžáƒ¢áƒ˜áƒ›áƒ˜áƒ–áƒáƒªáƒ˜áƒ</string>
+    <string name="cd_benefits">áƒ¡áƒáƒ áƒ’áƒ”áƒ‘áƒ”áƒšáƒ˜</string>
+    <string name="cd_checking_battery_optimization">áƒ‘áƒáƒ¢áƒáƒ áƒ”áƒ˜áƒ¡ áƒáƒžáƒ¢áƒ˜áƒ›áƒ˜áƒ–áƒáƒªáƒ˜áƒ˜áƒ¡ áƒ¨áƒ”áƒ›áƒáƒ¬áƒ›áƒ”áƒ‘áƒ</string>
+    <string name="cd_not_supported_battery_optimization">áƒ‘áƒáƒ¢áƒáƒ áƒ”áƒ˜áƒ¡ áƒáƒžáƒ¢áƒ˜áƒ›áƒ˜áƒ–áƒáƒªáƒ˜áƒ áƒ›áƒ®áƒáƒ áƒ“áƒáƒ­áƒ”áƒ áƒ˜áƒšáƒ˜ áƒáƒ  áƒáƒ áƒ˜áƒ¡</string>
     <string name="cd_bluetooth">Bluetooth</string>
-    <string name="cd_unread_message">წაუკითხავი შეტყობინება</string>
-    <string name="cd_open_map">რუკის გახსნა</string>
-    <string name="cd_remove_bookmark">სანიშნეს წაშლა</string>
-    <string name="cd_teleport">ტელეპორტი</string>
-    <string name="cd_selected">მონიშნული</string>
-    <string name="cd_leave_channel">არხიდან გამოსვლა</string>
-    <string name="cd_reachable_via_nostr">მისაწვდომია Nostr-ით</string>
-    <string name="cd_offline_favorite">რჩეული (ოფლაინ)</string>
-    <string name="cd_decrease_precision">სიზუსტის შემცირება</string>
-    <string name="cd_increase_precision">სიზუსტის გაზრდა</string>
-    <string name="cd_select_geohash">აირჩიეთ geohash</string>
-    <string name="cd_scroll_to_bottom">ქვემოთ გადახვევა</string>
-    <string name="cd_file">ფაილი</string>
-    <string name="cd_image">სურათი</string>
-    <string name="cd_cancel">გაუქმება</string>
-    <string name="cd_link">ბმული</string>
-    <string name="cd_pick_media">მედიის არჩევა</string>
-    <string name="cd_pick_file">ფაილის არჩევა</string>
-    <string name="cd_save_current_image">მიმდინარე სურათის შენახვა</string>
-    <string name="cd_close">დახურვა</string>
-    <string name="cd_image_index_of">სურათი %1$d %2$d-დან</string>
-    <string name="cd_privacy_protected">კონფიდენციალობა დაცულია</string>
-    <string name="cd_record_voice">ხმოვანი ჩანაწერის ჩაწერა</string>
-    <string name="cd_offline_mesh_chat">ოფლაინ mesh-ჩათი</string>
-    <string name="cd_online_geohash_channels">ონლაინ geohash არხები</string>
-    <string name="cd_end_to_end_encryption">ბოლო-მდე დაშიფვრა</string>
+    <string name="cd_unread_message">áƒ¬áƒáƒ£áƒ™áƒ˜áƒ—áƒ®áƒáƒ•áƒ˜ áƒ¨áƒ”áƒ¢áƒ§áƒáƒ‘áƒ˜áƒœáƒ”áƒ‘áƒ</string>
+    <string name="cd_open_map">áƒ áƒ£áƒ™áƒ˜áƒ¡ áƒ’áƒáƒ®áƒ¡áƒœáƒ</string>
+    <string name="cd_remove_bookmark">áƒ¡áƒáƒœáƒ˜áƒ¨áƒœáƒ”áƒ¡ áƒ¬áƒáƒ¨áƒšáƒ</string>
+    <string name="cd_teleport">áƒ¢áƒ”áƒšáƒ”áƒžáƒáƒ áƒ¢áƒ˜</string>
+    <string name="cd_selected">áƒ›áƒáƒœáƒ˜áƒ¨áƒœáƒ£áƒšáƒ˜</string>
+    <string name="cd_leave_channel">áƒáƒ áƒ®áƒ˜áƒ“áƒáƒœ áƒ’áƒáƒ›áƒáƒ¡áƒ•áƒšáƒ</string>
+    <string name="cd_reachable_via_nostr">áƒ›áƒ˜áƒ¡áƒáƒ¬áƒ•áƒ“áƒáƒ›áƒ˜áƒ Nostr-áƒ˜áƒ—</string>
+    <string name="cd_offline_favorite">áƒ áƒ©áƒ”áƒ£áƒšáƒ˜ (áƒáƒ¤áƒšáƒáƒ˜áƒœ)</string>
+    <string name="cd_decrease_precision">áƒ¡áƒ˜áƒ–áƒ£áƒ¡áƒ¢áƒ˜áƒ¡ áƒ¨áƒ”áƒ›áƒªáƒ˜áƒ áƒ”áƒ‘áƒ</string>
+    <string name="cd_increase_precision">áƒ¡áƒ˜áƒ–áƒ£áƒ¡áƒ¢áƒ˜áƒ¡ áƒ’áƒáƒ–áƒ áƒ“áƒ</string>
+    <string name="cd_select_geohash">áƒáƒ˜áƒ áƒ©áƒ˜áƒ”áƒ— geohash</string>
+    <string name="cd_scroll_to_bottom">áƒ¥áƒ•áƒ”áƒ›áƒáƒ— áƒ’áƒáƒ“áƒáƒ®áƒ•áƒ”áƒ•áƒ</string>
+    <string name="cd_file">áƒ¤áƒáƒ˜áƒšáƒ˜</string>
+    <string name="cd_image">áƒ¡áƒ£áƒ áƒáƒ—áƒ˜</string>
+    <string name="cd_cancel">áƒ’áƒáƒ£áƒ¥áƒ›áƒ”áƒ‘áƒ</string>
+    <string name="cd_link">áƒ‘áƒ›áƒ£áƒšáƒ˜</string>
+    <string name="cd_pick_media">áƒ›áƒ”áƒ“áƒ˜áƒ˜áƒ¡ áƒáƒ áƒ©áƒ”áƒ•áƒ</string>
+    <string name="cd_pick_file">áƒ¤áƒáƒ˜áƒšáƒ˜áƒ¡ áƒáƒ áƒ©áƒ”áƒ•áƒ</string>
+    <string name="cd_save_current_image">áƒ›áƒ˜áƒ›áƒ“áƒ˜áƒœáƒáƒ áƒ” áƒ¡áƒ£áƒ áƒáƒ—áƒ˜áƒ¡ áƒ¨áƒ”áƒœáƒáƒ®áƒ•áƒ</string>
+    <string name="cd_close">áƒ“áƒáƒ®áƒ£áƒ áƒ•áƒ</string>
+    <string name="cd_image_index_of">áƒ¡áƒ£áƒ áƒáƒ—áƒ˜ %1$d %2$d-áƒ“áƒáƒœ</string>
+    <string name="cd_privacy_protected">áƒ™áƒáƒœáƒ¤áƒ˜áƒ“áƒ”áƒœáƒªáƒ˜áƒáƒšáƒáƒ‘áƒ áƒ“áƒáƒªáƒ£áƒšáƒ˜áƒ</string>
+    <string name="cd_record_voice">áƒ®áƒ›áƒáƒ•áƒáƒœáƒ˜ áƒ©áƒáƒœáƒáƒ¬áƒ”áƒ áƒ˜áƒ¡ áƒ©áƒáƒ¬áƒ”áƒ áƒ</string>
+    <string name="cd_offline_mesh_chat">áƒáƒ¤áƒšáƒáƒ˜áƒœ mesh-áƒ©áƒáƒ—áƒ˜</string>
+    <string name="cd_online_geohash_channels">áƒáƒœáƒšáƒáƒ˜áƒœ geohash áƒáƒ áƒ®áƒ”áƒ‘áƒ˜</string>
+    <string name="cd_end_to_end_encryption">áƒ‘áƒáƒšáƒ-áƒ›áƒ“áƒ” áƒ“áƒáƒ¨áƒ˜áƒ¤áƒ•áƒ áƒ</string>
 
-    <!-- სურათები &amp; ფაილები -->
-    <string name="image_page_of">სურათი %1$d %2$d-დან</string>
-    <string name="image_unavailable">სურათი მიუწვდომელია</string>
-    <string name="image_saved_to_downloads">სურათი შენახულია "ჩამოტვირთვებში"</string>
-    <string name="image_save_failed">სურათის შენახვა ვერ მოხერხდა</string>
-    <string name="toast_image_saved">სურათი შენახულია "ჩამოტვირთვებში"</string>
-    <string name="toast_failed_to_save_image">სურათის შენახვა ვერ მოხერხდა</string>
-    <string name="pick_file">ფაილის არჩევა</string>
-    <string name="file_unavailable">[ფაილი მიუწვდომელია]</string>
-    <string name="unknown">უცნობი</string>
+    <!-- áƒ¡áƒ£áƒ áƒáƒ—áƒ”áƒ‘áƒ˜ &amp; áƒ¤áƒáƒ˜áƒšáƒ”áƒ‘áƒ˜ -->
+    <string name="image_page_of">áƒ¡áƒ£áƒ áƒáƒ—áƒ˜ %1$d %2$d-áƒ“áƒáƒœ</string>
+    <string name="image_unavailable">áƒ¡áƒ£áƒ áƒáƒ—áƒ˜ áƒ›áƒ˜áƒ£áƒ¬áƒ•áƒ“áƒáƒ›áƒ”áƒšáƒ˜áƒ</string>
+    <string name="image_saved_to_downloads">áƒ¡áƒ£áƒ áƒáƒ—áƒ˜ áƒ¨áƒ”áƒœáƒáƒ®áƒ£áƒšáƒ˜áƒ "áƒ©áƒáƒ›áƒáƒ¢áƒ•áƒ˜áƒ áƒ—áƒ•áƒ”áƒ‘áƒ¨áƒ˜"</string>
+    <string name="image_save_failed">áƒ¡áƒ£áƒ áƒáƒ—áƒ˜áƒ¡ áƒ¨áƒ”áƒœáƒáƒ®áƒ•áƒ áƒ•áƒ”áƒ  áƒ›áƒáƒ®áƒ”áƒ áƒ®áƒ“áƒ</string>
+    <string name="toast_image_saved">áƒ¡áƒ£áƒ áƒáƒ—áƒ˜ áƒ¨áƒ”áƒœáƒáƒ®áƒ£áƒšáƒ˜áƒ "áƒ©áƒáƒ›áƒáƒ¢áƒ•áƒ˜áƒ áƒ—áƒ•áƒ”áƒ‘áƒ¨áƒ˜"</string>
+    <string name="toast_failed_to_save_image">áƒ¡áƒ£áƒ áƒáƒ—áƒ˜áƒ¡ áƒ¨áƒ”áƒœáƒáƒ®áƒ•áƒ áƒ•áƒ”áƒ  áƒ›áƒáƒ®áƒ”áƒ áƒ®áƒ“áƒ</string>
+    <string name="pick_file">áƒ¤áƒáƒ˜áƒšáƒ˜áƒ¡ áƒáƒ áƒ©áƒ”áƒ•áƒ</string>
+    <string name="file_unavailable">[áƒ¤áƒáƒ˜áƒšáƒ˜ áƒ›áƒ˜áƒ£áƒ¬áƒ•áƒ“áƒáƒ›áƒ”áƒšáƒ˜áƒ]</string>
+    <string name="unknown">áƒ£áƒªáƒœáƒáƒ‘áƒ˜</string>
 
-    <!-- მომხმარებლის ქმედებების შიტი -->
-    <string name="choose_action_message_or_user">აირჩიეთ ქმედება ამ შეტყობინებისთვის ან მომხმარებლისთვის</string>
-    <string name="choose_action_user">აირჩიეთ ქმედება ამ მომხმარებლისთვის</string>
-    <string name="action_copy_message_title">შეტყობინების კოპირება</string>
-    <string name="action_copy_message_subtitle">ამ შეტყობინების კოპირება ბუფერში</string>
-    <string name="action_slap_title">%1$s-ის ლ®აპით დარტყმა</string>
-    <string name="action_slap_subtitle">გაგზავნეთ ხუმრობით ლ®აპი</string>
-    <string name="action_hug_title">%1$s-ის ჩახუტება</string>
-    <string name="action_hug_subtitle">გაგზავნეთ მეგობრული ჩახუტება</string>
-    <string name="action_block_title">%1$s-ის დაბლოკვა</string>
-    <string name="action_block_subtitle">ამ მომხმარებლის ყველა შეტყობინების დაბლოკვა</string>
+    <!-- áƒ›áƒáƒ›áƒ®áƒ›áƒáƒ áƒ”áƒ‘áƒšáƒ˜áƒ¡ áƒ¥áƒ›áƒ”áƒ“áƒ”áƒ‘áƒ”áƒ‘áƒ˜áƒ¡ áƒ¨áƒ˜áƒ¢áƒ˜ -->
+    <string name="choose_action_message_or_user">áƒáƒ˜áƒ áƒ©áƒ˜áƒ”áƒ— áƒ¥áƒ›áƒ”áƒ“áƒ”áƒ‘áƒ áƒáƒ› áƒ¨áƒ”áƒ¢áƒ§áƒáƒ‘áƒ˜áƒœáƒ”áƒ‘áƒ˜áƒ¡áƒ—áƒ•áƒ˜áƒ¡ áƒáƒœ áƒ›áƒáƒ›áƒ®áƒ›áƒáƒ áƒ”áƒ‘áƒšáƒ˜áƒ¡áƒ—áƒ•áƒ˜áƒ¡</string>
+    <string name="choose_action_user">áƒáƒ˜áƒ áƒ©áƒ˜áƒ”áƒ— áƒ¥áƒ›áƒ”áƒ“áƒ”áƒ‘áƒ áƒáƒ› áƒ›áƒáƒ›áƒ®áƒ›áƒáƒ áƒ”áƒ‘áƒšáƒ˜áƒ¡áƒ—áƒ•áƒ˜áƒ¡</string>
+    <string name="action_copy_message_title">áƒ¨áƒ”áƒ¢áƒ§áƒáƒ‘áƒ˜áƒœáƒ”áƒ‘áƒ˜áƒ¡ áƒ™áƒáƒžáƒ˜áƒ áƒ”áƒ‘áƒ</string>
+    <string name="action_copy_message_subtitle">áƒáƒ› áƒ¨áƒ”áƒ¢áƒ§áƒáƒ‘áƒ˜áƒœáƒ”áƒ‘áƒ˜áƒ¡ áƒ™áƒáƒžáƒ˜áƒ áƒ”áƒ‘áƒ áƒ‘áƒ£áƒ¤áƒ”áƒ áƒ¨áƒ˜</string>
+    <string name="action_slap_title">%1$s-áƒ˜áƒ¡ áƒšÂ®áƒáƒžáƒ˜áƒ— áƒ“áƒáƒ áƒ¢áƒ§áƒ›áƒ</string>
+    <string name="action_slap_subtitle">áƒ’áƒáƒ’áƒ–áƒáƒ•áƒœáƒ”áƒ— áƒ®áƒ£áƒ›áƒ áƒáƒ‘áƒ˜áƒ— áƒšÂ®áƒáƒžáƒ˜</string>
+    <string name="action_hug_title">%1$s-áƒ˜áƒ¡ áƒ©áƒáƒ®áƒ£áƒ¢áƒ”áƒ‘áƒ</string>
+    <string name="action_hug_subtitle">áƒ’áƒáƒ’áƒ–áƒáƒ•áƒœáƒ”áƒ— áƒ›áƒ”áƒ’áƒáƒ‘áƒ áƒ£áƒšáƒ˜ áƒ©áƒáƒ®áƒ£áƒ¢áƒ”áƒ‘áƒ</string>
+    <string name="action_block_title">%1$s-áƒ˜áƒ¡ áƒ“áƒáƒ‘áƒšáƒáƒ™áƒ•áƒ</string>
+    <string name="action_block_subtitle">áƒáƒ› áƒ›áƒáƒ›áƒ®áƒ›áƒáƒ áƒ”áƒ‘áƒšáƒ˜áƒ¡ áƒ§áƒ•áƒ”áƒšáƒ áƒ¨áƒ”áƒ¢áƒ§áƒáƒ‘áƒ˜áƒœáƒ”áƒ‘áƒ˜áƒ¡ áƒ“áƒáƒ‘áƒšáƒáƒ™áƒ•áƒ</string>
 
-    <!-- geohash არხების შიტი -->
-    <string name="location_channels_title">#მდებარეობის არხები</string>
-    <string name="location_channels_desc">ესაუბრეთ თქვენს ახლოს მყოფ ადამიანებს geohash არხებით. იზიარება მხოლოდApprox geohash, არასოდეს ზუსტი GPS მონაცემები. თქვენი კონფიდენციალურობის დასაცავად ნუ გადაიღებთ სკრინშოტებს და ნუ გააზიარებთ ამ ეკრანს.</string>
-    <string name="grant_location_permission">მდებარეობის ნებართვის მინიჭება</string>
-    <string name="location_permission_denied">მდებარეობის ნებართვა უარყოფილია. ჩართეთ პარამეტრებში მდებარეობის არხების გამოსაყენებლად.</string>
-    <string name="open_settings">პარამეტრების გახსნა</string>
-    <string name="location_permission_granted">\u2713 მდებარეობის ნებართვა მინიჭებულია</string>
-    <string name="checking_permissions">ნებართვების შემოწმება…</string>
-    <string name="finding_nearby_channels">ახლომდებარე არხების ძიება…</string>
-    <string name="bookmarked">სანიშნეები</string>
+    <!-- geohash áƒáƒ áƒ®áƒ”áƒ‘áƒ˜áƒ¡ áƒ¨áƒ˜áƒ¢áƒ˜ -->
+    <string name="location_channels_title">#áƒ›áƒ“áƒ”áƒ‘áƒáƒ áƒ”áƒáƒ‘áƒ˜áƒ¡ áƒáƒ áƒ®áƒ”áƒ‘áƒ˜</string>
+    <string name="location_channels_desc">áƒ”áƒ¡áƒáƒ£áƒ‘áƒ áƒ”áƒ— áƒ—áƒ¥áƒ•áƒ”áƒœáƒ¡ áƒáƒ®áƒšáƒáƒ¡ áƒ›áƒ§áƒáƒ¤ áƒáƒ“áƒáƒ›áƒ˜áƒáƒœáƒ”áƒ‘áƒ¡ geohash áƒáƒ áƒ®áƒ”áƒ‘áƒ˜áƒ—. áƒ˜áƒ–áƒ˜áƒáƒ áƒ”áƒ‘áƒ áƒ›áƒ®áƒáƒšáƒáƒ“Approx geohash, áƒáƒ áƒáƒ¡áƒáƒ“áƒ”áƒ¡ áƒ–áƒ£áƒ¡áƒ¢áƒ˜ GPS áƒ›áƒáƒœáƒáƒªáƒ”áƒ›áƒ”áƒ‘áƒ˜. áƒ—áƒ¥áƒ•áƒ”áƒœáƒ˜ áƒ™áƒáƒœáƒ¤áƒ˜áƒ“áƒ”áƒœáƒªáƒ˜áƒáƒšáƒ£áƒ áƒáƒ‘áƒ˜áƒ¡ áƒ“áƒáƒ¡áƒáƒªáƒáƒ•áƒáƒ“ áƒœáƒ£ áƒ’áƒáƒ“áƒáƒ˜áƒ¦áƒ”áƒ‘áƒ— áƒ¡áƒ™áƒ áƒ˜áƒœáƒ¨áƒáƒ¢áƒ”áƒ‘áƒ¡ áƒ“áƒ áƒœáƒ£ áƒ’áƒáƒáƒ–áƒ˜áƒáƒ áƒ”áƒ‘áƒ— áƒáƒ› áƒ”áƒ™áƒ áƒáƒœáƒ¡.</string>
+    <string name="grant_location_permission">áƒ›áƒ“áƒ”áƒ‘áƒáƒ áƒ”áƒáƒ‘áƒ˜áƒ¡ áƒœáƒ”áƒ‘áƒáƒ áƒ—áƒ•áƒ˜áƒ¡ áƒ›áƒ˜áƒœáƒ˜áƒ­áƒ”áƒ‘áƒ</string>
+    <string name="location_permission_denied">áƒ›áƒ“áƒ”áƒ‘áƒáƒ áƒ”áƒáƒ‘áƒ˜áƒ¡ áƒœáƒ”áƒ‘áƒáƒ áƒ—áƒ•áƒ áƒ£áƒáƒ áƒ§áƒáƒ¤áƒ˜áƒšáƒ˜áƒ. áƒ©áƒáƒ áƒ—áƒ”áƒ— áƒžáƒáƒ áƒáƒ›áƒ”áƒ¢áƒ áƒ”áƒ‘áƒ¨áƒ˜ áƒ›áƒ“áƒ”áƒ‘áƒáƒ áƒ”áƒáƒ‘áƒ˜áƒ¡ áƒáƒ áƒ®áƒ”áƒ‘áƒ˜áƒ¡ áƒ’áƒáƒ›áƒáƒ¡áƒáƒ§áƒ”áƒœáƒ”áƒ‘áƒšáƒáƒ“.</string>
+    <string name="open_settings">áƒžáƒáƒ áƒáƒ›áƒ”áƒ¢áƒ áƒ”áƒ‘áƒ˜áƒ¡ áƒ’áƒáƒ®áƒ¡áƒœáƒ</string>
+    <string name="location_permission_granted">\u2713 áƒ›áƒ“áƒ”áƒ‘áƒáƒ áƒ”áƒáƒ‘áƒ˜áƒ¡ áƒœáƒ”áƒ‘áƒáƒ áƒ—áƒ•áƒ áƒ›áƒ˜áƒœáƒ˜áƒ­áƒ”áƒ‘áƒ£áƒšáƒ˜áƒ</string>
+    <string name="checking_permissions">áƒœáƒ”áƒ‘áƒáƒ áƒ—áƒ•áƒ”áƒ‘áƒ˜áƒ¡ áƒ¨áƒ”áƒ›áƒáƒ¬áƒ›áƒ”áƒ‘áƒâ€¦</string>
+    <string name="finding_nearby_channels">áƒáƒ®áƒšáƒáƒ›áƒ“áƒ”áƒ‘áƒáƒ áƒ” áƒáƒ áƒ®áƒ”áƒ‘áƒ˜áƒ¡ áƒ«áƒ˜áƒ”áƒ‘áƒâ€¦</string>
+    <string name="bookmarked">áƒ¡áƒáƒœáƒ˜áƒ¨áƒœáƒ”áƒ”áƒ‘áƒ˜</string>
     <string name="geohash_placeholder">Geohash</string>
-    <string name="invalid_geohash">არასწორი geohash</string>
-    <string name="teleport">ტელეპორტი</string>
-    <string name="disable_location_services">მდებარეობის სერვისების გამორთვა</string>
-    <string name="enable_location_services">მდებარეობის სერვისების ჩართვა</string>
+    <string name="invalid_geohash">áƒáƒ áƒáƒ¡áƒ¬áƒáƒ áƒ˜ geohash</string>
+    <string name="teleport">áƒ¢áƒ”áƒšáƒ”áƒžáƒáƒ áƒ¢áƒ˜</string>
+    <string name="disable_location_services">áƒ›áƒ“áƒ”áƒ‘áƒáƒ áƒ”áƒáƒ‘áƒ˜áƒ¡ áƒ¡áƒ”áƒ áƒ•áƒ˜áƒ¡áƒ”áƒ‘áƒ˜áƒ¡ áƒ’áƒáƒ›áƒáƒ áƒ—áƒ•áƒ</string>
+    <string name="enable_location_services">áƒ›áƒ“áƒ”áƒ‘áƒáƒ áƒ”áƒáƒ‘áƒ˜áƒ¡ áƒ¡áƒ”áƒ áƒ•áƒ˜áƒ¡áƒ”áƒ‘áƒ˜áƒ¡ áƒ©áƒáƒ áƒ—áƒ•áƒ</string>
     <string name="mesh_label">mesh</string>
-    <string name="location_level_block">კვარტალი</string>
-    <string name="location_level_neighborhood">ახლომდებარე რაიონი</string>
-    <string name="location_level_city">ქალაქი</string>
-    <string name="location_level_province">პროვინცია</string>
-    <string name="location_level_region">რეგიონი</string>
-    <string name="location_bluetooth_subtitle">#bluetooth • %1$s</string>
+    <string name="location_level_block">áƒ™áƒ•áƒáƒ áƒ¢áƒáƒšáƒ˜</string>
+    <string name="location_level_neighborhood">áƒáƒ®áƒšáƒáƒ›áƒ“áƒ”áƒ‘áƒáƒ áƒ” áƒ áƒáƒ˜áƒáƒœáƒ˜</string>
+    <string name="location_level_city">áƒ¥áƒáƒšáƒáƒ¥áƒ˜</string>
+    <string name="location_level_province">áƒžáƒ áƒáƒ•áƒ˜áƒœáƒªáƒ˜áƒ</string>
+    <string name="location_level_region">áƒ áƒ”áƒ’áƒ˜áƒáƒœáƒ˜</string>
+    <string name="location_bluetooth_subtitle">#bluetooth â€¢ %1$s</string>
 
-    <!-- დებაგი / დიაგნოსტიკა -->
-    <string name="debug_tools">დაბაგირების ხელსაწყოები</string>
-    <string name="debug_tools_desc">დეველოპერის ხელსაწყოები დიაგნოზისთვის და კონტროლისთვის</string>
-    <string name="debug_verbose_logging">გაფართოებული ლოგირება</string>
-    <string name="debug_verbose_hint">იწერება პირების ჩართვა/გამორთვა, კავშირის მიმართულება, პაკეტების გადაცემა და რილეები</string>
-    <string name="debug_bluetooth_roles">Bluetooth როლები</string>
-    <string name="debug_gatt_server">GATT სერვერი</string>
-    <string name="debug_connections_fmt">კავშირები: %1$d / %2$d</string>
-    <string name="debug_max_server">მაქს. სერვერი</string>
-    <string name="debug_gatt_client">GATT კლიენტი</string>
-    <string name="debug_max_client">მაქს. კლიენტი</string>
-    <string name="debug_overall_connections_fmt">კავშირები: %1$d / %2$d</string>
-    <string name="debug_max_overall">მაქს. სულ</string>
-    <string name="debug_packet_relay">პაკეტების რელე</string>
-    <string name="debug_since_start_fmt">გაშვებიდან: %1$d</string>
-    <string name="debug_roles_hint">როლების გადართვა და გამორთვისას ყველა კავშირის დახურვა</string>
-    <string name="debug_sync_settings">სინქრონიზაციის პარამეტრები</string>
-    <string name="debug_max_packets_per_sync_fmt">მაქს. პაკეტი სინქრონიზაციაზე: %1$d</string>
-    <string name="debug_max_gcs_filter_size_fmt">მაქს. GCS ფილტრის ზომა: %1$d ბაიტი (128–1024)</string>
-    <string name="debug_target_fpr_fmt">სამიზნე FPR: %1$.2f%%</string>
-    <string name="debug_connected_devices">დაკავშირებული მოწყობილობები</string>
-    <string name="debug_our_device_id_fmt">ჩვენი მოწყობილობის ID: %1$s</string>
-    <string name="debug_none">არცერთი</string>
-    <string name="debug_disconnect">გათიშვა</string>
-    <string name="debug_recent_scan_results">ბოლო სკანირებული მოწყობილობები</string>
-    <string name="debug_connect">დაკავშირება</string>
-    <string name="debug_debug_console">დაბაგ კონსოლი</string>
-    <string name="debug_clear">გასუფთავება</string>
-    <string name="debug_relays_window_fmt">ბოლო 10 წმ: %1$d • 1 წთ: %2$d • 15 წთ: %3$d</string>
-    <string name="debug_derived_p_fmt">განმუხტული P: %1$s • სავარაუდო მაქს. ელემენტები: %2$s</string>
-    <string name="debug_direct_suffix"> • პირდაპირ</string>
-    <string name="debug_role_server">სერვერის როლში (ჩვენ ვმასპინძლობთ)</string>
-    <string name="debug_role_client">კლიენტის როლში (ჩვენ ვუკავშირდებით)</string>
+    <!-- áƒ“áƒ”áƒ‘áƒáƒ’áƒ˜ / áƒ“áƒ˜áƒáƒ’áƒœáƒáƒ¡áƒ¢áƒ˜áƒ™áƒ -->
+    <string name="debug_tools">áƒ“áƒáƒ‘áƒáƒ’áƒ˜áƒ áƒ”áƒ‘áƒ˜áƒ¡ áƒ®áƒ”áƒšáƒ¡áƒáƒ¬áƒ§áƒáƒ”áƒ‘áƒ˜</string>
+    <string name="debug_tools_desc">áƒ“áƒ”áƒ•áƒ”áƒšáƒáƒžáƒ”áƒ áƒ˜áƒ¡ áƒ®áƒ”áƒšáƒ¡áƒáƒ¬áƒ§áƒáƒ”áƒ‘áƒ˜ áƒ“áƒ˜áƒáƒ’áƒœáƒáƒ–áƒ˜áƒ¡áƒ—áƒ•áƒ˜áƒ¡ áƒ“áƒ áƒ™áƒáƒœáƒ¢áƒ áƒáƒšáƒ˜áƒ¡áƒ—áƒ•áƒ˜áƒ¡</string>
+    <string name="debug_verbose_logging">áƒ’áƒáƒ¤áƒáƒ áƒ—áƒáƒ”áƒ‘áƒ£áƒšáƒ˜ áƒšáƒáƒ’áƒ˜áƒ áƒ”áƒ‘áƒ</string>
+    <string name="debug_verbose_hint">áƒ˜áƒ¬áƒ”áƒ áƒ”áƒ‘áƒ áƒžáƒ˜áƒ áƒ”áƒ‘áƒ˜áƒ¡ áƒ©áƒáƒ áƒ—áƒ•áƒ/áƒ’áƒáƒ›áƒáƒ áƒ—áƒ•áƒ, áƒ™áƒáƒ•áƒ¨áƒ˜áƒ áƒ˜áƒ¡ áƒ›áƒ˜áƒ›áƒáƒ áƒ—áƒ£áƒšáƒ”áƒ‘áƒ, áƒžáƒáƒ™áƒ”áƒ¢áƒ”áƒ‘áƒ˜áƒ¡ áƒ’áƒáƒ“áƒáƒªáƒ”áƒ›áƒ áƒ“áƒ áƒ áƒ˜áƒšáƒ”áƒ”áƒ‘áƒ˜</string>
+    <string name="debug_bluetooth_roles">Bluetooth áƒ áƒáƒšáƒ”áƒ‘áƒ˜</string>
+    <string name="debug_gatt_server">GATT áƒ¡áƒ”áƒ áƒ•áƒ”áƒ áƒ˜</string>
+    <string name="debug_connections_fmt">áƒ™áƒáƒ•áƒ¨áƒ˜áƒ áƒ”áƒ‘áƒ˜: %1$d / %2$d</string>
+    <string name="debug_max_server">áƒ›áƒáƒ¥áƒ¡. áƒ¡áƒ”áƒ áƒ•áƒ”áƒ áƒ˜</string>
+    <string name="debug_gatt_client">GATT áƒ™áƒšáƒ˜áƒ”áƒœáƒ¢áƒ˜</string>
+    <string name="debug_max_client">áƒ›áƒáƒ¥áƒ¡. áƒ™áƒšáƒ˜áƒ”áƒœáƒ¢áƒ˜</string>
+    <string name="debug_overall_connections_fmt">áƒ™áƒáƒ•áƒ¨áƒ˜áƒ áƒ”áƒ‘áƒ˜: %1$d / %2$d</string>
+    <string name="debug_max_overall">áƒ›áƒáƒ¥áƒ¡. áƒ¡áƒ£áƒš</string>
+    <string name="debug_packet_relay">áƒžáƒáƒ™áƒ”áƒ¢áƒ”áƒ‘áƒ˜áƒ¡ áƒ áƒ”áƒšáƒ”</string>
+    <string name="debug_since_start_fmt">áƒ’áƒáƒ¨áƒ•áƒ”áƒ‘áƒ˜áƒ“áƒáƒœ: %1$d</string>
+    <string name="debug_roles_hint">áƒ áƒáƒšáƒ”áƒ‘áƒ˜áƒ¡ áƒ’áƒáƒ“áƒáƒ áƒ—áƒ•áƒ áƒ“áƒ áƒ’áƒáƒ›áƒáƒ áƒ—áƒ•áƒ˜áƒ¡áƒáƒ¡ áƒ§áƒ•áƒ”áƒšáƒ áƒ™áƒáƒ•áƒ¨áƒ˜áƒ áƒ˜áƒ¡ áƒ“áƒáƒ®áƒ£áƒ áƒ•áƒ</string>
+    <string name="debug_sync_settings">áƒ¡áƒ˜áƒœáƒ¥áƒ áƒáƒœáƒ˜áƒ–áƒáƒªáƒ˜áƒ˜áƒ¡ áƒžáƒáƒ áƒáƒ›áƒ”áƒ¢áƒ áƒ”áƒ‘áƒ˜</string>
+    <string name="debug_max_packets_per_sync_fmt">áƒ›áƒáƒ¥áƒ¡. áƒžáƒáƒ™áƒ”áƒ¢áƒ˜ áƒ¡áƒ˜áƒœáƒ¥áƒ áƒáƒœáƒ˜áƒ–áƒáƒªáƒ˜áƒáƒ–áƒ”: %1$d</string>
+    <string name="debug_max_gcs_filter_size_fmt">áƒ›áƒáƒ¥áƒ¡. GCS áƒ¤áƒ˜áƒšáƒ¢áƒ áƒ˜áƒ¡ áƒ–áƒáƒ›áƒ: %1$d áƒ‘áƒáƒ˜áƒ¢áƒ˜ (128â€“1024)</string>
+    <string name="debug_target_fpr_fmt">áƒ¡áƒáƒ›áƒ˜áƒ–áƒœáƒ” FPR: %1$.2f%%</string>
+    <string name="debug_connected_devices">áƒ“áƒáƒ™áƒáƒ•áƒ¨áƒ˜áƒ áƒ”áƒ‘áƒ£áƒšáƒ˜ áƒ›áƒáƒ¬áƒ§áƒáƒ‘áƒ˜áƒšáƒáƒ‘áƒ”áƒ‘áƒ˜</string>
+    <string name="debug_our_device_id_fmt">áƒ©áƒ•áƒ”áƒœáƒ˜ áƒ›áƒáƒ¬áƒ§áƒáƒ‘áƒ˜áƒšáƒáƒ‘áƒ˜áƒ¡ ID: %1$s</string>
+    <string name="debug_none">áƒáƒ áƒªáƒ”áƒ áƒ—áƒ˜</string>
+    <string name="debug_disconnect">áƒ’áƒáƒ—áƒ˜áƒ¨áƒ•áƒ</string>
+    <string name="debug_recent_scan_results">áƒ‘áƒáƒšáƒ áƒ¡áƒ™áƒáƒœáƒ˜áƒ áƒ”áƒ‘áƒ£áƒšáƒ˜ áƒ›áƒáƒ¬áƒ§áƒáƒ‘áƒ˜áƒšáƒáƒ‘áƒ”áƒ‘áƒ˜</string>
+    <string name="debug_connect">áƒ“áƒáƒ™áƒáƒ•áƒ¨áƒ˜áƒ áƒ”áƒ‘áƒ</string>
+    <string name="debug_debug_console">áƒ“áƒáƒ‘áƒáƒ’ áƒ™áƒáƒœáƒ¡áƒáƒšáƒ˜</string>
+    <string name="debug_clear">áƒ’áƒáƒ¡áƒ£áƒ¤áƒ—áƒáƒ•áƒ”áƒ‘áƒ</string>
+    <string name="debug_relays_window_fmt">áƒ‘áƒáƒšáƒ 10 áƒ¬áƒ›: %1$d â€¢ 1 áƒ¬áƒ—: %2$d â€¢ 15 áƒ¬áƒ—: %3$d</string>
+    <string name="debug_derived_p_fmt">áƒ’áƒáƒœáƒ›áƒ£áƒ®áƒ¢áƒ£áƒšáƒ˜ P: %1$s â€¢ áƒ¡áƒáƒ•áƒáƒ áƒáƒ£áƒ“áƒ áƒ›áƒáƒ¥áƒ¡. áƒ”áƒšáƒ”áƒ›áƒ”áƒœáƒ¢áƒ”áƒ‘áƒ˜: %2$s</string>
+    <string name="debug_direct_suffix"> â€¢ áƒžáƒ˜áƒ áƒ“áƒáƒžáƒ˜áƒ </string>
+    <string name="debug_role_server">áƒ¡áƒ”áƒ áƒ•áƒ”áƒ áƒ˜áƒ¡ áƒ áƒáƒšáƒ¨áƒ˜ (áƒ©áƒ•áƒ”áƒœ áƒ•áƒ›áƒáƒ¡áƒžáƒ˜áƒœáƒ«áƒšáƒáƒ‘áƒ—)</string>
+    <string name="debug_role_client">áƒ™áƒšáƒ˜áƒ”áƒœáƒ¢áƒ˜áƒ¡ áƒ áƒáƒšáƒ¨áƒ˜ (áƒ©áƒ•áƒ”áƒœ áƒ•áƒ£áƒ™áƒáƒ•áƒ¨áƒ˜áƒ áƒ“áƒ”áƒ‘áƒ˜áƒ—)</string>
 
-    <!-- ონბორდინგის ეკრანები -->
-    <string name="location_services_required">მდებარეობის სერვისებია საჭირო</string>
-    <string name="privacy_first">კონფიდენციალობა პირველია</string>
-    <string name="location_explanation">bitchat არ აკონტროლებს თქვენს მდებარეობას.\n\nმდებარეობის სერვისები საჭიროა Bluetooth სკანირებისა და geohash ჩათის ფუნქციისთვის.</string>
-    <string name="location_needs_for">bitchat-ს სჭირდება მდებარეობის სერვისები შემდეგისთვის:</string>
-    <string name="location_needs_bullets">• Bluetooth მოწყობილობების სკანირება\n• mesh ქსელში ახლომდებარე მომხმარებლების აღმოჩენა\n• geohash ჩათის ფუნქცია\n• არც ტრეკინგი, არც მდებარეობის შეგროვება</string>
-    <string name="open_location_settings">მდებარეობის პარამეტრების გახსნა</string>
-    <string name="check_again">თავიდან შემოწმება</string>
-    <string name="location_services_unavailable">მდებარეობის სერვისები მიუწვდომელია</string>
-    <string name="location_unavailable_explanation">ამ მოწყობილობაზე მდებარეობის სერვისები მიუწვდომელია. ეს უჩვეულოა, რადგან Android მოწყობილობებზე ისინი სტანდარტულია.\n\nBluetooth სკანირებისთვის (Android-ის მოთხოვნა) საჭიროა მდებარეობის სერვისები. ამის გარეშე აპს არ შეუძლია ახლომდებარე მომხმარებლების აღმოჩენა.</string>
-    <string name="checking_location_services">მდებარეობის სერვისების შემოწმება…</string>
-    <string name="bluetooth_required">Bluetooth საჭიროა</string>
-    <string name="bluetooth_needs_for">bitchat-ს სჭირდება Bluetooth შემდეგისთვის:</string>
-    <string name="bluetooth_needs_bullets">• ახლომდებარე მომხმარებლების აღმოჩენა\n• mesh ქსელის კავშირების შექმნა\n• შეტყობინებების გაგზავნა/მიღება\n• მუშაობა ინტერნეტის ან სერვერების გარეშე</string>
-    <string name="enable_bluetooth">Bluetooth-ის ჩართვა</string>
-    <string name="bluetooth_not_supported">Bluetooth არ მხარდაჭერილია</string>
-    <string name="bluetooth_unsupported_explanation">ამ მოწყობილობას არ უჭერს მხარს Bluetooth Low Energy (BLE), რომელიც საჭიროა bitchat-ისთვის.\n\nBLE საჭიროა mesh ქსელების შესაქმნელად და ახლომდებარე მოწყობილობებთან ინტერნეტის გარეშე კომუნიკაციისთვის.</string>
-    <string name="checking_bluetooth_status">Bluetooth სტატუსის შემოწმება…</string>
-    <string name="battery_optimization_detected_title">ბატარეის ოპტიმიზაცია აღმოჩნდა</string>
-    <string name="battery_optimization_enabled_title">ბატარეის ოპტიმიზაცია ჩართულია</string>
-    <string name="battery_optimization_explanation_short">mesh კავშირების შესანარჩუნებლად bitchat უნდა იმუშავოს ფონში. ბატარეის ოპტიმიზაციამ შეიძლება დაარღვიოს ეს კავშირები.</string>
-    <string name="benefits_of_disabling">გამორთვის სარგებელი</string>
-    <string name="battery_benefits_short">• სანდო მიწოდება\n• mesh კავშირის შენარჩუნება\n• გათიშვების თავიდან აცილება</string>
-    <string name="disable_battery_optimization">ბატარეის ოპტიმიზაციის გამორთვა</string>
-    <string name="battery_optimization_disabled_title">ბატარეის ოპტიმიზაცია გამორთულია</string>
-    <string name="continue_btn">გაგრძელება</string>
-    <string name="initializing_mesh_network">mesh ქსელის ინიციალიზაცია</string>
-    <string name="setting_up_bluetooth">Bluetooth mesh ქსელის მოწყობა…</string>
-    <string name="should_take_seconds">ეს რამდენიმე წამს უნდა გაგრძელდეს</string>
-    <string name="setup_not_complete">მოწყობა დაუსრულებელია</string>
-    <string name="try_again">კვლავ ცდა</string>
-    <string name="privacy_protected">თქვენი კონფიდენციალობა დაცულია</string>
-    <string name="privacy_bullets">• ტრეკინგი ან მონაცემთა შეგროვება არა\n• Bluetooth mesh-ჩათები სრულად ოფლაინ\n• geohash ჩათი იყენებს ინტერნეტს</string>
-    <string name="permissions_header">ნებართვები</string>
-    <string name="grant_permissions">ნებართვების მინიჭება</string>
-    <string name="location_tracking_warning">bitchat არ აკონტროლებს თქვენს მდებარეობას</string>
-    <string name="geohash_people_header">ხალხი</string>
-    <string name="nobody_around">არავინ არის ახლოს…</string>
-    <string name="you_suffix"> (თქვენ)</string>
-    <string name="pan_zoom_instruction">პანორამირება/ზუმი geohash-ის ასარჩევად</string>
-    <string name="select">არჩევა</string>
-    <string name="type_a_message_placeholder">შეიყვანეთ შეტყობინება…</string>
-    <string name="mention">ხსენება</string>
+    <!-- áƒáƒœáƒ‘áƒáƒ áƒ“áƒ˜áƒœáƒ’áƒ˜áƒ¡ áƒ”áƒ™áƒ áƒáƒœáƒ”áƒ‘áƒ˜ -->
+    <string name="location_services_required">áƒ›áƒ“áƒ”áƒ‘áƒáƒ áƒ”áƒáƒ‘áƒ˜áƒ¡ áƒ¡áƒ”áƒ áƒ•áƒ˜áƒ¡áƒ”áƒ‘áƒ˜áƒ áƒ¡áƒáƒ­áƒ˜áƒ áƒ</string>
+    <string name="privacy_first">áƒ™áƒáƒœáƒ¤áƒ˜áƒ“áƒ”áƒœáƒªáƒ˜áƒáƒšáƒáƒ‘áƒ áƒžáƒ˜áƒ áƒ•áƒ”áƒšáƒ˜áƒ</string>
+    <string name="location_explanation">bitchat áƒáƒ  áƒáƒ™áƒáƒœáƒ¢áƒ áƒáƒšáƒ”áƒ‘áƒ¡ áƒ—áƒ¥áƒ•áƒ”áƒœáƒ¡ áƒ›áƒ“áƒ”áƒ‘áƒáƒ áƒ”áƒáƒ‘áƒáƒ¡.\n\náƒ›áƒ“áƒ”áƒ‘áƒáƒ áƒ”áƒáƒ‘áƒ˜áƒ¡ áƒ¡áƒ”áƒ áƒ•áƒ˜áƒ¡áƒ”áƒ‘áƒ˜ áƒ¡áƒáƒ­áƒ˜áƒ áƒáƒ Bluetooth áƒ¡áƒ™áƒáƒœáƒ˜áƒ áƒ”áƒ‘áƒ˜áƒ¡áƒ áƒ“áƒ geohash áƒ©áƒáƒ—áƒ˜áƒ¡ áƒ¤áƒ£áƒœáƒ¥áƒªáƒ˜áƒ˜áƒ¡áƒ—áƒ•áƒ˜áƒ¡.</string>
+    <string name="location_needs_for">bitchat-áƒ¡ áƒ¡áƒ­áƒ˜áƒ áƒ“áƒ”áƒ‘áƒ áƒ›áƒ“áƒ”áƒ‘áƒáƒ áƒ”áƒáƒ‘áƒ˜áƒ¡ áƒ¡áƒ”áƒ áƒ•áƒ˜áƒ¡áƒ”áƒ‘áƒ˜ áƒ¨áƒ”áƒ›áƒ“áƒ”áƒ’áƒ˜áƒ¡áƒ—áƒ•áƒ˜áƒ¡:</string>
+    <string name="location_needs_bullets">â€¢ Bluetooth áƒ›áƒáƒ¬áƒ§áƒáƒ‘áƒ˜áƒšáƒáƒ‘áƒ”áƒ‘áƒ˜áƒ¡ áƒ¡áƒ™áƒáƒœáƒ˜áƒ áƒ”áƒ‘áƒ\nâ€¢ mesh áƒ¥áƒ¡áƒ”áƒšáƒ¨áƒ˜ áƒáƒ®áƒšáƒáƒ›áƒ“áƒ”áƒ‘áƒáƒ áƒ” áƒ›áƒáƒ›áƒ®áƒ›áƒáƒ áƒ”áƒ‘áƒšáƒ”áƒ‘áƒ˜áƒ¡ áƒáƒ¦áƒ›áƒáƒ©áƒ”áƒœáƒ\nâ€¢ geohash áƒ©áƒáƒ—áƒ˜áƒ¡ áƒ¤áƒ£áƒœáƒ¥áƒªáƒ˜áƒ\nâ€¢ áƒáƒ áƒª áƒ¢áƒ áƒ”áƒ™áƒ˜áƒœáƒ’áƒ˜, áƒáƒ áƒª áƒ›áƒ“áƒ”áƒ‘áƒáƒ áƒ”áƒáƒ‘áƒ˜áƒ¡ áƒ¨áƒ”áƒ’áƒ áƒáƒ•áƒ”áƒ‘áƒ</string>
+    <string name="open_location_settings">áƒ›áƒ“áƒ”áƒ‘áƒáƒ áƒ”áƒáƒ‘áƒ˜áƒ¡ áƒžáƒáƒ áƒáƒ›áƒ”áƒ¢áƒ áƒ”áƒ‘áƒ˜áƒ¡ áƒ’áƒáƒ®áƒ¡áƒœáƒ</string>
+    <string name="check_again">áƒ—áƒáƒ•áƒ˜áƒ“áƒáƒœ áƒ¨áƒ”áƒ›áƒáƒ¬áƒ›áƒ”áƒ‘áƒ</string>
+    <string name="location_services_unavailable">áƒ›áƒ“áƒ”áƒ‘áƒáƒ áƒ”áƒáƒ‘áƒ˜áƒ¡ áƒ¡áƒ”áƒ áƒ•áƒ˜áƒ¡áƒ”áƒ‘áƒ˜ áƒ›áƒ˜áƒ£áƒ¬áƒ•áƒ“áƒáƒ›áƒ”áƒšáƒ˜áƒ</string>
+    <string name="location_unavailable_explanation">áƒáƒ› áƒ›áƒáƒ¬áƒ§áƒáƒ‘áƒ˜áƒšáƒáƒ‘áƒáƒ–áƒ” áƒ›áƒ“áƒ”áƒ‘áƒáƒ áƒ”áƒáƒ‘áƒ˜áƒ¡ áƒ¡áƒ”áƒ áƒ•áƒ˜áƒ¡áƒ”áƒ‘áƒ˜ áƒ›áƒ˜áƒ£áƒ¬áƒ•áƒ“áƒáƒ›áƒ”áƒšáƒ˜áƒ. áƒ”áƒ¡ áƒ£áƒ©áƒ•áƒ”áƒ£áƒšáƒáƒ, áƒ áƒáƒ“áƒ’áƒáƒœ Android áƒ›áƒáƒ¬áƒ§áƒáƒ‘áƒ˜áƒšáƒáƒ‘áƒ”áƒ‘áƒ–áƒ” áƒ˜áƒ¡áƒ˜áƒœáƒ˜ áƒ¡áƒ¢áƒáƒœáƒ“áƒáƒ áƒ¢áƒ£áƒšáƒ˜áƒ.\n\nBluetooth áƒ¡áƒ™áƒáƒœáƒ˜áƒ áƒ”áƒ‘áƒ˜áƒ¡áƒ—áƒ•áƒ˜áƒ¡ (Android-áƒ˜áƒ¡ áƒ›áƒáƒ—áƒ®áƒáƒ•áƒœáƒ) áƒ¡áƒáƒ­áƒ˜áƒ áƒáƒ áƒ›áƒ“áƒ”áƒ‘áƒáƒ áƒ”áƒáƒ‘áƒ˜áƒ¡ áƒ¡áƒ”áƒ áƒ•áƒ˜áƒ¡áƒ”áƒ‘áƒ˜. áƒáƒ›áƒ˜áƒ¡ áƒ’áƒáƒ áƒ”áƒ¨áƒ” áƒáƒžáƒ¡ áƒáƒ  áƒ¨áƒ”áƒ£áƒ«áƒšáƒ˜áƒ áƒáƒ®áƒšáƒáƒ›áƒ“áƒ”áƒ‘áƒáƒ áƒ” áƒ›áƒáƒ›áƒ®áƒ›áƒáƒ áƒ”áƒ‘áƒšáƒ”áƒ‘áƒ˜áƒ¡ áƒáƒ¦áƒ›áƒáƒ©áƒ”áƒœáƒ.</string>
+    <string name="checking_location_services">áƒ›áƒ“áƒ”áƒ‘áƒáƒ áƒ”áƒáƒ‘áƒ˜áƒ¡ áƒ¡áƒ”áƒ áƒ•áƒ˜áƒ¡áƒ”áƒ‘áƒ˜áƒ¡ áƒ¨áƒ”áƒ›áƒáƒ¬áƒ›áƒ”áƒ‘áƒâ€¦</string>
+    <string name="bluetooth_required">Bluetooth áƒ¡áƒáƒ­áƒ˜áƒ áƒáƒ</string>
+    <string name="bluetooth_needs_for">bitchat-áƒ¡ áƒ¡áƒ­áƒ˜áƒ áƒ“áƒ”áƒ‘áƒ Bluetooth áƒ¨áƒ”áƒ›áƒ“áƒ”áƒ’áƒ˜áƒ¡áƒ—áƒ•áƒ˜áƒ¡:</string>
+    <string name="bluetooth_needs_bullets">â€¢ áƒáƒ®áƒšáƒáƒ›áƒ“áƒ”áƒ‘áƒáƒ áƒ” áƒ›áƒáƒ›áƒ®áƒ›áƒáƒ áƒ”áƒ‘áƒšáƒ”áƒ‘áƒ˜áƒ¡ áƒáƒ¦áƒ›áƒáƒ©áƒ”áƒœáƒ\nâ€¢ mesh áƒ¥áƒ¡áƒ”áƒšáƒ˜áƒ¡ áƒ™áƒáƒ•áƒ¨áƒ˜áƒ áƒ”áƒ‘áƒ˜áƒ¡ áƒ¨áƒ”áƒ¥áƒ›áƒœáƒ\nâ€¢ áƒ¨áƒ”áƒ¢áƒ§áƒáƒ‘áƒ˜áƒœáƒ”áƒ‘áƒ”áƒ‘áƒ˜áƒ¡ áƒ’áƒáƒ’áƒ–áƒáƒ•áƒœáƒ/áƒ›áƒ˜áƒ¦áƒ”áƒ‘áƒ\nâ€¢ áƒ›áƒ£áƒ¨áƒáƒáƒ‘áƒ áƒ˜áƒœáƒ¢áƒ”áƒ áƒœáƒ”áƒ¢áƒ˜áƒ¡ áƒáƒœ áƒ¡áƒ”áƒ áƒ•áƒ”áƒ áƒ”áƒ‘áƒ˜áƒ¡ áƒ’áƒáƒ áƒ”áƒ¨áƒ”</string>
+    <string name="enable_bluetooth">Bluetooth-áƒ˜áƒ¡ áƒ©áƒáƒ áƒ—áƒ•áƒ</string>
+    <string name="bluetooth_not_supported">Bluetooth áƒáƒ  áƒ›áƒ®áƒáƒ áƒ“áƒáƒ­áƒ”áƒ áƒ˜áƒšáƒ˜áƒ</string>
+    <string name="bluetooth_unsupported_explanation">áƒáƒ› áƒ›áƒáƒ¬áƒ§áƒáƒ‘áƒ˜áƒšáƒáƒ‘áƒáƒ¡ áƒáƒ  áƒ£áƒ­áƒ”áƒ áƒ¡ áƒ›áƒ®áƒáƒ áƒ¡ Bluetooth Low Energy (BLE), áƒ áƒáƒ›áƒ”áƒšáƒ˜áƒª áƒ¡áƒáƒ­áƒ˜áƒ áƒáƒ bitchat-áƒ˜áƒ¡áƒ—áƒ•áƒ˜áƒ¡.\n\nBLE áƒ¡áƒáƒ­áƒ˜áƒ áƒáƒ mesh áƒ¥áƒ¡áƒ”áƒšáƒ”áƒ‘áƒ˜áƒ¡ áƒ¨áƒ”áƒ¡áƒáƒ¥áƒ›áƒœáƒ”áƒšáƒáƒ“ áƒ“áƒ áƒáƒ®áƒšáƒáƒ›áƒ“áƒ”áƒ‘áƒáƒ áƒ” áƒ›áƒáƒ¬áƒ§áƒáƒ‘áƒ˜áƒšáƒáƒ‘áƒ”áƒ‘áƒ—áƒáƒœ áƒ˜áƒœáƒ¢áƒ”áƒ áƒœáƒ”áƒ¢áƒ˜áƒ¡ áƒ’áƒáƒ áƒ”áƒ¨áƒ” áƒ™áƒáƒ›áƒ£áƒœáƒ˜áƒ™áƒáƒªáƒ˜áƒ˜áƒ¡áƒ—áƒ•áƒ˜áƒ¡.</string>
+    <string name="checking_bluetooth_status">Bluetooth áƒ¡áƒ¢áƒáƒ¢áƒ£áƒ¡áƒ˜áƒ¡ áƒ¨áƒ”áƒ›áƒáƒ¬áƒ›áƒ”áƒ‘áƒâ€¦</string>
+    <string name="battery_optimization_detected_title">áƒ‘áƒáƒ¢áƒáƒ áƒ”áƒ˜áƒ¡ áƒáƒžáƒ¢áƒ˜áƒ›áƒ˜áƒ–áƒáƒªáƒ˜áƒ áƒáƒ¦áƒ›áƒáƒ©áƒœáƒ“áƒ</string>
+    <string name="battery_optimization_enabled_title">áƒ‘áƒáƒ¢áƒáƒ áƒ”áƒ˜áƒ¡ áƒáƒžáƒ¢áƒ˜áƒ›áƒ˜áƒ–áƒáƒªáƒ˜áƒ áƒ©áƒáƒ áƒ—áƒ£áƒšáƒ˜áƒ</string>
+    <string name="battery_optimization_explanation_short">mesh áƒ™áƒáƒ•áƒ¨áƒ˜áƒ áƒ”áƒ‘áƒ˜áƒ¡ áƒ¨áƒ”áƒ¡áƒáƒœáƒáƒ áƒ©áƒ£áƒœáƒ”áƒ‘áƒšáƒáƒ“ bitchat áƒ£áƒœáƒ“áƒ áƒ˜áƒ›áƒ£áƒ¨áƒáƒ•áƒáƒ¡ áƒ¤áƒáƒœáƒ¨áƒ˜. áƒ‘áƒáƒ¢áƒáƒ áƒ”áƒ˜áƒ¡ áƒáƒžáƒ¢áƒ˜áƒ›áƒ˜áƒ–áƒáƒªáƒ˜áƒáƒ› áƒ¨áƒ”áƒ˜áƒ«áƒšáƒ”áƒ‘áƒ áƒ“áƒáƒáƒ áƒ¦áƒ•áƒ˜áƒáƒ¡ áƒ”áƒ¡ áƒ™áƒáƒ•áƒ¨áƒ˜áƒ áƒ”áƒ‘áƒ˜.</string>
+    <string name="benefits_of_disabling">áƒ’áƒáƒ›áƒáƒ áƒ—áƒ•áƒ˜áƒ¡ áƒ¡áƒáƒ áƒ’áƒ”áƒ‘áƒ”áƒšáƒ˜</string>
+    <string name="battery_benefits_short">â€¢ áƒ¡áƒáƒœáƒ“áƒ áƒ›áƒ˜áƒ¬áƒáƒ“áƒ”áƒ‘áƒ\nâ€¢ mesh áƒ™áƒáƒ•áƒ¨áƒ˜áƒ áƒ˜áƒ¡ áƒ¨áƒ”áƒœáƒáƒ áƒ©áƒ£áƒœáƒ”áƒ‘áƒ\nâ€¢ áƒ’áƒáƒ—áƒ˜áƒ¨áƒ•áƒ”áƒ‘áƒ˜áƒ¡ áƒ—áƒáƒ•áƒ˜áƒ“áƒáƒœ áƒáƒªáƒ˜áƒšáƒ”áƒ‘áƒ</string>
+    <string name="disable_battery_optimization">áƒ‘áƒáƒ¢áƒáƒ áƒ”áƒ˜áƒ¡ áƒáƒžáƒ¢áƒ˜áƒ›áƒ˜áƒ–áƒáƒªáƒ˜áƒ˜áƒ¡ áƒ’áƒáƒ›áƒáƒ áƒ—áƒ•áƒ</string>
+    <string name="battery_optimization_disabled_title">áƒ‘áƒáƒ¢áƒáƒ áƒ”áƒ˜áƒ¡ áƒáƒžáƒ¢áƒ˜áƒ›áƒ˜áƒ–áƒáƒªáƒ˜áƒ áƒ’áƒáƒ›áƒáƒ áƒ—áƒ£áƒšáƒ˜áƒ</string>
+    <string name="continue_btn">áƒ’áƒáƒ’áƒ áƒ«áƒ”áƒšáƒ”áƒ‘áƒ</string>
+    <string name="initializing_mesh_network">mesh áƒ¥áƒ¡áƒ”áƒšáƒ˜áƒ¡ áƒ˜áƒœáƒ˜áƒªáƒ˜áƒáƒšáƒ˜áƒ–áƒáƒªáƒ˜áƒ</string>
+    <string name="setting_up_bluetooth">Bluetooth mesh áƒ¥áƒ¡áƒ”áƒšáƒ˜áƒ¡ áƒ›áƒáƒ¬áƒ§áƒáƒ‘áƒâ€¦</string>
+    <string name="should_take_seconds">áƒ”áƒ¡ áƒ áƒáƒ›áƒ“áƒ”áƒœáƒ˜áƒ›áƒ” áƒ¬áƒáƒ›áƒ¡ áƒ£áƒœáƒ“áƒ áƒ’áƒáƒ’áƒ áƒ«áƒ”áƒšáƒ“áƒ”áƒ¡</string>
+    <string name="setup_not_complete">áƒ›áƒáƒ¬áƒ§áƒáƒ‘áƒ áƒ“áƒáƒ£áƒ¡áƒ áƒ£áƒšáƒ”áƒ‘áƒ”áƒšáƒ˜áƒ</string>
+    <string name="try_again">áƒ™áƒ•áƒšáƒáƒ• áƒªáƒ“áƒ</string>
+    <string name="privacy_protected">áƒ—áƒ¥áƒ•áƒ”áƒœáƒ˜ áƒ™áƒáƒœáƒ¤áƒ˜áƒ“áƒ”áƒœáƒªáƒ˜áƒáƒšáƒáƒ‘áƒ áƒ“áƒáƒªáƒ£áƒšáƒ˜áƒ</string>
+    <string name="privacy_bullets">â€¢ áƒ¢áƒ áƒ”áƒ™áƒ˜áƒœáƒ’áƒ˜ áƒáƒœ áƒ›áƒáƒœáƒáƒªáƒ”áƒ›áƒ—áƒ áƒ¨áƒ”áƒ’áƒ áƒáƒ•áƒ”áƒ‘áƒ áƒáƒ áƒ\nâ€¢ Bluetooth mesh-áƒ©áƒáƒ—áƒ”áƒ‘áƒ˜ áƒ¡áƒ áƒ£áƒšáƒáƒ“ áƒáƒ¤áƒšáƒáƒ˜áƒœ\nâ€¢ geohash áƒ©áƒáƒ—áƒ˜ áƒ˜áƒ§áƒ”áƒœáƒ”áƒ‘áƒ¡ áƒ˜áƒœáƒ¢áƒ”áƒ áƒœáƒ”áƒ¢áƒ¡</string>
+    <string name="permissions_header">áƒœáƒ”áƒ‘áƒáƒ áƒ—áƒ•áƒ”áƒ‘áƒ˜</string>
+    <string name="grant_permissions">áƒœáƒ”áƒ‘áƒáƒ áƒ—áƒ•áƒ”áƒ‘áƒ˜áƒ¡ áƒ›áƒ˜áƒœáƒ˜áƒ­áƒ”áƒ‘áƒ</string>
+    <string name="location_tracking_warning">bitchat áƒáƒ  áƒáƒ™áƒáƒœáƒ¢áƒ áƒáƒšáƒ”áƒ‘áƒ¡ áƒ—áƒ¥áƒ•áƒ”áƒœáƒ¡ áƒ›áƒ“áƒ”áƒ‘áƒáƒ áƒ”áƒáƒ‘áƒáƒ¡</string>
+    <string name="geohash_people_header">áƒ®áƒáƒšáƒ®áƒ˜</string>
+    <string name="nobody_around">áƒáƒ áƒáƒ•áƒ˜áƒœ áƒáƒ áƒ˜áƒ¡ áƒáƒ®áƒšáƒáƒ¡â€¦</string>
+    <string name="you_suffix"> (áƒ—áƒ¥áƒ•áƒ”áƒœ)</string>
+    <string name="pan_zoom_instruction">áƒžáƒáƒœáƒáƒ áƒáƒ›áƒ˜áƒ áƒ”áƒ‘áƒ/áƒ–áƒ£áƒ›áƒ˜ geohash-áƒ˜áƒ¡ áƒáƒ¡áƒáƒ áƒ©áƒ”áƒ•áƒáƒ“</string>
+    <string name="select">áƒáƒ áƒ©áƒ”áƒ•áƒ</string>
+    <string name="type_a_message_placeholder">áƒ¨áƒ”áƒ˜áƒ§áƒ•áƒáƒœáƒ”áƒ— áƒ¨áƒ”áƒ¢áƒ§áƒáƒ‘áƒ˜áƒœáƒ”áƒ‘áƒâ€¦</string>
+    <string name="mention">áƒ®áƒ¡áƒ”áƒœáƒ”áƒ‘áƒ</string>
     <string name="pow_time_estimate">(~%1$s)</string>
     <string name="version_prefix">v%1$s</string>
     <string name="image_star">image/*</string>
-    <string name="media_type_image">სურათი</string>
-    <string name="media_type_file">ფაილი</string>
+    <string name="media_type_image">áƒ¡áƒ£áƒ áƒáƒ—áƒ˜</string>
+    <string name="media_type_file">áƒ¤áƒáƒ˜áƒšáƒ˜</string>
 
-    <!-- შეტყობინებების ტექსტის დამხმარეები -->
-    <string name="notification_sent_image">📷 გაგზავნა სურათი</string>
-    <string name="notification_sent_voice">🎤 გაგზავნა ხმოვანი შენიშვნა</string>
-    <string name="notification_sent_file">📎 გაგზავნა ფაილი</string>
+    <!-- áƒ¨áƒ”áƒ¢áƒ§áƒáƒ‘áƒ˜áƒœáƒ”áƒ‘áƒ”áƒ‘áƒ˜áƒ¡ áƒ¢áƒ”áƒ¥áƒ¡áƒ¢áƒ˜áƒ¡ áƒ“áƒáƒ›áƒ®áƒ›áƒáƒ áƒ”áƒ”áƒ‘áƒ˜ -->
+    <string name="notification_sent_image">ðŸ“· áƒ’áƒáƒ’áƒ–áƒáƒ•áƒœáƒ áƒ¡áƒ£áƒ áƒáƒ—áƒ˜</string>
+    <string name="notification_sent_voice">ðŸŽ¤ áƒ’áƒáƒ’áƒ–áƒáƒ•áƒœáƒ áƒ®áƒ›áƒáƒ•áƒáƒœáƒ˜ áƒ¨áƒ”áƒœáƒ˜áƒ¨áƒ•áƒœáƒ</string>
+    <string name="notification_sent_file">ðŸ“Ž áƒ’áƒáƒ’áƒ–áƒáƒ•áƒœáƒ áƒ¤áƒáƒ˜áƒšáƒ˜</string>
 
-    <!-- ხმოვანი დამკვრელის ხელმისაწვდომობა -->
-    <string name="cd_play_voice">დაკვრა</string>
-    <string name="cd_pause_voice">პაუზა</string>
-    <string name="cd_mining_pow">PoW მაინინგი</string>
-    <string name="cd_pow_enabled">PoW ჩართულია</string>
+    <!-- áƒ®áƒ›áƒáƒ•áƒáƒœáƒ˜ áƒ“áƒáƒ›áƒ™áƒ•áƒ áƒ”áƒšáƒ˜áƒ¡ áƒ®áƒ”áƒšáƒ›áƒ˜áƒ¡áƒáƒ¬áƒ•áƒ“áƒáƒ›áƒáƒ‘áƒ -->
+    <string name="cd_play_voice">áƒ“áƒáƒ™áƒ•áƒ áƒ</string>
+    <string name="cd_pause_voice">áƒžáƒáƒ£áƒ–áƒ</string>
+    <string name="cd_mining_pow">PoW áƒ›áƒáƒ˜áƒœáƒ˜áƒœáƒ’áƒ˜</string>
+    <string name="cd_pow_enabled">PoW áƒ©áƒáƒ áƒ—áƒ£áƒšáƒ˜áƒ</string>
     <string name="cd_proof_of_work">Proof of Work</string>
-    <string name="pow_mining_ellipsis">მაინინგი…</string>
+    <string name="pow_mining_ellipsis">áƒ›áƒáƒ˜áƒœáƒ˜áƒœáƒ’áƒ˜â€¦</string>
     <string name="pow_label_format">pow: %1$dbit</string>
 
-    <!-- ნებართვების აღწერები -->
-    <string name="perm_nearby_devices_desc">საჭიროა bitchat მომხმარებლების Bluetooth-ით აღმოსაჩენად</string>
-    <string name="perm_nearby_devices_system">დაუშვით bitchat-ს დაუკავშირდეს ახლომდებარე მოწყობილობებს</string>
-    <string name="perm_location_desc">Android მოითხოვს ახლომდებარე bitchat მომხმარებლების Bluetooth-ით აღმოსაჩენად</string>
-    <string name="perm_location_system">ეს საჭიროა ახლომდებარე მოწყობილობების დასასკანად</string>
-    <string name="perm_notifications_desc">საინფორმაციო შეტყობინებების მიღება პირადი მესიჯებისას</string>
-    <string name="perm_notifications_system">დაუშვით bitchat-ს გამოგიგზავნოთ შეტყობინებები</string>
-    <string name="perm_battery_desc">გამორთეთ ბატარეის ოპტიმიზაცია, რომ bitchat სანდოდ იმუშაოს ფონში და შეინარჩუნოს mesh-კავშირები</string>
-    <string name="perm_battery_system">დაუშვით bitchat-ს იმუშაოს ბატარეის შეზღუდვების გარეშე</string>
+    <!-- áƒœáƒ”áƒ‘áƒáƒ áƒ—áƒ•áƒ”áƒ‘áƒ˜áƒ¡ áƒáƒ¦áƒ¬áƒ”áƒ áƒ”áƒ‘áƒ˜ -->
+    <string name="perm_nearby_devices_desc">áƒ¡áƒáƒ­áƒ˜áƒ áƒáƒ bitchat áƒ›áƒáƒ›áƒ®áƒ›áƒáƒ áƒ”áƒ‘áƒšáƒ”áƒ‘áƒ˜áƒ¡ Bluetooth-áƒ˜áƒ— áƒáƒ¦áƒ›áƒáƒ¡áƒáƒ©áƒ”áƒœáƒáƒ“</string>
+    <string name="perm_nearby_devices_system">áƒ“áƒáƒ£áƒ¨áƒ•áƒ˜áƒ— bitchat-áƒ¡ áƒ“áƒáƒ£áƒ™áƒáƒ•áƒ¨áƒ˜áƒ áƒ“áƒ”áƒ¡ áƒáƒ®áƒšáƒáƒ›áƒ“áƒ”áƒ‘áƒáƒ áƒ” áƒ›áƒáƒ¬áƒ§áƒáƒ‘áƒ˜áƒšáƒáƒ‘áƒ”áƒ‘áƒ¡</string>
+    <string name="perm_location_desc">Android áƒ›áƒáƒ˜áƒ—áƒ®áƒáƒ•áƒ¡ áƒáƒ®áƒšáƒáƒ›áƒ“áƒ”áƒ‘áƒáƒ áƒ” bitchat áƒ›áƒáƒ›áƒ®áƒ›áƒáƒ áƒ”áƒ‘áƒšáƒ”áƒ‘áƒ˜áƒ¡ Bluetooth-áƒ˜áƒ— áƒáƒ¦áƒ›áƒáƒ¡áƒáƒ©áƒ”áƒœáƒáƒ“</string>
+    <string name="perm_location_system">áƒ”áƒ¡ áƒ¡áƒáƒ­áƒ˜áƒ áƒáƒ áƒáƒ®áƒšáƒáƒ›áƒ“áƒ”áƒ‘áƒáƒ áƒ” áƒ›áƒáƒ¬áƒ§áƒáƒ‘áƒ˜áƒšáƒáƒ‘áƒ”áƒ‘áƒ˜áƒ¡ áƒ“áƒáƒ¡áƒáƒ¡áƒ™áƒáƒœáƒáƒ“</string>
+    <string name="perm_notifications_desc">áƒ¡áƒáƒ˜áƒœáƒ¤áƒáƒ áƒ›áƒáƒªáƒ˜áƒ áƒ¨áƒ”áƒ¢áƒ§áƒáƒ‘áƒ˜áƒœáƒ”áƒ‘áƒ”áƒ‘áƒ˜áƒ¡ áƒ›áƒ˜áƒ¦áƒ”áƒ‘áƒ áƒžáƒ˜áƒ áƒáƒ“áƒ˜ áƒ›áƒ”áƒ¡áƒ˜áƒ¯áƒ”áƒ‘áƒ˜áƒ¡áƒáƒ¡</string>
+    <string name="perm_notifications_system">áƒ“áƒáƒ£áƒ¨áƒ•áƒ˜áƒ— bitchat-áƒ¡ áƒ’áƒáƒ›áƒáƒ’áƒ˜áƒ’áƒ–áƒáƒ•áƒœáƒáƒ— áƒ¨áƒ”áƒ¢áƒ§áƒáƒ‘áƒ˜áƒœáƒ”áƒ‘áƒ”áƒ‘áƒ˜</string>
+    <string name="perm_battery_desc">áƒ’áƒáƒ›áƒáƒ áƒ—áƒ”áƒ— áƒ‘áƒáƒ¢áƒáƒ áƒ”áƒ˜áƒ¡ áƒáƒžáƒ¢áƒ˜áƒ›áƒ˜áƒ–áƒáƒªáƒ˜áƒ, áƒ áƒáƒ› bitchat áƒ¡áƒáƒœáƒ“áƒáƒ“ áƒ˜áƒ›áƒ£áƒ¨áƒáƒáƒ¡ áƒ¤áƒáƒœáƒ¨áƒ˜ áƒ“áƒ áƒ¨áƒ”áƒ˜áƒœáƒáƒ áƒ©áƒ£áƒœáƒáƒ¡ mesh-áƒ™áƒáƒ•áƒ¨áƒ˜áƒ áƒ”áƒ‘áƒ˜</string>
+    <string name="perm_battery_system">áƒ“áƒáƒ£áƒ¨áƒ•áƒ˜áƒ— bitchat-áƒ¡ áƒ˜áƒ›áƒ£áƒ¨áƒáƒáƒ¡ áƒ‘áƒáƒ¢áƒáƒ áƒ”áƒ˜áƒ¡ áƒ¨áƒ”áƒ–áƒ¦áƒ£áƒ“áƒ•áƒ”áƒ‘áƒ˜áƒ¡ áƒ’áƒáƒ áƒ”áƒ¨áƒ”</string>
 
-    <!-- ნებართვების ტიპები -->
-    <string name="perm_type_nearby_devices">ახლომდებარე მოწყობილობები</string>
-    <string name="perm_type_precise_location">ზუსტი მდებარეობა</string>
-    <string name="perm_type_microphone">მიკროფონი</string>
-    <string name="perm_type_notifications">შეტყობინებები</string>
-    <string name="perm_type_battery_optimization">ბატარეის ოპტიმიზაცია</string>
-    <string name="perm_type_other">სხვა</string>
+    <!-- áƒœáƒ”áƒ‘áƒáƒ áƒ—áƒ•áƒ”áƒ‘áƒ˜áƒ¡ áƒ¢áƒ˜áƒžáƒ”áƒ‘áƒ˜ -->
+    <string name="perm_type_nearby_devices">áƒáƒ®áƒšáƒáƒ›áƒ“áƒ”áƒ‘áƒáƒ áƒ” áƒ›áƒáƒ¬áƒ§áƒáƒ‘áƒ˜áƒšáƒáƒ‘áƒ”áƒ‘áƒ˜</string>
+    <string name="perm_type_precise_location">áƒ–áƒ£áƒ¡áƒ¢áƒ˜ áƒ›áƒ“áƒ”áƒ‘áƒáƒ áƒ”áƒáƒ‘áƒ</string>
+    <string name="perm_type_microphone">áƒ›áƒ˜áƒ™áƒ áƒáƒ¤áƒáƒœáƒ˜</string>
+    <string name="perm_type_notifications">áƒ¨áƒ”áƒ¢áƒ§áƒáƒ‘áƒ˜áƒœáƒ”áƒ‘áƒ”áƒ‘áƒ˜</string>
+    <string name="perm_type_battery_optimization">áƒ‘áƒáƒ¢áƒáƒ áƒ”áƒ˜áƒ¡ áƒáƒžáƒ¢áƒ˜áƒ›áƒ˜áƒ–áƒáƒªáƒ˜áƒ</string>
+    <string name="perm_type_other">áƒ¡áƒ®áƒ•áƒ</string>
 
-    <!-- პაროლის დიალოგი -->
-    <string name="pwd_prompt_title">შეიყვანეთ არხის პაროლი</string>
-    <string name="pwd_prompt_message">არხი %1$s დაცულია პაროლით. შეიყვანეთ პაროლი შესაერთებლად.</string>
-    <string name="pwd_label">პაროლი</string>
-    <string name="join">შეუერთდი</string>
-    <string name="cancel">გაუქმება</string>
+    <!-- áƒžáƒáƒ áƒáƒšáƒ˜áƒ¡ áƒ“áƒ˜áƒáƒšáƒáƒ’áƒ˜ -->
+    <string name="pwd_prompt_title">áƒ¨áƒ”áƒ˜áƒ§áƒ•áƒáƒœáƒ”áƒ— áƒáƒ áƒ®áƒ˜áƒ¡ áƒžáƒáƒ áƒáƒšáƒ˜</string>
+    <string name="pwd_prompt_message">áƒáƒ áƒ®áƒ˜ %1$s áƒ“áƒáƒªáƒ£áƒšáƒ˜áƒ áƒžáƒáƒ áƒáƒšáƒ˜áƒ—. áƒ¨áƒ”áƒ˜áƒ§áƒ•áƒáƒœáƒ”áƒ— áƒžáƒáƒ áƒáƒšáƒ˜ áƒ¨áƒ”áƒ¡áƒáƒ”áƒ áƒ—áƒ”áƒ‘áƒšáƒáƒ“.</string>
+    <string name="pwd_label">áƒžáƒáƒ áƒáƒšáƒ˜</string>
+    <string name="join">áƒ¨áƒ”áƒ£áƒ”áƒ áƒ—áƒ“áƒ˜</string>
+    <string name="cancel">áƒ’áƒáƒ£áƒ¥áƒ›áƒ”áƒ‘áƒ</string>
 
-    <!-- მრავლობითი რიცხვები -->
+    <!-- áƒ›áƒ áƒáƒ•áƒšáƒáƒ‘áƒ˜áƒ—áƒ˜ áƒ áƒ˜áƒªáƒ®áƒ•áƒ”áƒ‘áƒ˜ -->
     <plurals name="notification_and_more">
-        <item quantity="one">და კიდევ %d</item>
-        <item quantity="other">და კიდევ %d</item>
+        <item quantity="one">áƒ“áƒ áƒ™áƒ˜áƒ“áƒ”áƒ• %d</item>
+        <item quantity="other">áƒ“áƒ áƒ™áƒ˜áƒ“áƒ”áƒ• %d</item>
     </plurals>
 
     <plurals name="people_count">
-        <item quantity="one">1 ადამიანი</item>
-        <item quantity="other">%d ადამიანი</item>
+        <item quantity="one">1 áƒáƒ“áƒáƒ›áƒ˜áƒáƒœáƒ˜</item>
+        <item quantity="other">%d áƒáƒ“áƒáƒ›áƒ˜áƒáƒœáƒ˜</item>
     </plurals>
 
-    <string name="mesh_service_notification_content">Mesh გაშვებულია — %1$d პირები</string>
+    <string name="mesh_service_notification_content">Mesh áƒ’áƒáƒ¨áƒ•áƒ”áƒ‘áƒ£áƒšáƒ˜áƒ â€” %1$d áƒžáƒ˜áƒ áƒ”áƒ‘áƒ˜</string>
 
   <string name="verify_title">verify</string>
   <string name="verify_my_qr_title">scan to verify me</string>
@@ -387,3 +387,4 @@
   <string name="verify_success_body">You verified %1$s</string>
   <string name="verify_success_system_message">verified %1$s</string>
 </resources>
+

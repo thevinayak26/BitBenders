@@ -17,6 +17,13 @@ import com.bitchat.android.ui.theme.BASE_FONT_SIZE
 import java.text.SimpleDateFormat
 import java.util.*
 
+fun toDisplayMessageContent(raw: String): String {
+    return raw
+        .removePrefix("SOS::")
+        .removePrefix("ACK::")
+        .trim()
+}
+
 /**
  * Utility functions for ChatScreen UI components
  * Extracted from ChatScreen.kt for better organization
@@ -117,7 +124,8 @@ fun formatMessageAsAnnotatedString(
         builder.pop()
         
         // Message content with iOS-style hashtag and mention highlighting
-        appendIOSFormattedContent(builder, message.content, message.mentions, currentUserNickname, baseColor, isSelf, isDark)
+        val displayContent = toDisplayMessageContent(message.content)
+        appendIOSFormattedContent(builder, displayContent, message.mentions, currentUserNickname, baseColor, isSelf, isDark)
         
         // iOS-style timestamp at the END (smaller, grey)
         // Timestamp (and optional PoW badge)
@@ -141,7 +149,7 @@ fun formatMessageAsAnnotatedString(
             fontSize = (BASE_FONT_SIZE - 2).sp,
             fontStyle = androidx.compose.ui.text.font.FontStyle.Italic
         ))
-        builder.append("* ${message.content} *")
+        builder.append("* ${toDisplayMessageContent(message.content)} *")
         builder.pop()
         
         // Timestamp for system messages too

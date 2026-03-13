@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">bitchat</string>
+    <string name="app_name">RescueChat</string>
 
     <!-- Fanazavana momba ny alalana -->
     <string name="permission_bluetooth_rationale">Ilaina ny alalana Bluetooth mba hifandraisan-davitra tsy misy Internet.</string>
@@ -9,7 +9,7 @@
 
     <!-- Soso-kevitra / UI fototra -->
     <string name="nickname_hint">anarana kely</string>
-    <string name="message_hint">soraty hafatra…</string>
+    <string name="message_hint">soraty hafatraâ€¦</string>
     <string name="channel_password_hint">Teny miafina</string>
     <string name="join_channel">Hiditra amin\'ny fantsona</string>
     <string name="leave_channel">Hiala</string>
@@ -32,10 +32,10 @@
     <string name="battery_optimization_explanation">Mihazakazaka ao ambadika ny bitchat mba hitazona ny fifandraisana tambazotry mesh amin\'ny fitaovana akaiky. Ny fanamafisana bateria dia afaka manelingelina ireo fifandraisana ireo, ka mahatonga ny hafatra hataran-tara na very.\n\nNy fanajanona ny fanamafisana bateria dia miantoka ny fifandraisan-davitra azo itokisana.</string>
     <string name="battery_optimization_disable_button">Hajanona ny Fanamafisana Bateria</string>
     <string name="battery_optimization_note">Fanamarihana: Azonao ovaina ato aoriana izany amin\'ny Toetry Android &gt; Apps &gt; bitchat &gt; Bateria</string>
-    <string name="battery_optimization_not_supported_explanation">Ny fitaovanao dia tsy mila fametrahana fanamafisana bateria. Ny bitchat dia handeha ara-dalàna.</string>
-    <string name="battery_optimization_not_supported_message">Ny fitaovanao dia tsy mila fametrahana fanamafisana bateria. Ny bitchat dia handeha ara-dalàna.</string>
+    <string name="battery_optimization_not_supported_explanation">Ny fitaovanao dia tsy mila fametrahana fanamafisana bateria. Ny bitchat dia handeha ara-dalÃ na.</string>
+    <string name="battery_optimization_not_supported_message">Ny fitaovanao dia tsy mila fametrahana fanamafisana bateria. Ny bitchat dia handeha ara-dalÃ na.</string>
     <string name="battery_optimization_success_message">Afaka mihazakazaka azo itokisana ao ambadika ny bitchat</string>
-    <string name="battery_optimization_benefits">• Miantoka ny fandefasana hafatra azo itokisana\n• Mitazona ny fifandraisana tambazotry mesh\n• Mamela ny famindrana hafatra ao ambadika\n• Misoroka ny fahatapahan\'ny fifandraisana</string>
+    <string name="battery_optimization_benefits">â€¢ Miantoka ny fandefasana hafatra azo itokisana\nâ€¢ Mitazona ny fifandraisana tambazotry mesh\nâ€¢ Mamela ny famindrana hafatra ao ambadika\nâ€¢ Misoroka ny fahatapahan\'ny fifandraisana</string>
     <string name="battery_optimization_check_again">Hanamarina indray</string>
     <string name="battery_optimization_skip">Hitsambikina ankehitriny</string>
     <string name="battery_optimization_continue">Hanohy</string>
@@ -46,7 +46,7 @@
     <string name="notification_summary_more">ary %1$d hafa</string>
     <string name="notification_messages_from_people">%1$d hafatra avy amin\'ny olona %2$d</string>
     <string name="notification_more_conversations">ary %1$d resaka hafa</string>
-    <string name="notification_active_peers_title">👥 bitchatter akaiky!</string>
+    <string name="notification_active_peers_title">ðŸ‘¥ bitchatter akaiky!</string>
     <string name="notification_active_peers_one">Olona 1 manodidina</string>
     <string name="notification_active_peers_many">Olona %1$d manodidina</string>
     <string name="notification_new_messages">Hafatra vaovao</string>
@@ -87,12 +87,12 @@
     <string name="cd_handshake_failed">Tsy nahomby ny fifampiraharahana</string>
 
     <!-- Fifanakalozan-dresaka momba ny rakitra -->
-    <string name="file_viewer_title">📎 Rakitra Voaray</string>
-    <string name="file_viewer_name">📄 %1$s</string>
-    <string name="file_viewer_size">📏 Habeny: %1$s</string>
-    <string name="file_viewer_type">🏷️ Karazana: %1$s</string>
-    <string name="file_viewer_open_save">📂 Hanokatra / Hitahiry</string>
-    <string name="close_with_emoji">❌ Hanakatona</string>
+    <string name="file_viewer_title">ðŸ“Ž Rakitra Voaray</string>
+    <string name="file_viewer_name">ðŸ“„ %1$s</string>
+    <string name="file_viewer_size">ðŸ“ Habeny: %1$s</string>
+    <string name="file_viewer_type">ðŸ·ï¸ Karazana: %1$s</string>
+    <string name="file_viewer_open_save">ðŸ“‚ Hanokatra / Hitahiry</string>
+    <string name="close_with_emoji">âŒ Hanakatona</string>
     <string name="pick_image">Hifidy sary</string>
 
     <!-- Momba ny takelaka -->
@@ -129,7 +129,7 @@
     <string name="about_emergency_title">Famafana Angona Maika</string>
     <string name="about_emergency_tip">Toro-hevitra: Tsindrio in-telo ny anaran\'ny fampiharana mba hamafana maika ny angona rehetra voatahiry ao anatin\'izany ny hafatra, ny lakile ary ny fametrahana.</string>
     <string name="about_debug_settings">Fametrahana Debug</string>
-    <string name="about_footer">Loharanom-baovao misokatra • Fiainana manokana voalohany • Tsy misy foibe</string>
+    <string name="about_footer">Loharanom-baovao misokatra â€¢ Fiainana manokana voalohany â€¢ Tsy misy foibe</string>
     <string name="close_plain">Hanakatona</string>
     <string name="cancel_lower">hanafoana</string>
 
@@ -201,7 +201,7 @@
     <string name="open_settings">Hanokatra fametrahana</string>
     <string name="location_permission_granted">\u2713 omena ny alalana momba ny toerana</string>
     <string name="checking_permissions">manamarina ny alalana...</string>
-    <string name="finding_nearby_channels">mitady fantsona akaiky…</string>
+    <string name="finding_nearby_channels">mitady fantsona akaikyâ€¦</string>
     <string name="bookmarked">voaisy bookmark</string>
     <string name="geohash_placeholder">geohash</string>
     <string name="invalid_geohash">geohash tsy mety</string>
@@ -211,10 +211,10 @@
     <string name="mesh_label">mesh</string>
     <string name="location_level_block">sakana</string>
     <string name="location_level_neighborhood">manodidina</string>
-    <string name="location_level_city">tanàna</string>
+    <string name="location_level_city">tanÃ na</string>
     <string name="location_level_province">faritany</string>
     <string name="location_level_region">faritra</string>
-    <string name="location_bluetooth_subtitle">#bluetooth • %1$s</string>
+    <string name="location_bluetooth_subtitle">#bluetooth â€¢ %1$s</string>
 
     <!-- Debug / Diagnostika -->
     <string name="debug_tools">fitaovana debug</string>
@@ -234,7 +234,7 @@
     <string name="debug_roles_hint">alefaso / tapaho ny andraikitra ary akatony ny fifandraisana rehetra rehefa tapaka</string>
     <string name="debug_sync_settings">fametrahana sync</string>
     <string name="debug_max_packets_per_sync_fmt">pakets max isaky ny sync: %1$d</string>
-    <string name="debug_max_gcs_filter_size_fmt">haben\'ny sivana GCS max: %1$d bytes (128–1024)</string>
+    <string name="debug_max_gcs_filter_size_fmt">haben\'ny sivana GCS max: %1$d bytes (128â€“1024)</string>
     <string name="debug_target_fpr_fmt">FPR kendrena: %1$.2f%%</string>
     <string name="debug_connected_devices">fitaovana mifandray</string>
     <string name="debug_our_device_id_fmt">ID fitaovanay: %1$s</string>
@@ -244,9 +244,9 @@
     <string name="debug_connect">hifandray</string>
     <string name="debug_debug_console">console debug</string>
     <string name="debug_clear">hamafa</string>
-    <string name="debug_relays_window_fmt">10s farany: %1$d • 1m: %2$d • 15m: %3$d</string>
-    <string name="debug_derived_p_fmt">P azo: %1$s • tombana singa max: %2$s</string>
-    <string name="debug_direct_suffix"> • mivantana</string>
+    <string name="debug_relays_window_fmt">10s farany: %1$d â€¢ 1m: %2$d â€¢ 15m: %3$d</string>
+    <string name="debug_derived_p_fmt">P azo: %1$s â€¢ tombana singa max: %2$s</string>
+    <string name="debug_direct_suffix"> â€¢ mivantana</string>
     <string name="debug_role_server">ho mpizara (isika mampiantrano)</string>
     <string name="debug_role_client">ho mpanjifa (isika mifandray)</string>
 
@@ -255,7 +255,7 @@
     <string name="privacy_first">Fiainana Manokana Voalohany</string>
     <string name="location_explanation">Ny bitchat dia TSY manaraka ny toerananao.\n\nIlaina ny sampan-draharaham-pitoerana ho an\'ny scan Bluetooth sy ny endri-javatra resaka Geohash.</string>
     <string name="location_needs_for">Ny bitchat dia mila sampan-draharaham-pitoerana ho an\'ny:</string>
-    <string name="location_needs_bullets">• Scan fitaovana Bluetooth\n• Fahitana mpampiasa akaiky amin\'ny tambazotry mesh\n• Endri-javatra resaka Geohash\n• Tsy misy fanaraha-maso na fanangonana toerana</string>
+    <string name="location_needs_bullets">â€¢ Scan fitaovana Bluetooth\nâ€¢ Fahitana mpampiasa akaiky amin\'ny tambazotry mesh\nâ€¢ Endri-javatra resaka Geohash\nâ€¢ Tsy misy fanaraha-maso na fanangonana toerana</string>
     <string name="open_location_settings">Hanokatra Fametrahana Toerana</string>
     <string name="check_again">Hanamarina Indray</string>
     <string name="location_services_unavailable">Tsy Misy Sampan-draharaham-pitoerana</string>
@@ -263,7 +263,7 @@
     <string name="checking_location_services">Manamarina sampan-draharaham-pitoerana...</string>
     <string name="bluetooth_required">Ilaina ny Bluetooth</string>
     <string name="bluetooth_needs_for">Mila Bluetooth ny bitchat mba:</string>
-    <string name="bluetooth_needs_bullets">• Hahita mpampiasa akaiky\n• Hamorona fifandraisana tambazotry mesh\n• Handefa sy handray hafatra\n• Hiasa tsy misy Internet na mpizara</string>
+    <string name="bluetooth_needs_bullets">â€¢ Hahita mpampiasa akaiky\nâ€¢ Hamorona fifandraisana tambazotry mesh\nâ€¢ Handefa sy handray hafatra\nâ€¢ Hiasa tsy misy Internet na mpizara</string>
     <string name="enable_bluetooth">Alefaso ny Bluetooth</string>
     <string name="bluetooth_not_supported">Tsy Tohanana ny Bluetooth</string>
     <string name="bluetooth_unsupported_explanation">Ity fitaovana ity dia tsy manohana ny Bluetooth Low Energy (BLE), izay ilaina mba hiasan\'ny bitchat.\n\nMila BLE ny bitchat mba hamoronana tambazotry mesh sy hifandray amin\'ny fitaovana akaiky tsy misy Internet.</string>
@@ -272,7 +272,7 @@
     <string name="battery_optimization_enabled_title">Alefa ny Fanamafisana Bateria</string>
     <string name="battery_optimization_explanation_short">Mila mihazakazaka ao ambadika ny bitchat mba hitazona ny fifandraisana mesh. ny fanamafisana bateria dia afaka manelingelina ireo fifandraisana ireo.</string>
     <string name="benefits_of_disabling">Tombontsoam-panajanona</string>
-    <string name="battery_benefits_short">• fandefasana hafatra azo itokisana\n• mitazona ny fifandraisana mesh\n• misoroka ny fahatapahan\'ny fifandraisana</string>
+    <string name="battery_benefits_short">â€¢ fandefasana hafatra azo itokisana\nâ€¢ mitazona ny fifandraisana mesh\nâ€¢ misoroka ny fahatapahan\'ny fifandraisana</string>
     <string name="disable_battery_optimization">Hajanona ny Fanamafisana Bateria</string>
     <string name="battery_optimization_disabled_title">najanona ny fanamafisana bateria</string>
     <string name="continue_btn">Hanohy</string>
@@ -280,17 +280,17 @@
     <string name="dot">.</string>
     <string name="setting_up_bluetooth">Mametraka ny tambazotry mesh Bluetooth...</string>
     <string name="should_take_seconds">Tokony haharitra segaondra vitsivitsy ihany izany</string>
-    <string name="warning_emoji">⚠️</string>
+    <string name="warning_emoji">âš ï¸</string>
     <string name="setup_not_complete">Tsy Vita ny Fametrahana</string>
     <string name="try_again">Andramo Indray</string>
     <string name="privacy_protected">Voaaro ny Fiainanao Manokana</string>
-    <string name="privacy_bullets">• tsy misy fanaraha-maso na fanangonana angona\n• tsy an-tserasera tanteraka ny resaka mesh Bluetooth\n• mampiasa Internet ny resaka Geohash</string>
+    <string name="privacy_bullets">â€¢ tsy misy fanaraha-maso na fanangonana angona\nâ€¢ tsy an-tserasera tanteraka ny resaka mesh Bluetooth\nâ€¢ mampiasa Internet ny resaka Geohash</string>
     <string name="permissions_header">alalana</string>
     <string name="grant_permissions">Omeo Alalana</string>
     <string name="location_tracking_warning">Ny bitchat dia TSY manaraka ny toerananao</string>
     <string name="at_symbol">@</string>
     <string name="app_brand">bitchat/</string>
-    <string name="channel_count_prefix"> · ⧉ </string>
+    <string name="channel_count_prefix"> Â· â§‰ </string>
     <string name="geohash_people_header">OLONA</string>
     <string name="nobody_around">tsy misy olona manodidina...</string>
     <string name="you_suffix"> (ianao)</string>
@@ -306,30 +306,30 @@
     <string name="hash_symbol">#</string>
     <string name="underscore">_</string>
     <string name="progress_bar_brackets">[%1$s] %2$d%%</string>
-    <string name="progress_filled">█</string>
-    <string name="progress_empty">░</string>
+    <string name="progress_filled">â–ˆ</string>
+    <string name="progress_empty">â–‘</string>
     <string name="image_star">image/*</string>
     <string name="media_type_image">Sary</string>
     <string name="media_type_file">Rakitra</string>
 
     <!-- Famantarana toe-javatra hafatra -->
-    <string name="status_sending">○</string>
-    <string name="status_pending">○</string>
-    <string name="status_sent">✓</string>
-    <string name="status_delivered">✓✓</string>
-    <string name="status_failed">⚠</string>
-    <string name="status_read">✓</string>
+    <string name="status_sending">â—‹</string>
+    <string name="status_pending">â—‹</string>
+    <string name="status_sent">âœ“</string>
+    <string name="status_delivered">âœ“âœ“</string>
+    <string name="status_failed">âš </string>
+    <string name="status_read">âœ“</string>
 
     <!-- Mpanampy lahatsoratra fampandrenesana -->
-    <string name="notification_sent_image">📷 nandefasa sary</string>
-    <string name="notification_sent_voice">🎤 nandefasa hafatra feo</string>
-    <string name="notification_sent_file">📎 nandefasa rakitra</string>
-    <string name="notification_file_pdf">📄</string>
-    <string name="notification_file_zip">🗜️</string>
-    <string name="notification_file_doc">📄</string>
-    <string name="notification_file_xls">📊</string>
-    <string name="notification_file_ppt">📈</string>
-    <string name="notification_file_generic">📎</string>
+    <string name="notification_sent_image">ðŸ“· nandefasa sary</string>
+    <string name="notification_sent_voice">ðŸŽ¤ nandefasa hafatra feo</string>
+    <string name="notification_sent_file">ðŸ“Ž nandefasa rakitra</string>
+    <string name="notification_file_pdf">ðŸ“„</string>
+    <string name="notification_file_zip">ðŸ—œï¸</string>
+    <string name="notification_file_doc">ðŸ“„</string>
+    <string name="notification_file_xls">ðŸ“Š</string>
+    <string name="notification_file_ppt">ðŸ“ˆ</string>
+    <string name="notification_file_generic">ðŸ“Ž</string>
 
     <!-- Fahafaha-miditra mpilalao feo -->
     <string name="cd_play_voice">Hilalao</string>
@@ -376,7 +376,7 @@
         <item quantity="other">Olona %d</item>
     </plurals>
 
-    <string name="mesh_service_notification_content">Mandeha ny Mesh — %1$d peers</string>
+    <string name="mesh_service_notification_content">Mandeha ny Mesh â€” %1$d peers</string>
 
   <string name="verify_title">verify</string>
   <string name="verify_my_qr_title">scan to verify me</string>
@@ -414,3 +414,4 @@
   <string name="verify_success_body">You verified %1$s</string>
   <string name="verify_success_system_message">verified %1$s</string>
 </resources>
+

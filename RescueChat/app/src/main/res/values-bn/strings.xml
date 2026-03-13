@@ -1,355 +1,355 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">bitchat</string>
+    <string name="app_name">RescueChat</string>
 
-    <!-- অনুমতির যৌক্তিকতা -->
-    <string name="permission_bluetooth_rationale">ইন্টারনেট ছাড়াই অন্যদের সাথে সরাসরি চ্যাট করার জন্য ব্লুটুথ অনুমতি প্রয়োজন।</string>
-    <string name="permission_location_rationale">ব্লুটুথের মাধ্যমে কাছাকাছি ডিভাইস খুঁজে পেতে অবস্থান অনুমতি প্রয়োজন।</string>
-    <string name="permission_notification_rationale">নতুন বার্তা সম্পর্কে আপনাকে জানাতে বিজ্ঞপ্তি অনুমতি প্রয়োজন।</string>
+    <!-- à¦…à¦¨à§à¦®à¦¤à¦¿à¦° à¦¯à§Œà¦•à§à¦¤à¦¿à¦•à¦¤à¦¾ -->
+    <string name="permission_bluetooth_rationale">à¦‡à¦¨à§à¦Ÿà¦¾à¦°à¦¨à§‡à¦Ÿ à¦›à¦¾à¦¡à¦¼à¦¾à¦‡ à¦…à¦¨à§à¦¯à¦¦à§‡à¦° à¦¸à¦¾à¦¥à§‡ à¦¸à¦°à¦¾à¦¸à¦°à¦¿ à¦šà§à¦¯à¦¾à¦Ÿ à¦•à¦°à¦¾à¦° à¦œà¦¨à§à¦¯ à¦¬à§à¦²à§à¦Ÿà§à¦¥ à¦…à¦¨à§à¦®à¦¤à¦¿ à¦ªà§à¦°à¦¯à¦¼à§‹à¦œà¦¨à¥¤</string>
+    <string name="permission_location_rationale">à¦¬à§à¦²à§à¦Ÿà§à¦¥à§‡à¦° à¦®à¦¾à¦§à§à¦¯à¦®à§‡ à¦•à¦¾à¦›à¦¾à¦•à¦¾à¦›à¦¿ à¦¡à¦¿à¦­à¦¾à¦‡à¦¸ à¦–à§à¦à¦œà§‡ à¦ªà§‡à¦¤à§‡ à¦…à¦¬à¦¸à§à¦¥à¦¾à¦¨ à¦…à¦¨à§à¦®à¦¤à¦¿ à¦ªà§à¦°à¦¯à¦¼à§‹à¦œà¦¨à¥¤</string>
+    <string name="permission_notification_rationale">à¦¨à¦¤à§à¦¨ à¦¬à¦¾à¦°à§à¦¤à¦¾ à¦¸à¦®à§à¦ªà¦°à§à¦•à§‡ à¦†à¦ªà¦¨à¦¾à¦•à§‡ à¦œà¦¾à¦¨à¦¾à¦¤à§‡ à¦¬à¦¿à¦œà§à¦žà¦ªà§à¦¤à¦¿ à¦…à¦¨à§à¦®à¦¤à¦¿ à¦ªà§à¦°à¦¯à¦¼à§‹à¦œà¦¨à¥¤</string>
 
-    <!-- প্লেসহোল্ডার / মৌলিক UI -->
-    <string name="nickname_hint">ডাকনাম</string>
-    <string name="message_hint">বার্তা টাইপ করুন…</string>
-    <string name="channel_password_hint">পাসওয়ার্ড</string>
-    <string name="join_channel">চ্যানেলে যোগ দিন</string>
-    <string name="leave_channel">ছেড়ে দিন</string>
-    <string name="send_message">পাঠান</string>
-    <string name="show_commands">কমান্ড দেখান</string>
-    <string name="back">ফিরে যান</string>
-    <string name="people">মানুষ</string>
-    <string name="channels">চ্যানেল</string>
-    <string name="online_users">অনলাইন ব্যবহারকারী</string>
-    <string name="no_one_connected">কেউ সংযুক্ত নেই</string>
-    <string name="emergency_clear_hint">সমস্ত ডেটা সাফ করতে তিনবার ট্যাপ করুন</string>
-    <string name="your_network">নেটওয়ার্ক</string>
+    <!-- à¦ªà§à¦²à§‡à¦¸à¦¹à§‹à¦²à§à¦¡à¦¾à¦° / à¦®à§Œà¦²à¦¿à¦• UI -->
+    <string name="nickname_hint">à¦¡à¦¾à¦•à¦¨à¦¾à¦®</string>
+    <string name="message_hint">à¦¬à¦¾à¦°à§à¦¤à¦¾ à¦Ÿà¦¾à¦‡à¦ª à¦•à¦°à§à¦¨â€¦</string>
+    <string name="channel_password_hint">à¦ªà¦¾à¦¸à¦“à¦¯à¦¼à¦¾à¦°à§à¦¡</string>
+    <string name="join_channel">à¦šà§à¦¯à¦¾à¦¨à§‡à¦²à§‡ à¦¯à§‹à¦— à¦¦à¦¿à¦¨</string>
+    <string name="leave_channel">à¦›à§‡à¦¡à¦¼à§‡ à¦¦à¦¿à¦¨</string>
+    <string name="send_message">à¦ªà¦¾à¦ à¦¾à¦¨</string>
+    <string name="show_commands">à¦•à¦®à¦¾à¦¨à§à¦¡ à¦¦à§‡à¦–à¦¾à¦¨</string>
+    <string name="back">à¦«à¦¿à¦°à§‡ à¦¯à¦¾à¦¨</string>
+    <string name="people">à¦®à¦¾à¦¨à§à¦·</string>
+    <string name="channels">à¦šà§à¦¯à¦¾à¦¨à§‡à¦²</string>
+    <string name="online_users">à¦…à¦¨à¦²à¦¾à¦‡à¦¨ à¦¬à§à¦¯à¦¬à¦¹à¦¾à¦°à¦•à¦¾à¦°à§€</string>
+    <string name="no_one_connected">à¦•à§‡à¦‰ à¦¸à¦‚à¦¯à§à¦•à§à¦¤ à¦¨à§‡à¦‡</string>
+    <string name="emergency_clear_hint">à¦¸à¦®à¦¸à§à¦¤ à¦¡à§‡à¦Ÿà¦¾ à¦¸à¦¾à¦« à¦•à¦°à¦¤à§‡ à¦¤à¦¿à¦¨à¦¬à¦¾à¦° à¦Ÿà§à¦¯à¦¾à¦ª à¦•à¦°à§à¦¨</string>
+    <string name="your_network">à¦¨à§‡à¦Ÿà¦“à¦¯à¦¼à¦¾à¦°à§à¦•</string>
 
-    <!-- ব্যাটারি অপ্টিমাইজেশন -->
-    <string name="battery_optimization_detected">ব্যাটারি অপ্টিমাইজেশন সনাক্ত</string>
-    <string name="battery_optimization_disabled">ব্যাটারি অপ্টিমাইজেশন নিষ্ক্রিয়</string>
-    <string name="battery_optimization_not_required">ব্যাটারি অপ্টিমাইজেশন প্রয়োজন নেই</string>
-    <string name="battery_optimization_checking">ব্যাটারি অপ্টিমাইজেশন পরীক্ষা করা হচ্ছে</string>
-    <string name="battery_optimization_why_disable">কেন ব্যাটারি অপ্টিমাইজেশন নিষ্ক্রিয় করবেন?</string>
-    <string name="battery_optimization_explanation">bitchat ব্যাকগ্রাউন্ডে চলে কাছাকাছি ডিভাইসগুলির সাথে মেশ সংযোগ বজায় রাখতে। ব্যাটারি অপ্টিমাইজেশন এই সংযোগগুলি বাধাগ্রস্ত করতে পারে, যার ফলে বার্তা বিলম্বিত বা হারিয়ে যেতে পারে।\n\nব্যাটারি অপ্টিমাইজেশন নিষ্ক্রিয় করা নির্ভরযোগ্য পিয়ার-টু-পিয়ার যোগাযোগ নিশ্চিত করে।</string>
-    <string name="battery_optimization_disable_button">ব্যাটারি অপ্টিমাইজেশন নিষ্ক্রিয় করুন</string>
-    <string name="battery_optimization_note">নোট: আপনি পরে Android Settings &gt; Apps &gt; bitchat &gt; Battery এ এটি পরিবর্তন করতে পারেন।</string>
-    <string name="battery_optimization_not_supported_explanation">আপনার ডিভাইসে ব্যাটারি অপ্টিমাইজেশন সেটিংসের প্রয়োজন নেই। bitchat স্বাভাবিকভাবে চলবে।</string>
-    <string name="battery_optimization_not_supported_message">আপনার ডিভাইসে ব্যাটারি অপ্টিমাইজেশন সেটিংসের প্রয়োজন নেই। bitchat স্বাভাবিকভাবে চলবে।</string>
-    <string name="battery_optimization_success_message">bitchat নির্ভরযোগ্যভাবে ব্যাকগ্রাউন্ডে চলতে পারে</string>
-    <string name="battery_optimization_benefits">• নির্ভরযোগ্য বার্তা ডেলিভারি\n• মেশ সংযোগ বজায় রাখা\n• ব্যাকগ্রাউন্ড বার্তা রিলে\n• সংযোগ বিচ্ছিন্নতা প্রতিরোধ</string>
-    <string name="battery_optimization_check_again">আবার পরীক্ষা করুন</string>
-    <string name="battery_optimization_skip">এখন এড়িয়ে যান</string>
-    <string name="battery_optimization_continue">চালিয়ে যান</string>
-    <string name="retry">আবার চেষ্টা করুন</string>
-    <string name="skip">এড়িয়ে যান</string>
+    <!-- à¦¬à§à¦¯à¦¾à¦Ÿà¦¾à¦°à¦¿ à¦…à¦ªà§à¦Ÿà¦¿à¦®à¦¾à¦‡à¦œà§‡à¦¶à¦¨ -->
+    <string name="battery_optimization_detected">à¦¬à§à¦¯à¦¾à¦Ÿà¦¾à¦°à¦¿ à¦…à¦ªà§à¦Ÿà¦¿à¦®à¦¾à¦‡à¦œà§‡à¦¶à¦¨ à¦¸à¦¨à¦¾à¦•à§à¦¤</string>
+    <string name="battery_optimization_disabled">à¦¬à§à¦¯à¦¾à¦Ÿà¦¾à¦°à¦¿ à¦…à¦ªà§à¦Ÿà¦¿à¦®à¦¾à¦‡à¦œà§‡à¦¶à¦¨ à¦¨à¦¿à¦·à§à¦•à§à¦°à¦¿à¦¯à¦¼</string>
+    <string name="battery_optimization_not_required">à¦¬à§à¦¯à¦¾à¦Ÿà¦¾à¦°à¦¿ à¦…à¦ªà§à¦Ÿà¦¿à¦®à¦¾à¦‡à¦œà§‡à¦¶à¦¨ à¦ªà§à¦°à¦¯à¦¼à§‹à¦œà¦¨ à¦¨à§‡à¦‡</string>
+    <string name="battery_optimization_checking">à¦¬à§à¦¯à¦¾à¦Ÿà¦¾à¦°à¦¿ à¦…à¦ªà§à¦Ÿà¦¿à¦®à¦¾à¦‡à¦œà§‡à¦¶à¦¨ à¦ªà¦°à§€à¦•à§à¦·à¦¾ à¦•à¦°à¦¾ à¦¹à¦šà§à¦›à§‡</string>
+    <string name="battery_optimization_why_disable">à¦•à§‡à¦¨ à¦¬à§à¦¯à¦¾à¦Ÿà¦¾à¦°à¦¿ à¦…à¦ªà§à¦Ÿà¦¿à¦®à¦¾à¦‡à¦œà§‡à¦¶à¦¨ à¦¨à¦¿à¦·à§à¦•à§à¦°à¦¿à¦¯à¦¼ à¦•à¦°à¦¬à§‡à¦¨?</string>
+    <string name="battery_optimization_explanation">bitchat à¦¬à§à¦¯à¦¾à¦•à¦—à§à¦°à¦¾à¦‰à¦¨à§à¦¡à§‡ à¦šà¦²à§‡ à¦•à¦¾à¦›à¦¾à¦•à¦¾à¦›à¦¿ à¦¡à¦¿à¦­à¦¾à¦‡à¦¸à¦—à§à¦²à¦¿à¦° à¦¸à¦¾à¦¥à§‡ à¦®à§‡à¦¶ à¦¸à¦‚à¦¯à§‹à¦— à¦¬à¦œà¦¾à¦¯à¦¼ à¦°à¦¾à¦–à¦¤à§‡à¥¤ à¦¬à§à¦¯à¦¾à¦Ÿà¦¾à¦°à¦¿ à¦…à¦ªà§à¦Ÿà¦¿à¦®à¦¾à¦‡à¦œà§‡à¦¶à¦¨ à¦à¦‡ à¦¸à¦‚à¦¯à§‹à¦—à¦—à§à¦²à¦¿ à¦¬à¦¾à¦§à¦¾à¦—à§à¦°à¦¸à§à¦¤ à¦•à¦°à¦¤à§‡ à¦ªà¦¾à¦°à§‡, à¦¯à¦¾à¦° à¦«à¦²à§‡ à¦¬à¦¾à¦°à§à¦¤à¦¾ à¦¬à¦¿à¦²à¦®à§à¦¬à¦¿à¦¤ à¦¬à¦¾ à¦¹à¦¾à¦°à¦¿à¦¯à¦¼à§‡ à¦¯à§‡à¦¤à§‡ à¦ªà¦¾à¦°à§‡à¥¤\n\nà¦¬à§à¦¯à¦¾à¦Ÿà¦¾à¦°à¦¿ à¦…à¦ªà§à¦Ÿà¦¿à¦®à¦¾à¦‡à¦œà§‡à¦¶à¦¨ à¦¨à¦¿à¦·à§à¦•à§à¦°à¦¿à¦¯à¦¼ à¦•à¦°à¦¾ à¦¨à¦¿à¦°à§à¦­à¦°à¦¯à§‹à¦—à§à¦¯ à¦ªà¦¿à¦¯à¦¼à¦¾à¦°-à¦Ÿà§-à¦ªà¦¿à¦¯à¦¼à¦¾à¦° à¦¯à§‹à¦—à¦¾à¦¯à§‹à¦— à¦¨à¦¿à¦¶à§à¦šà¦¿à¦¤ à¦•à¦°à§‡à¥¤</string>
+    <string name="battery_optimization_disable_button">à¦¬à§à¦¯à¦¾à¦Ÿà¦¾à¦°à¦¿ à¦…à¦ªà§à¦Ÿà¦¿à¦®à¦¾à¦‡à¦œà§‡à¦¶à¦¨ à¦¨à¦¿à¦·à§à¦•à§à¦°à¦¿à¦¯à¦¼ à¦•à¦°à§à¦¨</string>
+    <string name="battery_optimization_note">à¦¨à§‹à¦Ÿ: à¦†à¦ªà¦¨à¦¿ à¦ªà¦°à§‡ Android Settings &gt; Apps &gt; bitchat &gt; Battery à¦ à¦à¦Ÿà¦¿ à¦ªà¦°à¦¿à¦¬à¦°à§à¦¤à¦¨ à¦•à¦°à¦¤à§‡ à¦ªà¦¾à¦°à§‡à¦¨à¥¤</string>
+    <string name="battery_optimization_not_supported_explanation">à¦†à¦ªà¦¨à¦¾à¦° à¦¡à¦¿à¦­à¦¾à¦‡à¦¸à§‡ à¦¬à§à¦¯à¦¾à¦Ÿà¦¾à¦°à¦¿ à¦…à¦ªà§à¦Ÿà¦¿à¦®à¦¾à¦‡à¦œà§‡à¦¶à¦¨ à¦¸à§‡à¦Ÿà¦¿à¦‚à¦¸à§‡à¦° à¦ªà§à¦°à¦¯à¦¼à§‹à¦œà¦¨ à¦¨à§‡à¦‡à¥¤ bitchat à¦¸à§à¦¬à¦¾à¦­à¦¾à¦¬à¦¿à¦•à¦­à¦¾à¦¬à§‡ à¦šà¦²à¦¬à§‡à¥¤</string>
+    <string name="battery_optimization_not_supported_message">à¦†à¦ªà¦¨à¦¾à¦° à¦¡à¦¿à¦­à¦¾à¦‡à¦¸à§‡ à¦¬à§à¦¯à¦¾à¦Ÿà¦¾à¦°à¦¿ à¦…à¦ªà§à¦Ÿà¦¿à¦®à¦¾à¦‡à¦œà§‡à¦¶à¦¨ à¦¸à§‡à¦Ÿà¦¿à¦‚à¦¸à§‡à¦° à¦ªà§à¦°à¦¯à¦¼à§‹à¦œà¦¨ à¦¨à§‡à¦‡à¥¤ bitchat à¦¸à§à¦¬à¦¾à¦­à¦¾à¦¬à¦¿à¦•à¦­à¦¾à¦¬à§‡ à¦šà¦²à¦¬à§‡à¥¤</string>
+    <string name="battery_optimization_success_message">bitchat à¦¨à¦¿à¦°à§à¦­à¦°à¦¯à§‹à¦—à§à¦¯à¦­à¦¾à¦¬à§‡ à¦¬à§à¦¯à¦¾à¦•à¦—à§à¦°à¦¾à¦‰à¦¨à§à¦¡à§‡ à¦šà¦²à¦¤à§‡ à¦ªà¦¾à¦°à§‡</string>
+    <string name="battery_optimization_benefits">â€¢ à¦¨à¦¿à¦°à§à¦­à¦°à¦¯à§‹à¦—à§à¦¯ à¦¬à¦¾à¦°à§à¦¤à¦¾ à¦¡à§‡à¦²à¦¿à¦­à¦¾à¦°à¦¿\nâ€¢ à¦®à§‡à¦¶ à¦¸à¦‚à¦¯à§‹à¦— à¦¬à¦œà¦¾à¦¯à¦¼ à¦°à¦¾à¦–à¦¾\nâ€¢ à¦¬à§à¦¯à¦¾à¦•à¦—à§à¦°à¦¾à¦‰à¦¨à§à¦¡ à¦¬à¦¾à¦°à§à¦¤à¦¾ à¦°à¦¿à¦²à§‡\nâ€¢ à¦¸à¦‚à¦¯à§‹à¦— à¦¬à¦¿à¦šà§à¦›à¦¿à¦¨à§à¦¨à¦¤à¦¾ à¦ªà§à¦°à¦¤à¦¿à¦°à§‹à¦§</string>
+    <string name="battery_optimization_check_again">à¦†à¦¬à¦¾à¦° à¦ªà¦°à§€à¦•à§à¦·à¦¾ à¦•à¦°à§à¦¨</string>
+    <string name="battery_optimization_skip">à¦à¦–à¦¨ à¦à¦¡à¦¼à¦¿à¦¯à¦¼à§‡ à¦¯à¦¾à¦¨</string>
+    <string name="battery_optimization_continue">à¦šà¦¾à¦²à¦¿à¦¯à¦¼à§‡ à¦¯à¦¾à¦¨</string>
+    <string name="retry">à¦†à¦¬à¦¾à¦° à¦šà§‡à¦·à§à¦Ÿà¦¾ à¦•à¦°à§à¦¨</string>
+    <string name="skip">à¦à¦¡à¦¼à¦¿à¦¯à¦¼à§‡ à¦¯à¦¾à¦¨</string>
 
-    <!-- বিজ্ঞপ্তি -->
-    <string name="notification_summary_more">এবং %1$d আরো</string>
-    <string name="notification_messages_from_people">%2$d জন থেকে %1$d বার্তা</string>
-    <string name="notification_more_conversations">এবং %1$d আরো কথোপকথন</string>
-    <string name="notification_active_peers_title">👥 কাছাকাছি bitchatter!</string>
-    <string name="notification_active_peers_one">কাছাকাছি ১ জন</string>
-    <string name="notification_active_peers_many">কাছাকাছি %1$d জন</string>
-    <string name="notification_new_messages">নতুন বার্তা</string>
-    <string name="notification_new_location_messages">নতুন অবস্থান বার্তা</string>
-    <string name="notification_mentions_in">%1$s এ উল্লিখিত</string>
-    <string name="notification_mentions_in_more">%1$s এ উল্লিখিত (+%2$d আরো)</string>
-    <string name="notification_mentions_in_plural">%2$s এ %1$d উল্লেখ</string>
-    <string name="notification_new_activity_in">%1$s এ নতুন কার্যকলাপ</string>
-    <string name="notification_messages_in">%1$s এ বার্তা</string>
-    <string name="notification_joined_conversation">%1$s কথোপকথনে যোগ দিয়েছে</string>
-    <string name="notification_geohash_summary_title_mentions">bitchat – %1$d উল্লেখ</string>
-    <string name="notification_geohash_summary_title">bitchat – অবস্থান চ্যাট</string>
-    <string name="notification_geohash_summary_text">%2$d অবস্থান থেকে %1$d বার্তা</string>
-    <string name="notification_mesh_mention_title_singular">মেশ চ্যাটে উল্লিখিত</string>
-    <string name="notification_mesh_mention_title_plural">মেশ চ্যাটে %1$d উল্লেখ</string>
-    <string name="notification_more_locations">এবং %1$d আরো অবস্থান</string>
-    <string name="notification_and_more">এবং %1$d আরো</string>
+    <!-- à¦¬à¦¿à¦œà§à¦žà¦ªà§à¦¤à¦¿ -->
+    <string name="notification_summary_more">à¦à¦¬à¦‚ %1$d à¦†à¦°à§‹</string>
+    <string name="notification_messages_from_people">%2$d à¦œà¦¨ à¦¥à§‡à¦•à§‡ %1$d à¦¬à¦¾à¦°à§à¦¤à¦¾</string>
+    <string name="notification_more_conversations">à¦à¦¬à¦‚ %1$d à¦†à¦°à§‹ à¦•à¦¥à§‹à¦ªà¦•à¦¥à¦¨</string>
+    <string name="notification_active_peers_title">ðŸ‘¥ à¦•à¦¾à¦›à¦¾à¦•à¦¾à¦›à¦¿ bitchatter!</string>
+    <string name="notification_active_peers_one">à¦•à¦¾à¦›à¦¾à¦•à¦¾à¦›à¦¿ à§§ à¦œà¦¨</string>
+    <string name="notification_active_peers_many">à¦•à¦¾à¦›à¦¾à¦•à¦¾à¦›à¦¿ %1$d à¦œà¦¨</string>
+    <string name="notification_new_messages">à¦¨à¦¤à§à¦¨ à¦¬à¦¾à¦°à§à¦¤à¦¾</string>
+    <string name="notification_new_location_messages">à¦¨à¦¤à§à¦¨ à¦…à¦¬à¦¸à§à¦¥à¦¾à¦¨ à¦¬à¦¾à¦°à§à¦¤à¦¾</string>
+    <string name="notification_mentions_in">%1$s à¦ à¦‰à¦²à§à¦²à¦¿à¦–à¦¿à¦¤</string>
+    <string name="notification_mentions_in_more">%1$s à¦ à¦‰à¦²à§à¦²à¦¿à¦–à¦¿à¦¤ (+%2$d à¦†à¦°à§‹)</string>
+    <string name="notification_mentions_in_plural">%2$s à¦ %1$d à¦‰à¦²à§à¦²à§‡à¦–</string>
+    <string name="notification_new_activity_in">%1$s à¦ à¦¨à¦¤à§à¦¨ à¦•à¦¾à¦°à§à¦¯à¦•à¦²à¦¾à¦ª</string>
+    <string name="notification_messages_in">%1$s à¦ à¦¬à¦¾à¦°à§à¦¤à¦¾</string>
+    <string name="notification_joined_conversation">%1$s à¦•à¦¥à§‹à¦ªà¦•à¦¥à¦¨à§‡ à¦¯à§‹à¦— à¦¦à¦¿à¦¯à¦¼à§‡à¦›à§‡</string>
+    <string name="notification_geohash_summary_title_mentions">bitchat â€“ %1$d à¦‰à¦²à§à¦²à§‡à¦–</string>
+    <string name="notification_geohash_summary_title">bitchat â€“ à¦…à¦¬à¦¸à§à¦¥à¦¾à¦¨ à¦šà§à¦¯à¦¾à¦Ÿ</string>
+    <string name="notification_geohash_summary_text">%2$d à¦…à¦¬à¦¸à§à¦¥à¦¾à¦¨ à¦¥à§‡à¦•à§‡ %1$d à¦¬à¦¾à¦°à§à¦¤à¦¾</string>
+    <string name="notification_mesh_mention_title_singular">à¦®à§‡à¦¶ à¦šà§à¦¯à¦¾à¦Ÿà§‡ à¦‰à¦²à§à¦²à¦¿à¦–à¦¿à¦¤</string>
+    <string name="notification_mesh_mention_title_plural">à¦®à§‡à¦¶ à¦šà§à¦¯à¦¾à¦Ÿà§‡ %1$d à¦‰à¦²à§à¦²à§‡à¦–</string>
+    <string name="notification_more_locations">à¦à¦¬à¦‚ %1$d à¦†à¦°à§‹ à¦…à¦¬à¦¸à§à¦¥à¦¾à¦¨</string>
+    <string name="notification_and_more">à¦à¦¬à¦‚ %1$d à¦†à¦°à§‹</string>
 
-    <!-- প্রিয় অ্যাক্সেসিবিলিটি -->
-    <string name="cd_add_favorite">প্রিয়তে যোগ করুন</string>
-    <string name="cd_remove_favorite">প্রিয় থেকে সরান</string>
-    <string name="cd_add_bookmark">বুকমার্ক যোগ করুন</string>
+    <!-- à¦ªà§à¦°à¦¿à¦¯à¦¼ à¦…à§à¦¯à¦¾à¦•à§à¦¸à§‡à¦¸à¦¿à¦¬à¦¿à¦²à¦¿à¦Ÿà¦¿ -->
+    <string name="cd_add_favorite">à¦ªà§à¦°à¦¿à¦¯à¦¼à¦¤à§‡ à¦¯à§‹à¦— à¦•à¦°à§à¦¨</string>
+    <string name="cd_remove_favorite">à¦ªà§à¦°à¦¿à¦¯à¦¼ à¦¥à§‡à¦•à§‡ à¦¸à¦°à¦¾à¦¨</string>
+    <string name="cd_add_bookmark">à¦¬à§à¦•à¦®à¦¾à¦°à§à¦• à¦¯à§‹à¦— à¦•à¦°à§à¦¨</string>
 
-    <!-- চ্যাট হেডার ও অ্যাক্সেসিবিলিটি -->
-    <string name="chat_back">ফিরে যান</string>
-    <string name="chat_channel_prefix">চ্যানেল: %1$s</string>
-    <string name="chat_leave">ছেড়ে দিন</string>
-    <string name="cd_nostr_reachable">Nostr এর মাধ্যমে পৌঁছানো যায়</string>
-    <string name="cd_unread_private_messages">অপঠিত ব্যক্তিগত বার্তা</string>
-    <string name="cd_toggle_bookmark">বুকমার্ক টগল করুন</string>
-    <string name="cd_teleported">টেলিপোর্ট করা হয়েছে</string>
-    <string name="cd_tor_status">Tor অবস্থা</string>
-    <string name="cd_connected_peers">সংযুক্ত পিয়ার</string>
-    <string name="cd_geohash_participants">জিওহ্যাশ অংশগ্রহণকারী</string>
-    <string name="cd_ready_for_handshake">হ্যান্ডশেকের জন্য প্রস্তুত</string>
-    <string name="cd_handshake_in_progress">হ্যান্ডশেক চলছে</string>
-    <string name="cd_encrypted">এন্ড-টু-এন্ড এনক্রিপ্ট করা</string>
-    <string name="cd_handshake_failed">হ্যান্ডশেক ব্যর্থ</string>
+    <!-- à¦šà§à¦¯à¦¾à¦Ÿ à¦¹à§‡à¦¡à¦¾à¦° à¦“ à¦…à§à¦¯à¦¾à¦•à§à¦¸à§‡à¦¸à¦¿à¦¬à¦¿à¦²à¦¿à¦Ÿà¦¿ -->
+    <string name="chat_back">à¦«à¦¿à¦°à§‡ à¦¯à¦¾à¦¨</string>
+    <string name="chat_channel_prefix">à¦šà§à¦¯à¦¾à¦¨à§‡à¦²: %1$s</string>
+    <string name="chat_leave">à¦›à§‡à¦¡à¦¼à§‡ à¦¦à¦¿à¦¨</string>
+    <string name="cd_nostr_reachable">Nostr à¦à¦° à¦®à¦¾à¦§à§à¦¯à¦®à§‡ à¦ªà§Œà¦à¦›à¦¾à¦¨à§‹ à¦¯à¦¾à¦¯à¦¼</string>
+    <string name="cd_unread_private_messages">à¦…à¦ªà¦ à¦¿à¦¤ à¦¬à§à¦¯à¦•à§à¦¤à¦¿à¦—à¦¤ à¦¬à¦¾à¦°à§à¦¤à¦¾</string>
+    <string name="cd_toggle_bookmark">à¦¬à§à¦•à¦®à¦¾à¦°à§à¦• à¦Ÿà¦—à¦² à¦•à¦°à§à¦¨</string>
+    <string name="cd_teleported">à¦Ÿà§‡à¦²à¦¿à¦ªà§‹à¦°à§à¦Ÿ à¦•à¦°à¦¾ à¦¹à¦¯à¦¼à§‡à¦›à§‡</string>
+    <string name="cd_tor_status">Tor à¦…à¦¬à¦¸à§à¦¥à¦¾</string>
+    <string name="cd_connected_peers">à¦¸à¦‚à¦¯à§à¦•à§à¦¤ à¦ªà¦¿à¦¯à¦¼à¦¾à¦°</string>
+    <string name="cd_geohash_participants">à¦œà¦¿à¦“à¦¹à§à¦¯à¦¾à¦¶ à¦…à¦‚à¦¶à¦—à§à¦°à¦¹à¦£à¦•à¦¾à¦°à§€</string>
+    <string name="cd_ready_for_handshake">à¦¹à§à¦¯à¦¾à¦¨à§à¦¡à¦¶à§‡à¦•à§‡à¦° à¦œà¦¨à§à¦¯ à¦ªà§à¦°à¦¸à§à¦¤à§à¦¤</string>
+    <string name="cd_handshake_in_progress">à¦¹à§à¦¯à¦¾à¦¨à§à¦¡à¦¶à§‡à¦• à¦šà¦²à¦›à§‡</string>
+    <string name="cd_encrypted">à¦à¦¨à§à¦¡-à¦Ÿà§-à¦à¦¨à§à¦¡ à¦à¦¨à¦•à§à¦°à¦¿à¦ªà§à¦Ÿ à¦•à¦°à¦¾</string>
+    <string name="cd_handshake_failed">à¦¹à§à¦¯à¦¾à¦¨à§à¦¡à¦¶à§‡à¦• à¦¬à§à¦¯à¦°à§à¦¥</string>
 
-    <!-- ফাইল ভিউয়ার ডায়ালগ -->
-    <string name="file_viewer_title">📎 ফাইল প্রাপ্ত</string>
-    <string name="file_viewer_name">📄 %1$s</string>
-    <string name="file_viewer_size">📏 আকার: %1$s</string>
-    <string name="file_viewer_type">🏷️ ধরণ: %1$s</string>
-    <string name="file_viewer_open_save">📂 খুলুন / সংরক্ষণ করুন</string>
-    <string name="close_with_emoji">❌ বন্ধ করুন</string>
-    <string name="pick_image">ছবি নির্বাচন করুন</string>
+    <!-- à¦«à¦¾à¦‡à¦² à¦­à¦¿à¦‰à¦¯à¦¼à¦¾à¦° à¦¡à¦¾à¦¯à¦¼à¦¾à¦²à¦— -->
+    <string name="file_viewer_title">ðŸ“Ž à¦«à¦¾à¦‡à¦² à¦ªà§à¦°à¦¾à¦ªà§à¦¤</string>
+    <string name="file_viewer_name">ðŸ“„ %1$s</string>
+    <string name="file_viewer_size">ðŸ“ à¦†à¦•à¦¾à¦°: %1$s</string>
+    <string name="file_viewer_type">ðŸ·ï¸ à¦§à¦°à¦£: %1$s</string>
+    <string name="file_viewer_open_save">ðŸ“‚ à¦–à§à¦²à§à¦¨ / à¦¸à¦‚à¦°à¦•à§à¦·à¦£ à¦•à¦°à§à¦¨</string>
+    <string name="close_with_emoji">âŒ à¦¬à¦¨à§à¦§ à¦•à¦°à§à¦¨</string>
+    <string name="pick_image">à¦›à¦¬à¦¿ à¦¨à¦¿à¦°à§à¦¬à¦¾à¦šà¦¨ à¦•à¦°à§à¦¨</string>
 
-    <!-- সম্পর্কে শিট -->
-    <string name="about_tagline">এন্ড-টু-এন্ড এনক্রিপশন সহ বিকেন্দ্রীভূত মেশ চ্যাট</string>
-    <string name="about_offline_mesh_title">অফলাইন মেশ চ্যাট</string>
-    <string name="about_offline_mesh_desc">ইন্টারনেট বা সার্ভার ছাড়াই Bluetooth LE এর মাধ্যমে সরাসরি যোগাযোগ করুন। পরিসর বাড়ানোর জন্য কাছাকাছি ডিভাইসের মাধ্যমে বার্তা রিলে করা হয়।</string>
-    <string name="about_online_geohash_title">অনলাইন জিওহ্যাশ চ্যানেল</string>
-    <string name="about_online_geohash_desc">জিওহ্যাশ-ভিত্তিক চ্যানেলের মাধ্যমে আপনার এলাকার মানুষদের সাথে সংযুক্ত হন। পাবলিক ইন্টারনেট রিলেগুলির মাধ্যমে মেশ বিস্তৃত করুন।</string>
-    <string name="about_e2e_title">এন্ড-টু-এন্ড এনক্রিপশন</string>
-    <string name="about_e2e_desc">ব্যক্তিগত বার্তাগুলি এনক্রিপ্ট করা। চ্যানেল বার্তাগুলি পাবলিক।</string>
-    <string name="about_appearance">চেহারা</string>
-    <string name="about_system">সিস্টেম</string>
-    <string name="about_light">হালকা</string>
-    <string name="about_dark">অন্ধকার</string>
-    <string name="about_pow">প্রুফ অফ ওয়ার্ক</string>
-    <string name="about_pow_off">PoW বন্ধ</string>
-    <string name="about_pow_on">PoW চালু</string>
-    <string name="about_pow_tip">স্প্যাম কঠিন করতে জিওহ্যাশ বার্তায় প্রুফ অফ ওয়ার্ক যোগ করুন।</string>
-    <string name="about_pow_difficulty">কঠিনতা: %1$d বিট (~%2$s)</string>
-    <string name="about_pow_difficulty_attempts">কঠিনতা %1$d প্রয়োজন ~%2$s হ্যাশ প্রচেষ্টা</string>
-    <string name="about_pow_desc_none">কোন প্রুফ অফ ওয়ার্ক প্রয়োজন নেই</string>
-    <string name="about_pow_desc_very_low">খুব কম – ন্যূনতম স্প্যাম সুরক্ষা</string>
-    <string name="about_pow_desc_low">কম – মৌলিক স্প্যাম সুরক্ষা</string>
-    <string name="about_pow_desc_medium">মাঝারি – ভাল স্প্যাম সুরক্ষা</string>
-    <string name="about_pow_desc_high">উচ্চ – শক্তিশালী স্প্যাম সুরক্ষা</string>
-    <string name="about_pow_desc_very_high">খুব উচ্চ – বিলম্ব ঘটাতে পারে</string>
-    <string name="about_pow_desc_extreme">চরম – উল্লেখযোগ্য কম্পিউটিং পাওয়ার প্রয়োজন</string>
-    <string name="about_network">নেটওয়ার্ক</string>
-    <string name="about_tor_off">Tor বন্ধ</string>
-    <string name="about_tor_on">Tor চালু</string>
-    <string name="about_tor_route">আরো গোপনীয়তার জন্য Tor এর মাধ্যমে ইন্টারনেট ট্রাফিক রুট করুন।</string>
-    <string name="about_tor_status">Tor অবস্থা: %1$s, বুটস্ট্র্যাপ %2$d%%</string>
-    <string name="about_last">শেষ: %1$s</string>
-    <string name="about_emergency_title">জরুরী ডেটা ক্লিয়ার</string>
-    <string name="about_emergency_tip">টিপ: সংরক্ষিত সমস্ত ডেটা – বার্তা, কী এবং সেটিংস সহ – সাফ করতে অ্যাপ শিরোনামে তিনবার ট্যাপ করুন।</string>
-    <string name="about_debug_settings">ডিবাগ সেটিংস</string>
-    <string name="about_footer">ওপেন সোর্স • গোপনীয়তা প্রথম • বিকেন্দ্রীভূত</string>
-    <string name="close_plain">বন্ধ করুন</string>
-    <string name="cancel_lower">বাতিল</string>
+    <!-- à¦¸à¦®à§à¦ªà¦°à§à¦•à§‡ à¦¶à¦¿à¦Ÿ -->
+    <string name="about_tagline">à¦à¦¨à§à¦¡-à¦Ÿà§-à¦à¦¨à§à¦¡ à¦à¦¨à¦•à§à¦°à¦¿à¦ªà¦¶à¦¨ à¦¸à¦¹ à¦¬à¦¿à¦•à§‡à¦¨à§à¦¦à§à¦°à§€à¦­à§‚à¦¤ à¦®à§‡à¦¶ à¦šà§à¦¯à¦¾à¦Ÿ</string>
+    <string name="about_offline_mesh_title">à¦…à¦«à¦²à¦¾à¦‡à¦¨ à¦®à§‡à¦¶ à¦šà§à¦¯à¦¾à¦Ÿ</string>
+    <string name="about_offline_mesh_desc">à¦‡à¦¨à§à¦Ÿà¦¾à¦°à¦¨à§‡à¦Ÿ à¦¬à¦¾ à¦¸à¦¾à¦°à§à¦­à¦¾à¦° à¦›à¦¾à¦¡à¦¼à¦¾à¦‡ Bluetooth LE à¦à¦° à¦®à¦¾à¦§à§à¦¯à¦®à§‡ à¦¸à¦°à¦¾à¦¸à¦°à¦¿ à¦¯à§‹à¦—à¦¾à¦¯à§‹à¦— à¦•à¦°à§à¦¨à¥¤ à¦ªà¦°à¦¿à¦¸à¦° à¦¬à¦¾à¦¡à¦¼à¦¾à¦¨à§‹à¦° à¦œà¦¨à§à¦¯ à¦•à¦¾à¦›à¦¾à¦•à¦¾à¦›à¦¿ à¦¡à¦¿à¦­à¦¾à¦‡à¦¸à§‡à¦° à¦®à¦¾à¦§à§à¦¯à¦®à§‡ à¦¬à¦¾à¦°à§à¦¤à¦¾ à¦°à¦¿à¦²à§‡ à¦•à¦°à¦¾ à¦¹à¦¯à¦¼à¥¤</string>
+    <string name="about_online_geohash_title">à¦…à¦¨à¦²à¦¾à¦‡à¦¨ à¦œà¦¿à¦“à¦¹à§à¦¯à¦¾à¦¶ à¦šà§à¦¯à¦¾à¦¨à§‡à¦²</string>
+    <string name="about_online_geohash_desc">à¦œà¦¿à¦“à¦¹à§à¦¯à¦¾à¦¶-à¦­à¦¿à¦¤à§à¦¤à¦¿à¦• à¦šà§à¦¯à¦¾à¦¨à§‡à¦²à§‡à¦° à¦®à¦¾à¦§à§à¦¯à¦®à§‡ à¦†à¦ªà¦¨à¦¾à¦° à¦à¦²à¦¾à¦•à¦¾à¦° à¦®à¦¾à¦¨à§à¦·à¦¦à§‡à¦° à¦¸à¦¾à¦¥à§‡ à¦¸à¦‚à¦¯à§à¦•à§à¦¤ à¦¹à¦¨à¥¤ à¦ªà¦¾à¦¬à¦²à¦¿à¦• à¦‡à¦¨à§à¦Ÿà¦¾à¦°à¦¨à§‡à¦Ÿ à¦°à¦¿à¦²à§‡à¦—à§à¦²à¦¿à¦° à¦®à¦¾à¦§à§à¦¯à¦®à§‡ à¦®à§‡à¦¶ à¦¬à¦¿à¦¸à§à¦¤à§ƒà¦¤ à¦•à¦°à§à¦¨à¥¤</string>
+    <string name="about_e2e_title">à¦à¦¨à§à¦¡-à¦Ÿà§-à¦à¦¨à§à¦¡ à¦à¦¨à¦•à§à¦°à¦¿à¦ªà¦¶à¦¨</string>
+    <string name="about_e2e_desc">à¦¬à§à¦¯à¦•à§à¦¤à¦¿à¦—à¦¤ à¦¬à¦¾à¦°à§à¦¤à¦¾à¦—à§à¦²à¦¿ à¦à¦¨à¦•à§à¦°à¦¿à¦ªà§à¦Ÿ à¦•à¦°à¦¾à¥¤ à¦šà§à¦¯à¦¾à¦¨à§‡à¦² à¦¬à¦¾à¦°à§à¦¤à¦¾à¦—à§à¦²à¦¿ à¦ªà¦¾à¦¬à¦²à¦¿à¦•à¥¤</string>
+    <string name="about_appearance">à¦šà§‡à¦¹à¦¾à¦°à¦¾</string>
+    <string name="about_system">à¦¸à¦¿à¦¸à§à¦Ÿà§‡à¦®</string>
+    <string name="about_light">à¦¹à¦¾à¦²à¦•à¦¾</string>
+    <string name="about_dark">à¦…à¦¨à§à¦§à¦•à¦¾à¦°</string>
+    <string name="about_pow">à¦ªà§à¦°à§à¦« à¦…à¦« à¦“à¦¯à¦¼à¦¾à¦°à§à¦•</string>
+    <string name="about_pow_off">PoW à¦¬à¦¨à§à¦§</string>
+    <string name="about_pow_on">PoW à¦šà¦¾à¦²à§</string>
+    <string name="about_pow_tip">à¦¸à§à¦ªà§à¦¯à¦¾à¦® à¦•à¦ à¦¿à¦¨ à¦•à¦°à¦¤à§‡ à¦œà¦¿à¦“à¦¹à§à¦¯à¦¾à¦¶ à¦¬à¦¾à¦°à§à¦¤à¦¾à¦¯à¦¼ à¦ªà§à¦°à§à¦« à¦…à¦« à¦“à¦¯à¦¼à¦¾à¦°à§à¦• à¦¯à§‹à¦— à¦•à¦°à§à¦¨à¥¤</string>
+    <string name="about_pow_difficulty">à¦•à¦ à¦¿à¦¨à¦¤à¦¾: %1$d à¦¬à¦¿à¦Ÿ (~%2$s)</string>
+    <string name="about_pow_difficulty_attempts">à¦•à¦ à¦¿à¦¨à¦¤à¦¾ %1$d à¦ªà§à¦°à¦¯à¦¼à§‹à¦œà¦¨ ~%2$s à¦¹à§à¦¯à¦¾à¦¶ à¦ªà§à¦°à¦šà§‡à¦·à§à¦Ÿà¦¾</string>
+    <string name="about_pow_desc_none">à¦•à§‹à¦¨ à¦ªà§à¦°à§à¦« à¦…à¦« à¦“à¦¯à¦¼à¦¾à¦°à§à¦• à¦ªà§à¦°à¦¯à¦¼à§‹à¦œà¦¨ à¦¨à§‡à¦‡</string>
+    <string name="about_pow_desc_very_low">à¦–à§à¦¬ à¦•à¦® â€“ à¦¨à§à¦¯à§‚à¦¨à¦¤à¦® à¦¸à§à¦ªà§à¦¯à¦¾à¦® à¦¸à§à¦°à¦•à§à¦·à¦¾</string>
+    <string name="about_pow_desc_low">à¦•à¦® â€“ à¦®à§Œà¦²à¦¿à¦• à¦¸à§à¦ªà§à¦¯à¦¾à¦® à¦¸à§à¦°à¦•à§à¦·à¦¾</string>
+    <string name="about_pow_desc_medium">à¦®à¦¾à¦à¦¾à¦°à¦¿ â€“ à¦­à¦¾à¦² à¦¸à§à¦ªà§à¦¯à¦¾à¦® à¦¸à§à¦°à¦•à§à¦·à¦¾</string>
+    <string name="about_pow_desc_high">à¦‰à¦šà§à¦š â€“ à¦¶à¦•à§à¦¤à¦¿à¦¶à¦¾à¦²à§€ à¦¸à§à¦ªà§à¦¯à¦¾à¦® à¦¸à§à¦°à¦•à§à¦·à¦¾</string>
+    <string name="about_pow_desc_very_high">à¦–à§à¦¬ à¦‰à¦šà§à¦š â€“ à¦¬à¦¿à¦²à¦®à§à¦¬ à¦˜à¦Ÿà¦¾à¦¤à§‡ à¦ªà¦¾à¦°à§‡</string>
+    <string name="about_pow_desc_extreme">à¦šà¦°à¦® â€“ à¦‰à¦²à§à¦²à§‡à¦–à¦¯à§‹à¦—à§à¦¯ à¦•à¦®à§à¦ªà¦¿à¦‰à¦Ÿà¦¿à¦‚ à¦ªà¦¾à¦“à¦¯à¦¼à¦¾à¦° à¦ªà§à¦°à¦¯à¦¼à§‹à¦œà¦¨</string>
+    <string name="about_network">à¦¨à§‡à¦Ÿà¦“à¦¯à¦¼à¦¾à¦°à§à¦•</string>
+    <string name="about_tor_off">Tor à¦¬à¦¨à§à¦§</string>
+    <string name="about_tor_on">Tor à¦šà¦¾à¦²à§</string>
+    <string name="about_tor_route">à¦†à¦°à§‹ à¦—à§‹à¦ªà¦¨à§€à¦¯à¦¼à¦¤à¦¾à¦° à¦œà¦¨à§à¦¯ Tor à¦à¦° à¦®à¦¾à¦§à§à¦¯à¦®à§‡ à¦‡à¦¨à§à¦Ÿà¦¾à¦°à¦¨à§‡à¦Ÿ à¦Ÿà§à¦°à¦¾à¦«à¦¿à¦• à¦°à§à¦Ÿ à¦•à¦°à§à¦¨à¥¤</string>
+    <string name="about_tor_status">Tor à¦…à¦¬à¦¸à§à¦¥à¦¾: %1$s, à¦¬à§à¦Ÿà¦¸à§à¦Ÿà§à¦°à§à¦¯à¦¾à¦ª %2$d%%</string>
+    <string name="about_last">à¦¶à§‡à¦·: %1$s</string>
+    <string name="about_emergency_title">à¦œà¦°à§à¦°à§€ à¦¡à§‡à¦Ÿà¦¾ à¦•à§à¦²à¦¿à¦¯à¦¼à¦¾à¦°</string>
+    <string name="about_emergency_tip">à¦Ÿà¦¿à¦ª: à¦¸à¦‚à¦°à¦•à§à¦·à¦¿à¦¤ à¦¸à¦®à¦¸à§à¦¤ à¦¡à§‡à¦Ÿà¦¾ â€“ à¦¬à¦¾à¦°à§à¦¤à¦¾, à¦•à§€ à¦à¦¬à¦‚ à¦¸à§‡à¦Ÿà¦¿à¦‚à¦¸ à¦¸à¦¹ â€“ à¦¸à¦¾à¦« à¦•à¦°à¦¤à§‡ à¦…à§à¦¯à¦¾à¦ª à¦¶à¦¿à¦°à§‹à¦¨à¦¾à¦®à§‡ à¦¤à¦¿à¦¨à¦¬à¦¾à¦° à¦Ÿà§à¦¯à¦¾à¦ª à¦•à¦°à§à¦¨à¥¤</string>
+    <string name="about_debug_settings">à¦¡à¦¿à¦¬à¦¾à¦— à¦¸à§‡à¦Ÿà¦¿à¦‚à¦¸</string>
+    <string name="about_footer">à¦“à¦ªà§‡à¦¨ à¦¸à§‹à¦°à§à¦¸ â€¢ à¦—à§‹à¦ªà¦¨à§€à¦¯à¦¼à¦¤à¦¾ à¦ªà§à¦°à¦¥à¦® â€¢ à¦¬à¦¿à¦•à§‡à¦¨à§à¦¦à§à¦°à§€à¦­à§‚à¦¤</string>
+    <string name="close_plain">à¦¬à¦¨à§à¦§ à¦•à¦°à§à¦¨</string>
+    <string name="cancel_lower">à¦¬à¦¾à¦¤à¦¿à¦²</string>
 
-    <!-- সাধারণ বিষয়বস্তু বিবরণ -->
-    <string name="cd_warning">সতর্কতা</string>
-    <string name="cd_location_services">অবস্থান সেবা</string>
-    <string name="cd_privacy">গোপনীয়তা</string>
-    <string name="cd_error">ত্রুটি</string>
-    <string name="cd_battery_optimization">ব্যাটারি অপ্টিমাইজেশন</string>
-    <string name="cd_benefits">সুবিধা</string>
-    <string name="cd_checking_battery_optimization">ব্যাটারি অপ্টিমাইজেশন পরীক্ষা করা হচ্ছে</string>
-    <string name="cd_not_supported_battery_optimization">ব্যাটারি অপ্টিমাইজেশন সমর্থিত নয়</string>
-    <string name="cd_bluetooth">ব্লুটুথ</string>
-    <string name="cd_unread_message">অপঠিত বার্তা</string>
-    <string name="cd_open_map">মানচিত্র খুলুন</string>
-    <string name="cd_remove_bookmark">বুকমার্ক সরান</string>
-    <string name="cd_teleport">টেলিপোর্ট</string>
-    <string name="cd_selected">নির্বাচিত</string>
-    <string name="cd_leave_channel">চ্যানেল ছেড়ে দিন</string>
-    <string name="cd_reachable_via_nostr">Nostr এর মাধ্যমে পৌঁছানো যায়</string>
-    <string name="cd_offline_favorite">প্রিয় (অফলাইন)</string>
-    <string name="cd_decrease_precision">নির্ভুলতা কমান</string>
-    <string name="cd_increase_precision">নির্ভুলতা বাড়ান</string>
-    <string name="cd_select_geohash">জিওহ্যাশ নির্বাচন করুন</string>
-    <string name="cd_scroll_to_bottom">নিচে স্ক্রল করুন</string>
-    <string name="cd_file">ফাইল</string>
-    <string name="cd_image">ছবি</string>
-    <string name="cd_cancel">বাতিল</string>
-    <string name="cd_link">লিঙ্ক</string>
-    <string name="cd_pick_media">মিডিয়া নির্বাচন করুন</string>
-    <string name="cd_pick_file">ফাইল নির্বাচন করুন</string>
-    <string name="cd_save_current_image">বর্তমান ছবি সংরক্ষণ করুন</string>
-    <string name="cd_close">বন্ধ করুন</string>
-    <string name="cd_image_index_of">ছবি %1$d এর %2$d</string>
-    <string name="cd_privacy_protected">গোপনীয়তা সুরক্ষিত</string>
-    <string name="cd_record_voice">ভয়েস বার্তা রেকর্ড করুন</string>
-    <string name="cd_offline_mesh_chat">অফলাইন মেশ চ্যাট</string>
-    <string name="cd_online_geohash_channels">অনলাইন জিওহ্যাশ চ্যানেল</string>
-    <string name="cd_end_to_end_encryption">এন্ড-টু-এন্ড এনক্রিপশন</string>
+    <!-- à¦¸à¦¾à¦§à¦¾à¦°à¦£ à¦¬à¦¿à¦·à¦¯à¦¼à¦¬à¦¸à§à¦¤à§ à¦¬à¦¿à¦¬à¦°à¦£ -->
+    <string name="cd_warning">à¦¸à¦¤à¦°à§à¦•à¦¤à¦¾</string>
+    <string name="cd_location_services">à¦…à¦¬à¦¸à§à¦¥à¦¾à¦¨ à¦¸à§‡à¦¬à¦¾</string>
+    <string name="cd_privacy">à¦—à§‹à¦ªà¦¨à§€à¦¯à¦¼à¦¤à¦¾</string>
+    <string name="cd_error">à¦¤à§à¦°à§à¦Ÿà¦¿</string>
+    <string name="cd_battery_optimization">à¦¬à§à¦¯à¦¾à¦Ÿà¦¾à¦°à¦¿ à¦…à¦ªà§à¦Ÿà¦¿à¦®à¦¾à¦‡à¦œà§‡à¦¶à¦¨</string>
+    <string name="cd_benefits">à¦¸à§à¦¬à¦¿à¦§à¦¾</string>
+    <string name="cd_checking_battery_optimization">à¦¬à§à¦¯à¦¾à¦Ÿà¦¾à¦°à¦¿ à¦…à¦ªà§à¦Ÿà¦¿à¦®à¦¾à¦‡à¦œà§‡à¦¶à¦¨ à¦ªà¦°à§€à¦•à§à¦·à¦¾ à¦•à¦°à¦¾ à¦¹à¦šà§à¦›à§‡</string>
+    <string name="cd_not_supported_battery_optimization">à¦¬à§à¦¯à¦¾à¦Ÿà¦¾à¦°à¦¿ à¦…à¦ªà§à¦Ÿà¦¿à¦®à¦¾à¦‡à¦œà§‡à¦¶à¦¨ à¦¸à¦®à¦°à§à¦¥à¦¿à¦¤ à¦¨à¦¯à¦¼</string>
+    <string name="cd_bluetooth">à¦¬à§à¦²à§à¦Ÿà§à¦¥</string>
+    <string name="cd_unread_message">à¦…à¦ªà¦ à¦¿à¦¤ à¦¬à¦¾à¦°à§à¦¤à¦¾</string>
+    <string name="cd_open_map">à¦®à¦¾à¦¨à¦šà¦¿à¦¤à§à¦° à¦–à§à¦²à§à¦¨</string>
+    <string name="cd_remove_bookmark">à¦¬à§à¦•à¦®à¦¾à¦°à§à¦• à¦¸à¦°à¦¾à¦¨</string>
+    <string name="cd_teleport">à¦Ÿà§‡à¦²à¦¿à¦ªà§‹à¦°à§à¦Ÿ</string>
+    <string name="cd_selected">à¦¨à¦¿à¦°à§à¦¬à¦¾à¦šà¦¿à¦¤</string>
+    <string name="cd_leave_channel">à¦šà§à¦¯à¦¾à¦¨à§‡à¦² à¦›à§‡à¦¡à¦¼à§‡ à¦¦à¦¿à¦¨</string>
+    <string name="cd_reachable_via_nostr">Nostr à¦à¦° à¦®à¦¾à¦§à§à¦¯à¦®à§‡ à¦ªà§Œà¦à¦›à¦¾à¦¨à§‹ à¦¯à¦¾à¦¯à¦¼</string>
+    <string name="cd_offline_favorite">à¦ªà§à¦°à¦¿à¦¯à¦¼ (à¦…à¦«à¦²à¦¾à¦‡à¦¨)</string>
+    <string name="cd_decrease_precision">à¦¨à¦¿à¦°à§à¦­à§à¦²à¦¤à¦¾ à¦•à¦®à¦¾à¦¨</string>
+    <string name="cd_increase_precision">à¦¨à¦¿à¦°à§à¦­à§à¦²à¦¤à¦¾ à¦¬à¦¾à¦¡à¦¼à¦¾à¦¨</string>
+    <string name="cd_select_geohash">à¦œà¦¿à¦“à¦¹à§à¦¯à¦¾à¦¶ à¦¨à¦¿à¦°à§à¦¬à¦¾à¦šà¦¨ à¦•à¦°à§à¦¨</string>
+    <string name="cd_scroll_to_bottom">à¦¨à¦¿à¦šà§‡ à¦¸à§à¦•à§à¦°à¦² à¦•à¦°à§à¦¨</string>
+    <string name="cd_file">à¦«à¦¾à¦‡à¦²</string>
+    <string name="cd_image">à¦›à¦¬à¦¿</string>
+    <string name="cd_cancel">à¦¬à¦¾à¦¤à¦¿à¦²</string>
+    <string name="cd_link">à¦²à¦¿à¦™à§à¦•</string>
+    <string name="cd_pick_media">à¦®à¦¿à¦¡à¦¿à¦¯à¦¼à¦¾ à¦¨à¦¿à¦°à§à¦¬à¦¾à¦šà¦¨ à¦•à¦°à§à¦¨</string>
+    <string name="cd_pick_file">à¦«à¦¾à¦‡à¦² à¦¨à¦¿à¦°à§à¦¬à¦¾à¦šà¦¨ à¦•à¦°à§à¦¨</string>
+    <string name="cd_save_current_image">à¦¬à¦°à§à¦¤à¦®à¦¾à¦¨ à¦›à¦¬à¦¿ à¦¸à¦‚à¦°à¦•à§à¦·à¦£ à¦•à¦°à§à¦¨</string>
+    <string name="cd_close">à¦¬à¦¨à§à¦§ à¦•à¦°à§à¦¨</string>
+    <string name="cd_image_index_of">à¦›à¦¬à¦¿ %1$d à¦à¦° %2$d</string>
+    <string name="cd_privacy_protected">à¦—à§‹à¦ªà¦¨à§€à¦¯à¦¼à¦¤à¦¾ à¦¸à§à¦°à¦•à§à¦·à¦¿à¦¤</string>
+    <string name="cd_record_voice">à¦­à¦¯à¦¼à§‡à¦¸ à¦¬à¦¾à¦°à§à¦¤à¦¾ à¦°à§‡à¦•à¦°à§à¦¡ à¦•à¦°à§à¦¨</string>
+    <string name="cd_offline_mesh_chat">à¦…à¦«à¦²à¦¾à¦‡à¦¨ à¦®à§‡à¦¶ à¦šà§à¦¯à¦¾à¦Ÿ</string>
+    <string name="cd_online_geohash_channels">à¦…à¦¨à¦²à¦¾à¦‡à¦¨ à¦œà¦¿à¦“à¦¹à§à¦¯à¦¾à¦¶ à¦šà§à¦¯à¦¾à¦¨à§‡à¦²</string>
+    <string name="cd_end_to_end_encryption">à¦à¦¨à§à¦¡-à¦Ÿà§-à¦à¦¨à§à¦¡ à¦à¦¨à¦•à§à¦°à¦¿à¦ªà¦¶à¦¨</string>
 
-    <!-- ছবি ও ফাইল -->
-    <string name="image_page_of">ছবি %1$d এর %2$d</string>
-    <string name="image_unavailable">ছবি অনুপলব্ধ</string>
-    <string name="image_saved_to_downloads">ছবি \"Downloads\" এ সংরক্ষিত</string>
-    <string name="image_save_failed">ছবি সংরক্ষণ করতে ব্যর্থ</string>
-    <string name="toast_image_saved">ছবি \"Downloads\" এ সংরক্ষিত</string>
-    <string name="toast_failed_to_save_image">ছবি সংরক্ষণ করতে ব্যর্থ</string>
-    <string name="pick_file">ফাইল নির্বাচন করুন</string>
-    <string name="file_unavailable">[ফাইল অনুপলব্ধ]</string>
-    <string name="unknown">অজানা</string>
+    <!-- à¦›à¦¬à¦¿ à¦“ à¦«à¦¾à¦‡à¦² -->
+    <string name="image_page_of">à¦›à¦¬à¦¿ %1$d à¦à¦° %2$d</string>
+    <string name="image_unavailable">à¦›à¦¬à¦¿ à¦…à¦¨à§à¦ªà¦²à¦¬à§à¦§</string>
+    <string name="image_saved_to_downloads">à¦›à¦¬à¦¿ \"Downloads\" à¦ à¦¸à¦‚à¦°à¦•à§à¦·à¦¿à¦¤</string>
+    <string name="image_save_failed">à¦›à¦¬à¦¿ à¦¸à¦‚à¦°à¦•à§à¦·à¦£ à¦•à¦°à¦¤à§‡ à¦¬à§à¦¯à¦°à§à¦¥</string>
+    <string name="toast_image_saved">à¦›à¦¬à¦¿ \"Downloads\" à¦ à¦¸à¦‚à¦°à¦•à§à¦·à¦¿à¦¤</string>
+    <string name="toast_failed_to_save_image">à¦›à¦¬à¦¿ à¦¸à¦‚à¦°à¦•à§à¦·à¦£ à¦•à¦°à¦¤à§‡ à¦¬à§à¦¯à¦°à§à¦¥</string>
+    <string name="pick_file">à¦«à¦¾à¦‡à¦² à¦¨à¦¿à¦°à§à¦¬à¦¾à¦šà¦¨ à¦•à¦°à§à¦¨</string>
+    <string name="file_unavailable">[à¦«à¦¾à¦‡à¦² à¦…à¦¨à§à¦ªà¦²à¦¬à§à¦§]</string>
+    <string name="unknown">à¦…à¦œà¦¾à¦¨à¦¾</string>
 
-    <!-- ব্যবহারকারী অ্যাকশন শিট -->
-    <string name="choose_action_message_or_user">এই বার্তা বা ব্যবহারকারীর জন্য অ্যাকশন নির্বাচন করুন</string>
-    <string name="choose_action_user">এই ব্যবহারকারীর জন্য অ্যাকশন নির্বাচন করুন</string>
-    <string name="action_copy_message_title">বার্তা কপি করুন</string>
-    <string name="action_copy_message_subtitle">এই বার্তাটি ক্লিপবোর্ডে কপি করুন</string>
-    <string name="action_slap_title">%1$s কে চড় দিন</string>
-    <string name="action_slap_subtitle">একটি কৌতুকপূর্ণ চড় পাঠান</string>
-    <string name="action_hug_title">%1$s কে আলিঙ্গন করুন</string>
-    <string name="action_hug_subtitle">একটি বন্ধুত্বপূর্ণ আলিঙ্গন পাঠান</string>
-    <string name="action_block_title">%1$s কে ব্লক করুন</string>
-    <string name="action_block_subtitle">এই ব্যবহারকারীর সমস্ত বার্তা ব্লক করুন</string>
+    <!-- à¦¬à§à¦¯à¦¬à¦¹à¦¾à¦°à¦•à¦¾à¦°à§€ à¦…à§à¦¯à¦¾à¦•à¦¶à¦¨ à¦¶à¦¿à¦Ÿ -->
+    <string name="choose_action_message_or_user">à¦à¦‡ à¦¬à¦¾à¦°à§à¦¤à¦¾ à¦¬à¦¾ à¦¬à§à¦¯à¦¬à¦¹à¦¾à¦°à¦•à¦¾à¦°à§€à¦° à¦œà¦¨à§à¦¯ à¦…à§à¦¯à¦¾à¦•à¦¶à¦¨ à¦¨à¦¿à¦°à§à¦¬à¦¾à¦šà¦¨ à¦•à¦°à§à¦¨</string>
+    <string name="choose_action_user">à¦à¦‡ à¦¬à§à¦¯à¦¬à¦¹à¦¾à¦°à¦•à¦¾à¦°à§€à¦° à¦œà¦¨à§à¦¯ à¦…à§à¦¯à¦¾à¦•à¦¶à¦¨ à¦¨à¦¿à¦°à§à¦¬à¦¾à¦šà¦¨ à¦•à¦°à§à¦¨</string>
+    <string name="action_copy_message_title">à¦¬à¦¾à¦°à§à¦¤à¦¾ à¦•à¦ªà¦¿ à¦•à¦°à§à¦¨</string>
+    <string name="action_copy_message_subtitle">à¦à¦‡ à¦¬à¦¾à¦°à§à¦¤à¦¾à¦Ÿà¦¿ à¦•à§à¦²à¦¿à¦ªà¦¬à§‹à¦°à§à¦¡à§‡ à¦•à¦ªà¦¿ à¦•à¦°à§à¦¨</string>
+    <string name="action_slap_title">%1$s à¦•à§‡ à¦šà¦¡à¦¼ à¦¦à¦¿à¦¨</string>
+    <string name="action_slap_subtitle">à¦à¦•à¦Ÿà¦¿ à¦•à§Œà¦¤à§à¦•à¦ªà§‚à¦°à§à¦£ à¦šà¦¡à¦¼ à¦ªà¦¾à¦ à¦¾à¦¨</string>
+    <string name="action_hug_title">%1$s à¦•à§‡ à¦†à¦²à¦¿à¦™à§à¦—à¦¨ à¦•à¦°à§à¦¨</string>
+    <string name="action_hug_subtitle">à¦à¦•à¦Ÿà¦¿ à¦¬à¦¨à§à¦§à§à¦¤à§à¦¬à¦ªà§‚à¦°à§à¦£ à¦†à¦²à¦¿à¦™à§à¦—à¦¨ à¦ªà¦¾à¦ à¦¾à¦¨</string>
+    <string name="action_block_title">%1$s à¦•à§‡ à¦¬à§à¦²à¦• à¦•à¦°à§à¦¨</string>
+    <string name="action_block_subtitle">à¦à¦‡ à¦¬à§à¦¯à¦¬à¦¹à¦¾à¦°à¦•à¦¾à¦°à§€à¦° à¦¸à¦®à¦¸à§à¦¤ à¦¬à¦¾à¦°à§à¦¤à¦¾ à¦¬à§à¦²à¦• à¦•à¦°à§à¦¨</string>
 
-    <!-- জিওহ্যাশ চ্যানেল শিট -->
-    <string name="location_channels_title">#অবস্থান চ্যানেল</string>
-    <string name="location_channels_desc">জিওহ্যাশ চ্যানেলের মাধ্যমে আপনার কাছাকাছি মানুষদের সাথে চ্যাট করুন। শুধুমাত্র রূঢ় জিওহ্যাশ শেয়ার করা হয়, সঠিক GPS ডেটা নয়। গোপনীয়তার জন্য দয়া করে এই ভিউ স্ক্রিনশট করবেন না বা শেয়ার করবেন না।</string>
-    <string name="grant_location_permission">অবস্থান অনুমতি দিন</string>
-    <string name="location_permission_denied">অবস্থান অনুমতি প্রত্যাখ্যাত। অবস্থান চ্যানেল ব্যবহার করতে সেটিংসে সক্ষম করুন।</string>
-    <string name="open_settings">সেটিংস খুলুন</string>
-    <string name="location_permission_granted">\u2713 অবস্থান অনুমতি দেওয়া হয়েছে</string>
-    <string name="checking_permissions">অনুমতি পরীক্ষা করা হচ্ছে …</string>
-    <string name="finding_nearby_channels">কাছাকাছি চ্যানেল খোঁজা হচ্ছে …</string>
-    <string name="bookmarked">বুকমার্ক করা</string>
-    <string name="geohash_placeholder">জিওহ্যাশ</string>
-    <string name="invalid_geohash">অবৈধ জিওহ্যাশ</string>
-    <string name="teleport">টেলিপোর্ট</string>
-    <string name="disable_location_services">অবস্থান সেবা নিষ্ক্রিয় করুন</string>
-    <string name="enable_location_services">অবস্থান সেবা সক্রিয় করুন</string>
-    <string name="mesh_label">মেশ</string>
-    <string name="location_level_block">ব্লক</string>
-    <string name="location_level_neighborhood">আশপাশ</string>
-    <string name="location_level_city">শহর</string>
-    <string name="location_level_province">প্রদেশ</string>
-    <string name="location_level_region">অঞ্চল</string>
-    <string name="location_bluetooth_subtitle">#bluetooth • %1$s</string>
+    <!-- à¦œà¦¿à¦“à¦¹à§à¦¯à¦¾à¦¶ à¦šà§à¦¯à¦¾à¦¨à§‡à¦² à¦¶à¦¿à¦Ÿ -->
+    <string name="location_channels_title">#à¦…à¦¬à¦¸à§à¦¥à¦¾à¦¨ à¦šà§à¦¯à¦¾à¦¨à§‡à¦²</string>
+    <string name="location_channels_desc">à¦œà¦¿à¦“à¦¹à§à¦¯à¦¾à¦¶ à¦šà§à¦¯à¦¾à¦¨à§‡à¦²à§‡à¦° à¦®à¦¾à¦§à§à¦¯à¦®à§‡ à¦†à¦ªà¦¨à¦¾à¦° à¦•à¦¾à¦›à¦¾à¦•à¦¾à¦›à¦¿ à¦®à¦¾à¦¨à§à¦·à¦¦à§‡à¦° à¦¸à¦¾à¦¥à§‡ à¦šà§à¦¯à¦¾à¦Ÿ à¦•à¦°à§à¦¨à¥¤ à¦¶à§à¦§à§à¦®à¦¾à¦¤à§à¦° à¦°à§‚à¦¢à¦¼ à¦œà¦¿à¦“à¦¹à§à¦¯à¦¾à¦¶ à¦¶à§‡à¦¯à¦¼à¦¾à¦° à¦•à¦°à¦¾ à¦¹à¦¯à¦¼, à¦¸à¦ à¦¿à¦• GPS à¦¡à§‡à¦Ÿà¦¾ à¦¨à¦¯à¦¼à¥¤ à¦—à§‹à¦ªà¦¨à§€à¦¯à¦¼à¦¤à¦¾à¦° à¦œà¦¨à§à¦¯ à¦¦à¦¯à¦¼à¦¾ à¦•à¦°à§‡ à¦à¦‡ à¦­à¦¿à¦‰ à¦¸à§à¦•à§à¦°à¦¿à¦¨à¦¶à¦Ÿ à¦•à¦°à¦¬à§‡à¦¨ à¦¨à¦¾ à¦¬à¦¾ à¦¶à§‡à¦¯à¦¼à¦¾à¦° à¦•à¦°à¦¬à§‡à¦¨ à¦¨à¦¾à¥¤</string>
+    <string name="grant_location_permission">à¦…à¦¬à¦¸à§à¦¥à¦¾à¦¨ à¦…à¦¨à§à¦®à¦¤à¦¿ à¦¦à¦¿à¦¨</string>
+    <string name="location_permission_denied">à¦…à¦¬à¦¸à§à¦¥à¦¾à¦¨ à¦…à¦¨à§à¦®à¦¤à¦¿ à¦ªà§à¦°à¦¤à§à¦¯à¦¾à¦–à§à¦¯à¦¾à¦¤à¥¤ à¦…à¦¬à¦¸à§à¦¥à¦¾à¦¨ à¦šà§à¦¯à¦¾à¦¨à§‡à¦² à¦¬à§à¦¯à¦¬à¦¹à¦¾à¦° à¦•à¦°à¦¤à§‡ à¦¸à§‡à¦Ÿà¦¿à¦‚à¦¸à§‡ à¦¸à¦•à§à¦·à¦® à¦•à¦°à§à¦¨à¥¤</string>
+    <string name="open_settings">à¦¸à§‡à¦Ÿà¦¿à¦‚à¦¸ à¦–à§à¦²à§à¦¨</string>
+    <string name="location_permission_granted">\u2713 à¦…à¦¬à¦¸à§à¦¥à¦¾à¦¨ à¦…à¦¨à§à¦®à¦¤à¦¿ à¦¦à§‡à¦“à¦¯à¦¼à¦¾ à¦¹à¦¯à¦¼à§‡à¦›à§‡</string>
+    <string name="checking_permissions">à¦…à¦¨à§à¦®à¦¤à¦¿ à¦ªà¦°à§€à¦•à§à¦·à¦¾ à¦•à¦°à¦¾ à¦¹à¦šà§à¦›à§‡ â€¦</string>
+    <string name="finding_nearby_channels">à¦•à¦¾à¦›à¦¾à¦•à¦¾à¦›à¦¿ à¦šà§à¦¯à¦¾à¦¨à§‡à¦² à¦–à§‹à¦à¦œà¦¾ à¦¹à¦šà§à¦›à§‡ â€¦</string>
+    <string name="bookmarked">à¦¬à§à¦•à¦®à¦¾à¦°à§à¦• à¦•à¦°à¦¾</string>
+    <string name="geohash_placeholder">à¦œà¦¿à¦“à¦¹à§à¦¯à¦¾à¦¶</string>
+    <string name="invalid_geohash">à¦…à¦¬à§ˆà¦§ à¦œà¦¿à¦“à¦¹à§à¦¯à¦¾à¦¶</string>
+    <string name="teleport">à¦Ÿà§‡à¦²à¦¿à¦ªà§‹à¦°à§à¦Ÿ</string>
+    <string name="disable_location_services">à¦…à¦¬à¦¸à§à¦¥à¦¾à¦¨ à¦¸à§‡à¦¬à¦¾ à¦¨à¦¿à¦·à§à¦•à§à¦°à¦¿à¦¯à¦¼ à¦•à¦°à§à¦¨</string>
+    <string name="enable_location_services">à¦…à¦¬à¦¸à§à¦¥à¦¾à¦¨ à¦¸à§‡à¦¬à¦¾ à¦¸à¦•à§à¦°à¦¿à¦¯à¦¼ à¦•à¦°à§à¦¨</string>
+    <string name="mesh_label">à¦®à§‡à¦¶</string>
+    <string name="location_level_block">à¦¬à§à¦²à¦•</string>
+    <string name="location_level_neighborhood">à¦†à¦¶à¦ªà¦¾à¦¶</string>
+    <string name="location_level_city">à¦¶à¦¹à¦°</string>
+    <string name="location_level_province">à¦ªà§à¦°à¦¦à§‡à¦¶</string>
+    <string name="location_level_region">à¦…à¦žà§à¦šà¦²</string>
+    <string name="location_bluetooth_subtitle">#bluetooth â€¢ %1$s</string>
 
-    <!-- ডিবাগ / ডায়াগনস্টিক -->
-    <string name="debug_tools">ডিবাগ টুল</string>
-    <string name="debug_tools_desc">ডায়াগনস্টিক এবং নিয়ন্ত্রণের জন্য ডেভেলপার টুল</string>
-    <string name="debug_verbose_logging">বিস্তারিত লগিং</string>
-    <string name="debug_verbose_hint">পিয়ার জয়েন/লিভ, সংযোগ দিক, প্যাকেট ফরওয়ার্ডিং এবং রিলে লগ করে</string>
-    <string name="debug_bluetooth_roles">ব্লুটুথ ভূমিকা</string>
-    <string name="debug_gatt_server">GATT সার্ভার</string>
-    <string name="debug_connections_fmt">সংযোগ: %1$d / %2$d</string>
-    <string name="debug_max_server">সর্বোচ্চ সার্ভার</string>
-    <string name="debug_gatt_client">GATT ক্লায়েন্ট</string>
-    <string name="debug_max_client">সর্বোচ্চ ক্লায়েন্ট</string>
-    <string name="debug_overall_connections_fmt">সংযোগ: %1$d / %2$d</string>
-    <string name="debug_max_overall">সর্বোচ্চ সামগ্রিক</string>
-    <string name="debug_packet_relay">প্যাকেট রিলে</string>
-    <string name="debug_since_start_fmt">শুরু থেকে: %1$d</string>
-    <string name="debug_roles_hint">ভূমিকা চালু/বন্ধ করুন এবং নিষ্ক্রিয় করার সময় সমস্ত সংযোগ বন্ধ করুন</string>
-    <string name="debug_sync_settings">সিঙ্ক সেটিংস</string>
-    <string name="debug_max_packets_per_sync_fmt">প্রতি সিঙ্কে সর্বোচ্চ প্যাকেট: %1$d</string>
-    <string name="debug_max_gcs_filter_size_fmt">সর্বোচ্চ GCS ফিল্টার আকার: %1$d বাইট (128–1024)</string>
-    <string name="debug_target_fpr_fmt">লক্ষ্য FPR: %1$.2f%%</string>
-    <string name="debug_connected_devices">সংযুক্ত ডিভাইস</string>
-    <string name="debug_our_device_id_fmt">আমাদের ডিভাইস ID: %1$s</string>
-    <string name="debug_none">কোনটি নেই</string>
-    <string name="debug_disconnect">সংযোগ বিচ্ছিন্ন করুন</string>
-    <string name="debug_recent_scan_results">সাম্প্রতিক স্ক্যান করা ডিভাইস</string>
-    <string name="debug_connect">সংযোগ করুন</string>
-    <string name="debug_debug_console">ডিবাগ কনসোল</string>
-    <string name="debug_clear">সাফ করুন</string>
-    <string name="debug_relays_window_fmt">শেষ 10s: %1$d • 1m: %2$d • 15m: %3$d</string>
-    <string name="debug_derived_p_fmt">উৎপন্ন P: %1$s • আনুমানিক সর্বোচ্চ উপাদান: %2$s</string>
-    <string name="debug_direct_suffix"> • সরাসরি</string>
-    <string name="debug_role_server">সার্ভার হিসেবে (আমরা হোস্ট করি)</string>
-    <string name="debug_role_client">ক্লায়েন্ট হিসেবে (আমরা সংযোগ করি)</string>
+    <!-- à¦¡à¦¿à¦¬à¦¾à¦— / à¦¡à¦¾à¦¯à¦¼à¦¾à¦—à¦¨à¦¸à§à¦Ÿà¦¿à¦• -->
+    <string name="debug_tools">à¦¡à¦¿à¦¬à¦¾à¦— à¦Ÿà§à¦²</string>
+    <string name="debug_tools_desc">à¦¡à¦¾à¦¯à¦¼à¦¾à¦—à¦¨à¦¸à§à¦Ÿà¦¿à¦• à¦à¦¬à¦‚ à¦¨à¦¿à¦¯à¦¼à¦¨à§à¦¤à§à¦°à¦£à§‡à¦° à¦œà¦¨à§à¦¯ à¦¡à§‡à¦­à§‡à¦²à¦ªà¦¾à¦° à¦Ÿà§à¦²</string>
+    <string name="debug_verbose_logging">à¦¬à¦¿à¦¸à§à¦¤à¦¾à¦°à¦¿à¦¤ à¦²à¦—à¦¿à¦‚</string>
+    <string name="debug_verbose_hint">à¦ªà¦¿à¦¯à¦¼à¦¾à¦° à¦œà¦¯à¦¼à§‡à¦¨/à¦²à¦¿à¦­, à¦¸à¦‚à¦¯à§‹à¦— à¦¦à¦¿à¦•, à¦ªà§à¦¯à¦¾à¦•à§‡à¦Ÿ à¦«à¦°à¦“à¦¯à¦¼à¦¾à¦°à§à¦¡à¦¿à¦‚ à¦à¦¬à¦‚ à¦°à¦¿à¦²à§‡ à¦²à¦— à¦•à¦°à§‡</string>
+    <string name="debug_bluetooth_roles">à¦¬à§à¦²à§à¦Ÿà§à¦¥ à¦­à§‚à¦®à¦¿à¦•à¦¾</string>
+    <string name="debug_gatt_server">GATT à¦¸à¦¾à¦°à§à¦­à¦¾à¦°</string>
+    <string name="debug_connections_fmt">à¦¸à¦‚à¦¯à§‹à¦—: %1$d / %2$d</string>
+    <string name="debug_max_server">à¦¸à¦°à§à¦¬à§‹à¦šà§à¦š à¦¸à¦¾à¦°à§à¦­à¦¾à¦°</string>
+    <string name="debug_gatt_client">GATT à¦•à§à¦²à¦¾à¦¯à¦¼à§‡à¦¨à§à¦Ÿ</string>
+    <string name="debug_max_client">à¦¸à¦°à§à¦¬à§‹à¦šà§à¦š à¦•à§à¦²à¦¾à¦¯à¦¼à§‡à¦¨à§à¦Ÿ</string>
+    <string name="debug_overall_connections_fmt">à¦¸à¦‚à¦¯à§‹à¦—: %1$d / %2$d</string>
+    <string name="debug_max_overall">à¦¸à¦°à§à¦¬à§‹à¦šà§à¦š à¦¸à¦¾à¦®à¦—à§à¦°à¦¿à¦•</string>
+    <string name="debug_packet_relay">à¦ªà§à¦¯à¦¾à¦•à§‡à¦Ÿ à¦°à¦¿à¦²à§‡</string>
+    <string name="debug_since_start_fmt">à¦¶à§à¦°à§ à¦¥à§‡à¦•à§‡: %1$d</string>
+    <string name="debug_roles_hint">à¦­à§‚à¦®à¦¿à¦•à¦¾ à¦šà¦¾à¦²à§/à¦¬à¦¨à§à¦§ à¦•à¦°à§à¦¨ à¦à¦¬à¦‚ à¦¨à¦¿à¦·à§à¦•à§à¦°à¦¿à¦¯à¦¼ à¦•à¦°à¦¾à¦° à¦¸à¦®à¦¯à¦¼ à¦¸à¦®à¦¸à§à¦¤ à¦¸à¦‚à¦¯à§‹à¦— à¦¬à¦¨à§à¦§ à¦•à¦°à§à¦¨</string>
+    <string name="debug_sync_settings">à¦¸à¦¿à¦™à§à¦• à¦¸à§‡à¦Ÿà¦¿à¦‚à¦¸</string>
+    <string name="debug_max_packets_per_sync_fmt">à¦ªà§à¦°à¦¤à¦¿ à¦¸à¦¿à¦™à§à¦•à§‡ à¦¸à¦°à§à¦¬à§‹à¦šà§à¦š à¦ªà§à¦¯à¦¾à¦•à§‡à¦Ÿ: %1$d</string>
+    <string name="debug_max_gcs_filter_size_fmt">à¦¸à¦°à§à¦¬à§‹à¦šà§à¦š GCS à¦«à¦¿à¦²à§à¦Ÿà¦¾à¦° à¦†à¦•à¦¾à¦°: %1$d à¦¬à¦¾à¦‡à¦Ÿ (128â€“1024)</string>
+    <string name="debug_target_fpr_fmt">à¦²à¦•à§à¦·à§à¦¯ FPR: %1$.2f%%</string>
+    <string name="debug_connected_devices">à¦¸à¦‚à¦¯à§à¦•à§à¦¤ à¦¡à¦¿à¦­à¦¾à¦‡à¦¸</string>
+    <string name="debug_our_device_id_fmt">à¦†à¦®à¦¾à¦¦à§‡à¦° à¦¡à¦¿à¦­à¦¾à¦‡à¦¸ ID: %1$s</string>
+    <string name="debug_none">à¦•à§‹à¦¨à¦Ÿà¦¿ à¦¨à§‡à¦‡</string>
+    <string name="debug_disconnect">à¦¸à¦‚à¦¯à§‹à¦— à¦¬à¦¿à¦šà§à¦›à¦¿à¦¨à§à¦¨ à¦•à¦°à§à¦¨</string>
+    <string name="debug_recent_scan_results">à¦¸à¦¾à¦®à§à¦ªà§à¦°à¦¤à¦¿à¦• à¦¸à§à¦•à§à¦¯à¦¾à¦¨ à¦•à¦°à¦¾ à¦¡à¦¿à¦­à¦¾à¦‡à¦¸</string>
+    <string name="debug_connect">à¦¸à¦‚à¦¯à§‹à¦— à¦•à¦°à§à¦¨</string>
+    <string name="debug_debug_console">à¦¡à¦¿à¦¬à¦¾à¦— à¦•à¦¨à¦¸à§‹à¦²</string>
+    <string name="debug_clear">à¦¸à¦¾à¦« à¦•à¦°à§à¦¨</string>
+    <string name="debug_relays_window_fmt">à¦¶à§‡à¦· 10s: %1$d â€¢ 1m: %2$d â€¢ 15m: %3$d</string>
+    <string name="debug_derived_p_fmt">à¦‰à§Žà¦ªà¦¨à§à¦¨ P: %1$s â€¢ à¦†à¦¨à§à¦®à¦¾à¦¨à¦¿à¦• à¦¸à¦°à§à¦¬à§‹à¦šà§à¦š à¦‰à¦ªà¦¾à¦¦à¦¾à¦¨: %2$s</string>
+    <string name="debug_direct_suffix"> â€¢ à¦¸à¦°à¦¾à¦¸à¦°à¦¿</string>
+    <string name="debug_role_server">à¦¸à¦¾à¦°à§à¦­à¦¾à¦° à¦¹à¦¿à¦¸à§‡à¦¬à§‡ (à¦†à¦®à¦°à¦¾ à¦¹à§‹à¦¸à§à¦Ÿ à¦•à¦°à¦¿)</string>
+    <string name="debug_role_client">à¦•à§à¦²à¦¾à¦¯à¦¼à§‡à¦¨à§à¦Ÿ à¦¹à¦¿à¦¸à§‡à¦¬à§‡ (à¦†à¦®à¦°à¦¾ à¦¸à¦‚à¦¯à§‹à¦— à¦•à¦°à¦¿)</string>
 
-    <!-- অনবোর্ডিং স্ক্রিন -->
-    <string name="location_services_required">অবস্থান সেবা প্রয়োজন</string>
-    <string name="privacy_first">গোপনীয়তা প্রথম</string>
-    <string name="location_explanation">bitchat আপনার অবস্থান ট্র্যাক করে না।\n\nব্লুটুথ স্ক্যানিং এবং জিওহ্যাশ চ্যাট বৈশিষ্ট্যের জন্য অবস্থান সেবা প্রয়োজন।</string>
-    <string name="location_needs_for">bitchat এর জন্য অবস্থান সেবা প্রয়োজন:</string>
-    <string name="location_needs_bullets">• ব্লুটুথ ডিভাইস স্ক্যানিং\n• মেশ নেটওয়ার্কে কাছাকাছি ব্যবহারকারী আবিষ্কার\n• জিওহ্যাশ চ্যাট বৈশিষ্ট্য\n• কোন ট্র্যাকিং বা অবস্থান সংগ্রহ নেই</string>
-    <string name="open_location_settings">অবস্থান সেটিংস খুলুন</string>
-    <string name="check_again">আবার পরীক্ষা করুন</string>
-    <string name="location_services_unavailable">অবস্থান সেবা অনুপলব্ধ</string>
-    <string name="location_unavailable_explanation">এই ডিভাইসে অবস্থান সেবা উপলব্ধ নেই। এটি অস্বাভাবিক কারণ অবস্থান সেবা Android ডিভাইসে স্ট্যান্ডার্ড।\n\nব্লুটুথ স্ক্যানিং সঠিকভাবে কাজ করার জন্য bitchat এর অবস্থান সেবা প্রয়োজন (Android প্রয়োজনীয়তা)। এটি ছাড়া অ্যাপ কাছাকাছি ব্যবহারকারী আবিষ্কার করতে পারে না।</string>
-    <string name="checking_location_services">অবস্থান সেবা পরীক্ষা করা হচ্ছে …</string>
-    <string name="bluetooth_required">ব্লুটুথ প্রয়োজন</string>
-    <string name="bluetooth_needs_for">bitchat এর জন্য ব্লুটুথ প্রয়োজন:</string>
-    <string name="bluetooth_needs_bullets">• কাছাকাছি ব্যবহারকারী আবিষ্কার\n• মেশ নেটওয়ার্ক সংযোগ তৈরি\n• বার্তা পাঠানো এবং গ্রহণ\n• ইন্টারনেট বা সার্ভার ছাড়া কাজ</string>
-    <string name="enable_bluetooth">ব্লুটুথ সক্রিয় করুন</string>
-    <string name="bluetooth_not_supported">ব্লুটুথ সমর্থিত নয়</string>
-    <string name="bluetooth_unsupported_explanation">এই ডিভাইস Bluetooth Low Energy (BLE) সমর্থন করে না, যা bitchat কাজ করার জন্য প্রয়োজন।\n\nbitchat এর মেশ নেটওয়ার্ক তৈরি এবং ইন্টারনেট ছাড়াই কাছাকাছি ডিভাইসের সাথে যোগাযোগের জন্য BLE প্রয়োজন।</string>
-    <string name="checking_bluetooth_status">ব্লুটুথ অবস্থা পরীক্ষা করা হচ্ছে …</string>
-    <string name="battery_optimization_detected_title">ব্যাটারি অপ্টিমাইজেশন সনাক্ত</string>
-    <string name="battery_optimization_enabled_title">ব্যাটারি অপ্টিমাইজেশন সক্রিয়</string>
-    <string name="battery_optimization_explanation_short">মেশ সংযোগ বজায় রাখতে bitchat অবশ্যই ব্যাকগ্রাউন্ডে চলতে হবে। ব্যাটারি অপ্টিমাইজেশন এই সংযোগগুলি বাধাগ্রস্ত করতে পারে।</string>
-    <string name="benefits_of_disabling">নিষ্ক্রিয় করার সুবিধা</string>
-    <string name="battery_benefits_short">• নির্ভরযোগ্য বার্তা ডেলিভারি\n• মেশ সংযোগ বজায় রাখা\n• সংযোগ বিচ্ছিন্নতা প্রতিরোধ</string>
-    <string name="disable_battery_optimization">ব্যাটারি অপ্টিমাইজেশন নিষ্ক্রিয় করুন</string>
-    <string name="battery_optimization_disabled_title">ব্যাটারি অপ্টিমাইজেশন নিষ্ক্রিয়</string>
-    <string name="continue_btn">চালিয়ে যান</string>
-    <string name="initializing_mesh_network">মেশ নেটওয়ার্ক শুরু করা হচ্ছে</string>
-    <string name="setting_up_bluetooth">ব্লুটুথ মেশ নেটওয়ার্ক সেটআপ করা হচ্ছে …</string>
-    <string name="should_take_seconds">এটি মাত্র কয়েক সেকেন্ড সময় নেওয়া উচিত</string>
-    <string name="setup_not_complete">সেটআপ সম্পূর্ণ নয়</string>
-    <string name="try_again">আবার চেষ্টা করুন</string>
-    <string name="privacy_protected">আপনার গোপনীয়তা সুরক্ষিত</string>
-    <string name="privacy_bullets">• কোন ট্র্যাকিং বা ডেটা সংগ্রহ নেই\n• ব্লুটুথ মেশ চ্যাট সম্পূর্ণ অফলাইন\n• জিওহ্যাশ চ্যাট ইন্টারনেট ব্যবহার করে</string>
-    <string name="permissions_header">অনুমতি</string>
-    <string name="grant_permissions">অনুমতি দিন</string>
-    <string name="location_tracking_warning">bitchat আপনার অবস্থান ট্র্যাক করে না</string>
-    <string name="geohash_people_header">মানুষ</string>
-    <string name="nobody_around">কেউ আশেপাশে নেই …</string>
-    <string name="you_suffix"> (আপনি)</string>
-    <string name="pan_zoom_instruction">জিওহ্যাশ নির্বাচন করতে প্যান এবং জুম করুন</string>
-    <string name="select">নির্বাচন করুন</string>
-    <string name="type_a_message_placeholder">বার্তা টাইপ করুন …</string>
-    <string name="mention">উল্লেখ</string>
+    <!-- à¦…à¦¨à¦¬à§‹à¦°à§à¦¡à¦¿à¦‚ à¦¸à§à¦•à§à¦°à¦¿à¦¨ -->
+    <string name="location_services_required">à¦…à¦¬à¦¸à§à¦¥à¦¾à¦¨ à¦¸à§‡à¦¬à¦¾ à¦ªà§à¦°à¦¯à¦¼à§‹à¦œà¦¨</string>
+    <string name="privacy_first">à¦—à§‹à¦ªà¦¨à§€à¦¯à¦¼à¦¤à¦¾ à¦ªà§à¦°à¦¥à¦®</string>
+    <string name="location_explanation">bitchat à¦†à¦ªà¦¨à¦¾à¦° à¦…à¦¬à¦¸à§à¦¥à¦¾à¦¨ à¦Ÿà§à¦°à§à¦¯à¦¾à¦• à¦•à¦°à§‡ à¦¨à¦¾à¥¤\n\nà¦¬à§à¦²à§à¦Ÿà§à¦¥ à¦¸à§à¦•à§à¦¯à¦¾à¦¨à¦¿à¦‚ à¦à¦¬à¦‚ à¦œà¦¿à¦“à¦¹à§à¦¯à¦¾à¦¶ à¦šà§à¦¯à¦¾à¦Ÿ à¦¬à§ˆà¦¶à¦¿à¦·à§à¦Ÿà§à¦¯à§‡à¦° à¦œà¦¨à§à¦¯ à¦…à¦¬à¦¸à§à¦¥à¦¾à¦¨ à¦¸à§‡à¦¬à¦¾ à¦ªà§à¦°à¦¯à¦¼à§‹à¦œà¦¨à¥¤</string>
+    <string name="location_needs_for">bitchat à¦à¦° à¦œà¦¨à§à¦¯ à¦…à¦¬à¦¸à§à¦¥à¦¾à¦¨ à¦¸à§‡à¦¬à¦¾ à¦ªà§à¦°à¦¯à¦¼à§‹à¦œà¦¨:</string>
+    <string name="location_needs_bullets">â€¢ à¦¬à§à¦²à§à¦Ÿà§à¦¥ à¦¡à¦¿à¦­à¦¾à¦‡à¦¸ à¦¸à§à¦•à§à¦¯à¦¾à¦¨à¦¿à¦‚\nâ€¢ à¦®à§‡à¦¶ à¦¨à§‡à¦Ÿà¦“à¦¯à¦¼à¦¾à¦°à§à¦•à§‡ à¦•à¦¾à¦›à¦¾à¦•à¦¾à¦›à¦¿ à¦¬à§à¦¯à¦¬à¦¹à¦¾à¦°à¦•à¦¾à¦°à§€ à¦†à¦¬à¦¿à¦·à§à¦•à¦¾à¦°\nâ€¢ à¦œà¦¿à¦“à¦¹à§à¦¯à¦¾à¦¶ à¦šà§à¦¯à¦¾à¦Ÿ à¦¬à§ˆà¦¶à¦¿à¦·à§à¦Ÿà§à¦¯\nâ€¢ à¦•à§‹à¦¨ à¦Ÿà§à¦°à§à¦¯à¦¾à¦•à¦¿à¦‚ à¦¬à¦¾ à¦…à¦¬à¦¸à§à¦¥à¦¾à¦¨ à¦¸à¦‚à¦—à§à¦°à¦¹ à¦¨à§‡à¦‡</string>
+    <string name="open_location_settings">à¦…à¦¬à¦¸à§à¦¥à¦¾à¦¨ à¦¸à§‡à¦Ÿà¦¿à¦‚à¦¸ à¦–à§à¦²à§à¦¨</string>
+    <string name="check_again">à¦†à¦¬à¦¾à¦° à¦ªà¦°à§€à¦•à§à¦·à¦¾ à¦•à¦°à§à¦¨</string>
+    <string name="location_services_unavailable">à¦…à¦¬à¦¸à§à¦¥à¦¾à¦¨ à¦¸à§‡à¦¬à¦¾ à¦…à¦¨à§à¦ªà¦²à¦¬à§à¦§</string>
+    <string name="location_unavailable_explanation">à¦à¦‡ à¦¡à¦¿à¦­à¦¾à¦‡à¦¸à§‡ à¦…à¦¬à¦¸à§à¦¥à¦¾à¦¨ à¦¸à§‡à¦¬à¦¾ à¦‰à¦ªà¦²à¦¬à§à¦§ à¦¨à§‡à¦‡à¥¤ à¦à¦Ÿà¦¿ à¦…à¦¸à§à¦¬à¦¾à¦­à¦¾à¦¬à¦¿à¦• à¦•à¦¾à¦°à¦£ à¦…à¦¬à¦¸à§à¦¥à¦¾à¦¨ à¦¸à§‡à¦¬à¦¾ Android à¦¡à¦¿à¦­à¦¾à¦‡à¦¸à§‡ à¦¸à§à¦Ÿà§à¦¯à¦¾à¦¨à§à¦¡à¦¾à¦°à§à¦¡à¥¤\n\nà¦¬à§à¦²à§à¦Ÿà§à¦¥ à¦¸à§à¦•à§à¦¯à¦¾à¦¨à¦¿à¦‚ à¦¸à¦ à¦¿à¦•à¦­à¦¾à¦¬à§‡ à¦•à¦¾à¦œ à¦•à¦°à¦¾à¦° à¦œà¦¨à§à¦¯ bitchat à¦à¦° à¦…à¦¬à¦¸à§à¦¥à¦¾à¦¨ à¦¸à§‡à¦¬à¦¾ à¦ªà§à¦°à¦¯à¦¼à§‹à¦œà¦¨ (Android à¦ªà§à¦°à¦¯à¦¼à§‹à¦œà¦¨à§€à¦¯à¦¼à¦¤à¦¾)à¥¤ à¦à¦Ÿà¦¿ à¦›à¦¾à¦¡à¦¼à¦¾ à¦…à§à¦¯à¦¾à¦ª à¦•à¦¾à¦›à¦¾à¦•à¦¾à¦›à¦¿ à¦¬à§à¦¯à¦¬à¦¹à¦¾à¦°à¦•à¦¾à¦°à§€ à¦†à¦¬à¦¿à¦·à§à¦•à¦¾à¦° à¦•à¦°à¦¤à§‡ à¦ªà¦¾à¦°à§‡ à¦¨à¦¾à¥¤</string>
+    <string name="checking_location_services">à¦…à¦¬à¦¸à§à¦¥à¦¾à¦¨ à¦¸à§‡à¦¬à¦¾ à¦ªà¦°à§€à¦•à§à¦·à¦¾ à¦•à¦°à¦¾ à¦¹à¦šà§à¦›à§‡ â€¦</string>
+    <string name="bluetooth_required">à¦¬à§à¦²à§à¦Ÿà§à¦¥ à¦ªà§à¦°à¦¯à¦¼à§‹à¦œà¦¨</string>
+    <string name="bluetooth_needs_for">bitchat à¦à¦° à¦œà¦¨à§à¦¯ à¦¬à§à¦²à§à¦Ÿà§à¦¥ à¦ªà§à¦°à¦¯à¦¼à§‹à¦œà¦¨:</string>
+    <string name="bluetooth_needs_bullets">â€¢ à¦•à¦¾à¦›à¦¾à¦•à¦¾à¦›à¦¿ à¦¬à§à¦¯à¦¬à¦¹à¦¾à¦°à¦•à¦¾à¦°à§€ à¦†à¦¬à¦¿à¦·à§à¦•à¦¾à¦°\nâ€¢ à¦®à§‡à¦¶ à¦¨à§‡à¦Ÿà¦“à¦¯à¦¼à¦¾à¦°à§à¦• à¦¸à¦‚à¦¯à§‹à¦— à¦¤à§ˆà¦°à¦¿\nâ€¢ à¦¬à¦¾à¦°à§à¦¤à¦¾ à¦ªà¦¾à¦ à¦¾à¦¨à§‹ à¦à¦¬à¦‚ à¦—à§à¦°à¦¹à¦£\nâ€¢ à¦‡à¦¨à§à¦Ÿà¦¾à¦°à¦¨à§‡à¦Ÿ à¦¬à¦¾ à¦¸à¦¾à¦°à§à¦­à¦¾à¦° à¦›à¦¾à¦¡à¦¼à¦¾ à¦•à¦¾à¦œ</string>
+    <string name="enable_bluetooth">à¦¬à§à¦²à§à¦Ÿà§à¦¥ à¦¸à¦•à§à¦°à¦¿à¦¯à¦¼ à¦•à¦°à§à¦¨</string>
+    <string name="bluetooth_not_supported">à¦¬à§à¦²à§à¦Ÿà§à¦¥ à¦¸à¦®à¦°à§à¦¥à¦¿à¦¤ à¦¨à¦¯à¦¼</string>
+    <string name="bluetooth_unsupported_explanation">à¦à¦‡ à¦¡à¦¿à¦­à¦¾à¦‡à¦¸ Bluetooth Low Energy (BLE) à¦¸à¦®à¦°à§à¦¥à¦¨ à¦•à¦°à§‡ à¦¨à¦¾, à¦¯à¦¾ bitchat à¦•à¦¾à¦œ à¦•à¦°à¦¾à¦° à¦œà¦¨à§à¦¯ à¦ªà§à¦°à¦¯à¦¼à§‹à¦œà¦¨à¥¤\n\nbitchat à¦à¦° à¦®à§‡à¦¶ à¦¨à§‡à¦Ÿà¦“à¦¯à¦¼à¦¾à¦°à§à¦• à¦¤à§ˆà¦°à¦¿ à¦à¦¬à¦‚ à¦‡à¦¨à§à¦Ÿà¦¾à¦°à¦¨à§‡à¦Ÿ à¦›à¦¾à¦¡à¦¼à¦¾à¦‡ à¦•à¦¾à¦›à¦¾à¦•à¦¾à¦›à¦¿ à¦¡à¦¿à¦­à¦¾à¦‡à¦¸à§‡à¦° à¦¸à¦¾à¦¥à§‡ à¦¯à§‹à¦—à¦¾à¦¯à§‹à¦—à§‡à¦° à¦œà¦¨à§à¦¯ BLE à¦ªà§à¦°à¦¯à¦¼à§‹à¦œà¦¨à¥¤</string>
+    <string name="checking_bluetooth_status">à¦¬à§à¦²à§à¦Ÿà§à¦¥ à¦…à¦¬à¦¸à§à¦¥à¦¾ à¦ªà¦°à§€à¦•à§à¦·à¦¾ à¦•à¦°à¦¾ à¦¹à¦šà§à¦›à§‡ â€¦</string>
+    <string name="battery_optimization_detected_title">à¦¬à§à¦¯à¦¾à¦Ÿà¦¾à¦°à¦¿ à¦…à¦ªà§à¦Ÿà¦¿à¦®à¦¾à¦‡à¦œà§‡à¦¶à¦¨ à¦¸à¦¨à¦¾à¦•à§à¦¤</string>
+    <string name="battery_optimization_enabled_title">à¦¬à§à¦¯à¦¾à¦Ÿà¦¾à¦°à¦¿ à¦…à¦ªà§à¦Ÿà¦¿à¦®à¦¾à¦‡à¦œà§‡à¦¶à¦¨ à¦¸à¦•à§à¦°à¦¿à¦¯à¦¼</string>
+    <string name="battery_optimization_explanation_short">à¦®à§‡à¦¶ à¦¸à¦‚à¦¯à§‹à¦— à¦¬à¦œà¦¾à¦¯à¦¼ à¦°à¦¾à¦–à¦¤à§‡ bitchat à¦…à¦¬à¦¶à§à¦¯à¦‡ à¦¬à§à¦¯à¦¾à¦•à¦—à§à¦°à¦¾à¦‰à¦¨à§à¦¡à§‡ à¦šà¦²à¦¤à§‡ à¦¹à¦¬à§‡à¥¤ à¦¬à§à¦¯à¦¾à¦Ÿà¦¾à¦°à¦¿ à¦…à¦ªà§à¦Ÿà¦¿à¦®à¦¾à¦‡à¦œà§‡à¦¶à¦¨ à¦à¦‡ à¦¸à¦‚à¦¯à§‹à¦—à¦—à§à¦²à¦¿ à¦¬à¦¾à¦§à¦¾à¦—à§à¦°à¦¸à§à¦¤ à¦•à¦°à¦¤à§‡ à¦ªà¦¾à¦°à§‡à¥¤</string>
+    <string name="benefits_of_disabling">à¦¨à¦¿à¦·à§à¦•à§à¦°à¦¿à¦¯à¦¼ à¦•à¦°à¦¾à¦° à¦¸à§à¦¬à¦¿à¦§à¦¾</string>
+    <string name="battery_benefits_short">â€¢ à¦¨à¦¿à¦°à§à¦­à¦°à¦¯à§‹à¦—à§à¦¯ à¦¬à¦¾à¦°à§à¦¤à¦¾ à¦¡à§‡à¦²à¦¿à¦­à¦¾à¦°à¦¿\nâ€¢ à¦®à§‡à¦¶ à¦¸à¦‚à¦¯à§‹à¦— à¦¬à¦œà¦¾à¦¯à¦¼ à¦°à¦¾à¦–à¦¾\nâ€¢ à¦¸à¦‚à¦¯à§‹à¦— à¦¬à¦¿à¦šà§à¦›à¦¿à¦¨à§à¦¨à¦¤à¦¾ à¦ªà§à¦°à¦¤à¦¿à¦°à§‹à¦§</string>
+    <string name="disable_battery_optimization">à¦¬à§à¦¯à¦¾à¦Ÿà¦¾à¦°à¦¿ à¦…à¦ªà§à¦Ÿà¦¿à¦®à¦¾à¦‡à¦œà§‡à¦¶à¦¨ à¦¨à¦¿à¦·à§à¦•à§à¦°à¦¿à¦¯à¦¼ à¦•à¦°à§à¦¨</string>
+    <string name="battery_optimization_disabled_title">à¦¬à§à¦¯à¦¾à¦Ÿà¦¾à¦°à¦¿ à¦…à¦ªà§à¦Ÿà¦¿à¦®à¦¾à¦‡à¦œà§‡à¦¶à¦¨ à¦¨à¦¿à¦·à§à¦•à§à¦°à¦¿à¦¯à¦¼</string>
+    <string name="continue_btn">à¦šà¦¾à¦²à¦¿à¦¯à¦¼à§‡ à¦¯à¦¾à¦¨</string>
+    <string name="initializing_mesh_network">à¦®à§‡à¦¶ à¦¨à§‡à¦Ÿà¦“à¦¯à¦¼à¦¾à¦°à§à¦• à¦¶à§à¦°à§ à¦•à¦°à¦¾ à¦¹à¦šà§à¦›à§‡</string>
+    <string name="setting_up_bluetooth">à¦¬à§à¦²à§à¦Ÿà§à¦¥ à¦®à§‡à¦¶ à¦¨à§‡à¦Ÿà¦“à¦¯à¦¼à¦¾à¦°à§à¦• à¦¸à§‡à¦Ÿà¦†à¦ª à¦•à¦°à¦¾ à¦¹à¦šà§à¦›à§‡ â€¦</string>
+    <string name="should_take_seconds">à¦à¦Ÿà¦¿ à¦®à¦¾à¦¤à§à¦° à¦•à¦¯à¦¼à§‡à¦• à¦¸à§‡à¦•à§‡à¦¨à§à¦¡ à¦¸à¦®à¦¯à¦¼ à¦¨à§‡à¦“à¦¯à¦¼à¦¾ à¦‰à¦šà¦¿à¦¤</string>
+    <string name="setup_not_complete">à¦¸à§‡à¦Ÿà¦†à¦ª à¦¸à¦®à§à¦ªà§‚à¦°à§à¦£ à¦¨à¦¯à¦¼</string>
+    <string name="try_again">à¦†à¦¬à¦¾à¦° à¦šà§‡à¦·à§à¦Ÿà¦¾ à¦•à¦°à§à¦¨</string>
+    <string name="privacy_protected">à¦†à¦ªà¦¨à¦¾à¦° à¦—à§‹à¦ªà¦¨à§€à¦¯à¦¼à¦¤à¦¾ à¦¸à§à¦°à¦•à§à¦·à¦¿à¦¤</string>
+    <string name="privacy_bullets">â€¢ à¦•à§‹à¦¨ à¦Ÿà§à¦°à§à¦¯à¦¾à¦•à¦¿à¦‚ à¦¬à¦¾ à¦¡à§‡à¦Ÿà¦¾ à¦¸à¦‚à¦—à§à¦°à¦¹ à¦¨à§‡à¦‡\nâ€¢ à¦¬à§à¦²à§à¦Ÿà§à¦¥ à¦®à§‡à¦¶ à¦šà§à¦¯à¦¾à¦Ÿ à¦¸à¦®à§à¦ªà§‚à¦°à§à¦£ à¦…à¦«à¦²à¦¾à¦‡à¦¨\nâ€¢ à¦œà¦¿à¦“à¦¹à§à¦¯à¦¾à¦¶ à¦šà§à¦¯à¦¾à¦Ÿ à¦‡à¦¨à§à¦Ÿà¦¾à¦°à¦¨à§‡à¦Ÿ à¦¬à§à¦¯à¦¬à¦¹à¦¾à¦° à¦•à¦°à§‡</string>
+    <string name="permissions_header">à¦…à¦¨à§à¦®à¦¤à¦¿</string>
+    <string name="grant_permissions">à¦…à¦¨à§à¦®à¦¤à¦¿ à¦¦à¦¿à¦¨</string>
+    <string name="location_tracking_warning">bitchat à¦†à¦ªà¦¨à¦¾à¦° à¦…à¦¬à¦¸à§à¦¥à¦¾à¦¨ à¦Ÿà§à¦°à§à¦¯à¦¾à¦• à¦•à¦°à§‡ à¦¨à¦¾</string>
+    <string name="geohash_people_header">à¦®à¦¾à¦¨à§à¦·</string>
+    <string name="nobody_around">à¦•à§‡à¦‰ à¦†à¦¶à§‡à¦ªà¦¾à¦¶à§‡ à¦¨à§‡à¦‡ â€¦</string>
+    <string name="you_suffix"> (à¦†à¦ªà¦¨à¦¿)</string>
+    <string name="pan_zoom_instruction">à¦œà¦¿à¦“à¦¹à§à¦¯à¦¾à¦¶ à¦¨à¦¿à¦°à§à¦¬à¦¾à¦šà¦¨ à¦•à¦°à¦¤à§‡ à¦ªà§à¦¯à¦¾à¦¨ à¦à¦¬à¦‚ à¦œà§à¦® à¦•à¦°à§à¦¨</string>
+    <string name="select">à¦¨à¦¿à¦°à§à¦¬à¦¾à¦šà¦¨ à¦•à¦°à§à¦¨</string>
+    <string name="type_a_message_placeholder">à¦¬à¦¾à¦°à§à¦¤à¦¾ à¦Ÿà¦¾à¦‡à¦ª à¦•à¦°à§à¦¨ â€¦</string>
+    <string name="mention">à¦‰à¦²à§à¦²à§‡à¦–</string>
     <string name="pow_time_estimate">(~%1$s)</string>
     <string name="version_prefix">v%1$s</string>
     <string name="image_star">image/*</string>
-    <string name="media_type_image">ছবি</string>
-    <string name="media_type_file">ফাইল</string>
+    <string name="media_type_image">à¦›à¦¬à¦¿</string>
+    <string name="media_type_file">à¦«à¦¾à¦‡à¦²</string>
 
-    <!-- বিজ্ঞপ্তি টেক্সট সহায়ক -->
-    <string name="notification_sent_image">📷 একটি ছবি পাঠিয়েছে</string>
-    <string name="notification_sent_voice">🎤 একটি ভয়েস বার্তা পাঠিয়েছে</string>
-    <string name="notification_sent_file">📎 একটি ফাইল পাঠিয়েছে</string>
+    <!-- à¦¬à¦¿à¦œà§à¦žà¦ªà§à¦¤à¦¿ à¦Ÿà§‡à¦•à§à¦¸à¦Ÿ à¦¸à¦¹à¦¾à¦¯à¦¼à¦• -->
+    <string name="notification_sent_image">ðŸ“· à¦à¦•à¦Ÿà¦¿ à¦›à¦¬à¦¿ à¦ªà¦¾à¦ à¦¿à¦¯à¦¼à§‡à¦›à§‡</string>
+    <string name="notification_sent_voice">ðŸŽ¤ à¦à¦•à¦Ÿà¦¿ à¦­à¦¯à¦¼à§‡à¦¸ à¦¬à¦¾à¦°à§à¦¤à¦¾ à¦ªà¦¾à¦ à¦¿à¦¯à¦¼à§‡à¦›à§‡</string>
+    <string name="notification_sent_file">ðŸ“Ž à¦à¦•à¦Ÿà¦¿ à¦«à¦¾à¦‡à¦² à¦ªà¦¾à¦ à¦¿à¦¯à¦¼à§‡à¦›à§‡</string>
 
-    <!-- ভয়েস প্লেয়ার অ্যাক্সেসিবিলিটি -->
-    <string name="cd_play_voice">প্লে করুন</string>
-    <string name="cd_pause_voice">বিরাম</string>
-    <string name="cd_mining_pow">মাইনিং PoW</string>
-    <string name="cd_pow_enabled">PoW সক্রিয়</string>
-    <string name="cd_proof_of_work">প্রুফ অফ ওয়ার্ক</string>
-    <string name="pow_mining_ellipsis">মাইনিং …</string>
+    <!-- à¦­à¦¯à¦¼à§‡à¦¸ à¦ªà§à¦²à§‡à¦¯à¦¼à¦¾à¦° à¦…à§à¦¯à¦¾à¦•à§à¦¸à§‡à¦¸à¦¿à¦¬à¦¿à¦²à¦¿à¦Ÿà¦¿ -->
+    <string name="cd_play_voice">à¦ªà§à¦²à§‡ à¦•à¦°à§à¦¨</string>
+    <string name="cd_pause_voice">à¦¬à¦¿à¦°à¦¾à¦®</string>
+    <string name="cd_mining_pow">à¦®à¦¾à¦‡à¦¨à¦¿à¦‚ PoW</string>
+    <string name="cd_pow_enabled">PoW à¦¸à¦•à§à¦°à¦¿à¦¯à¦¼</string>
+    <string name="cd_proof_of_work">à¦ªà§à¦°à§à¦« à¦…à¦« à¦“à¦¯à¦¼à¦¾à¦°à§à¦•</string>
+    <string name="pow_mining_ellipsis">à¦®à¦¾à¦‡à¦¨à¦¿à¦‚ â€¦</string>
     <string name="pow_label_format">pow: %1$dbit</string>
 
-    <!-- অনুমতি বিবরণ -->
-    <string name="perm_nearby_devices_desc">ব্লুটুথের মাধ্যমে bitchat ব্যবহারকারী আবিষ্কার করতে প্রয়োজন</string>
-    <string name="perm_nearby_devices_system">bitchat কে কাছাকাছি ডিভাইসের সাথে সংযোগ করার অনুমতি দিন</string>
-    <string name="perm_location_desc">ব্লুটুথের মাধ্যমে কাছাকাছি bitchat ব্যবহারকারী আবিষ্কার করার জন্য Android এর প্রয়োজন</string>
-    <string name="perm_location_system">bitchat এর কাছাকাছি ডিভাইস স্ক্যান করার জন্য এটি প্রয়োজন</string>
-    <string name="perm_notifications_desc">ব্যক্তিগত বার্তা পেলে বিজ্ঞপ্তি পান</string>
-    <string name="perm_notifications_system">bitchat কে আপনাকে বিজ্ঞপ্তি পাঠানোর অনুমতি দিন</string>
-    <string name="perm_battery_desc">bitchat নির্ভরযোগ্যভাবে ব্যাকগ্রাউন্ডে চলে এবং মেশ নেটওয়ার্ক সংযোগ বজায় রাখে তা নিশ্চিত করতে ব্যাটারি অপ্টিমাইজেশন নিষ্ক্রিয় করুন</string>
-    <string name="perm_battery_system">bitchat কে ব্যাটারি সীমাবদ্ধতা ছাড়াই চলার অনুমতি দিন</string>
+    <!-- à¦…à¦¨à§à¦®à¦¤à¦¿ à¦¬à¦¿à¦¬à¦°à¦£ -->
+    <string name="perm_nearby_devices_desc">à¦¬à§à¦²à§à¦Ÿà§à¦¥à§‡à¦° à¦®à¦¾à¦§à§à¦¯à¦®à§‡ bitchat à¦¬à§à¦¯à¦¬à¦¹à¦¾à¦°à¦•à¦¾à¦°à§€ à¦†à¦¬à¦¿à¦·à§à¦•à¦¾à¦° à¦•à¦°à¦¤à§‡ à¦ªà§à¦°à¦¯à¦¼à§‹à¦œà¦¨</string>
+    <string name="perm_nearby_devices_system">bitchat à¦•à§‡ à¦•à¦¾à¦›à¦¾à¦•à¦¾à¦›à¦¿ à¦¡à¦¿à¦­à¦¾à¦‡à¦¸à§‡à¦° à¦¸à¦¾à¦¥à§‡ à¦¸à¦‚à¦¯à§‹à¦— à¦•à¦°à¦¾à¦° à¦…à¦¨à§à¦®à¦¤à¦¿ à¦¦à¦¿à¦¨</string>
+    <string name="perm_location_desc">à¦¬à§à¦²à§à¦Ÿà§à¦¥à§‡à¦° à¦®à¦¾à¦§à§à¦¯à¦®à§‡ à¦•à¦¾à¦›à¦¾à¦•à¦¾à¦›à¦¿ bitchat à¦¬à§à¦¯à¦¬à¦¹à¦¾à¦°à¦•à¦¾à¦°à§€ à¦†à¦¬à¦¿à¦·à§à¦•à¦¾à¦° à¦•à¦°à¦¾à¦° à¦œà¦¨à§à¦¯ Android à¦à¦° à¦ªà§à¦°à¦¯à¦¼à§‹à¦œà¦¨</string>
+    <string name="perm_location_system">bitchat à¦à¦° à¦•à¦¾à¦›à¦¾à¦•à¦¾à¦›à¦¿ à¦¡à¦¿à¦­à¦¾à¦‡à¦¸ à¦¸à§à¦•à§à¦¯à¦¾à¦¨ à¦•à¦°à¦¾à¦° à¦œà¦¨à§à¦¯ à¦à¦Ÿà¦¿ à¦ªà§à¦°à¦¯à¦¼à§‹à¦œà¦¨</string>
+    <string name="perm_notifications_desc">à¦¬à§à¦¯à¦•à§à¦¤à¦¿à¦—à¦¤ à¦¬à¦¾à¦°à§à¦¤à¦¾ à¦ªà§‡à¦²à§‡ à¦¬à¦¿à¦œà§à¦žà¦ªà§à¦¤à¦¿ à¦ªà¦¾à¦¨</string>
+    <string name="perm_notifications_system">bitchat à¦•à§‡ à¦†à¦ªà¦¨à¦¾à¦•à§‡ à¦¬à¦¿à¦œà§à¦žà¦ªà§à¦¤à¦¿ à¦ªà¦¾à¦ à¦¾à¦¨à§‹à¦° à¦…à¦¨à§à¦®à¦¤à¦¿ à¦¦à¦¿à¦¨</string>
+    <string name="perm_battery_desc">bitchat à¦¨à¦¿à¦°à§à¦­à¦°à¦¯à§‹à¦—à§à¦¯à¦­à¦¾à¦¬à§‡ à¦¬à§à¦¯à¦¾à¦•à¦—à§à¦°à¦¾à¦‰à¦¨à§à¦¡à§‡ à¦šà¦²à§‡ à¦à¦¬à¦‚ à¦®à§‡à¦¶ à¦¨à§‡à¦Ÿà¦“à¦¯à¦¼à¦¾à¦°à§à¦• à¦¸à¦‚à¦¯à§‹à¦— à¦¬à¦œà¦¾à¦¯à¦¼ à¦°à¦¾à¦–à§‡ à¦¤à¦¾ à¦¨à¦¿à¦¶à§à¦šà¦¿à¦¤ à¦•à¦°à¦¤à§‡ à¦¬à§à¦¯à¦¾à¦Ÿà¦¾à¦°à¦¿ à¦…à¦ªà§à¦Ÿà¦¿à¦®à¦¾à¦‡à¦œà§‡à¦¶à¦¨ à¦¨à¦¿à¦·à§à¦•à§à¦°à¦¿à¦¯à¦¼ à¦•à¦°à§à¦¨</string>
+    <string name="perm_battery_system">bitchat à¦•à§‡ à¦¬à§à¦¯à¦¾à¦Ÿà¦¾à¦°à¦¿ à¦¸à§€à¦®à¦¾à¦¬à¦¦à§à¦§à¦¤à¦¾ à¦›à¦¾à¦¡à¦¼à¦¾à¦‡ à¦šà¦²à¦¾à¦° à¦…à¦¨à§à¦®à¦¤à¦¿ à¦¦à¦¿à¦¨</string>
 
-    <!-- অনুমতির ধরণ -->
-    <string name="perm_type_nearby_devices">কাছাকাছি ডিভাইস</string>
-    <string name="perm_type_precise_location">সঠিক অবস্থান</string>
-    <string name="perm_type_microphone">মাইক্রোফোন</string>
-    <string name="perm_type_notifications">বিজ্ঞপ্তি</string>
-    <string name="perm_type_battery_optimization">ব্যাটারি অপ্টিমাইজেশন</string>
-    <string name="perm_type_other">অন্যান্য</string>
+    <!-- à¦…à¦¨à§à¦®à¦¤à¦¿à¦° à¦§à¦°à¦£ -->
+    <string name="perm_type_nearby_devices">à¦•à¦¾à¦›à¦¾à¦•à¦¾à¦›à¦¿ à¦¡à¦¿à¦­à¦¾à¦‡à¦¸</string>
+    <string name="perm_type_precise_location">à¦¸à¦ à¦¿à¦• à¦…à¦¬à¦¸à§à¦¥à¦¾à¦¨</string>
+    <string name="perm_type_microphone">à¦®à¦¾à¦‡à¦•à§à¦°à§‹à¦«à§‹à¦¨</string>
+    <string name="perm_type_notifications">à¦¬à¦¿à¦œà§à¦žà¦ªà§à¦¤à¦¿</string>
+    <string name="perm_type_battery_optimization">à¦¬à§à¦¯à¦¾à¦Ÿà¦¾à¦°à¦¿ à¦…à¦ªà§à¦Ÿà¦¿à¦®à¦¾à¦‡à¦œà§‡à¦¶à¦¨</string>
+    <string name="perm_type_other">à¦…à¦¨à§à¦¯à¦¾à¦¨à§à¦¯</string>
 
-    <!-- পাসওয়ার্ড ডায়ালগ -->
-    <string name="pwd_prompt_title">চ্যানেল পাসওয়ার্ড লিখুন</string>
-    <string name="pwd_prompt_message">চ্যানেল %1$s পাসওয়ার্ড দিয়ে সুরক্ষিত। যোগ দিতে পাসওয়ার্ড লিখুন।</string>
-    <string name="pwd_label">পাসওয়ার্ড</string>
-    <string name="join">যোগ দিন</string>
-    <string name="cancel">বাতিল</string>
+    <!-- à¦ªà¦¾à¦¸à¦“à¦¯à¦¼à¦¾à¦°à§à¦¡ à¦¡à¦¾à¦¯à¦¼à¦¾à¦²à¦— -->
+    <string name="pwd_prompt_title">à¦šà§à¦¯à¦¾à¦¨à§‡à¦² à¦ªà¦¾à¦¸à¦“à¦¯à¦¼à¦¾à¦°à§à¦¡ à¦²à¦¿à¦–à§à¦¨</string>
+    <string name="pwd_prompt_message">à¦šà§à¦¯à¦¾à¦¨à§‡à¦² %1$s à¦ªà¦¾à¦¸à¦“à¦¯à¦¼à¦¾à¦°à§à¦¡ à¦¦à¦¿à¦¯à¦¼à§‡ à¦¸à§à¦°à¦•à§à¦·à¦¿à¦¤à¥¤ à¦¯à§‹à¦— à¦¦à¦¿à¦¤à§‡ à¦ªà¦¾à¦¸à¦“à¦¯à¦¼à¦¾à¦°à§à¦¡ à¦²à¦¿à¦–à§à¦¨à¥¤</string>
+    <string name="pwd_label">à¦ªà¦¾à¦¸à¦“à¦¯à¦¼à¦¾à¦°à§à¦¡</string>
+    <string name="join">à¦¯à§‹à¦— à¦¦à¦¿à¦¨</string>
+    <string name="cancel">à¦¬à¦¾à¦¤à¦¿à¦²</string>
 
-    <!-- বহুবচন -->
+    <!-- à¦¬à¦¹à§à¦¬à¦šà¦¨ -->
     <plurals name="notification_and_more">
-        <item quantity="one">এবং %d আরো</item>
-        <item quantity="other">এবং %d আরো</item>
+        <item quantity="one">à¦à¦¬à¦‚ %d à¦†à¦°à§‹</item>
+        <item quantity="other">à¦à¦¬à¦‚ %d à¦†à¦°à§‹</item>
     </plurals>
 
     <plurals name="people_count">
-        <item quantity="one">১ জন</item>
-        <item quantity="other">%d জন</item>
+        <item quantity="one">à§§ à¦œà¦¨</item>
+        <item quantity="other">%d à¦œà¦¨</item>
     </plurals>
 
-    <string name="mesh_service_notification_content">মেশ চলছে — %1$d পিয়ার</string>
+    <string name="mesh_service_notification_content">à¦®à§‡à¦¶ à¦šà¦²à¦›à§‡ â€” %1$d à¦ªà¦¿à¦¯à¦¼à¦¾à¦°</string>
 
   <string name="verify_title">verify</string>
   <string name="verify_my_qr_title">scan to verify me</string>
@@ -387,3 +387,4 @@
   <string name="verify_success_body">You verified %1$s</string>
   <string name="verify_success_system_message">verified %1$s</string>
 </resources>
+

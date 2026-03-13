@@ -1,355 +1,355 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">bitchat</string>
+    <string name="app_name">RescueChat</string>
 
-    <!-- Lý do quyền -->
-    <string name="permission_bluetooth_rationale">Quyền Bluetooth là cần thiết để trò chuyện trực tiếp với những người khác mà không cần Internet.</string>
-    <string name="permission_location_rationale">Quyền vị trí là cần thiết để tìm các thiết bị gần đó qua Bluetooth.</string>
-    <string name="permission_notification_rationale">Quyền thông báo là cần thiết để thông báo cho bạn về tin nhắn mới.</string>
+    <!-- LÃ½ do quyá»n -->
+    <string name="permission_bluetooth_rationale">Quyá»n Bluetooth lÃ  cáº§n thiáº¿t Ä‘á»ƒ trÃ² chuyá»‡n trá»±c tiáº¿p vá»›i nhá»¯ng ngÆ°á»i khÃ¡c mÃ  khÃ´ng cáº§n Internet.</string>
+    <string name="permission_location_rationale">Quyá»n vá»‹ trÃ­ lÃ  cáº§n thiáº¿t Ä‘á»ƒ tÃ¬m cÃ¡c thiáº¿t bá»‹ gáº§n Ä‘Ã³ qua Bluetooth.</string>
+    <string name="permission_notification_rationale">Quyá»n thÃ´ng bÃ¡o lÃ  cáº§n thiáº¿t Ä‘á»ƒ thÃ´ng bÃ¡o cho báº¡n vá» tin nháº¯n má»›i.</string>
 
-    <!-- Placeholder / UI cơ bản -->
-    <string name="nickname_hint">Biệt danh</string>
-    <string name="message_hint">Nhập tin nhắn…</string>
-    <string name="channel_password_hint">Mật khẩu</string>
-    <string name="join_channel">Tham gia kênh</string>
-    <string name="leave_channel">Rời khỏi</string>
-    <string name="send_message">Gửi</string>
-    <string name="show_commands">Hiển thị lệnh</string>
-    <string name="back">Quay lại</string>
-    <string name="people">Mọi người</string>
-    <string name="channels">Kênh</string>
-    <string name="online_users">Người dùng trực tuyến</string>
-    <string name="no_one_connected">Không có ai kết nối</string>
-    <string name="emergency_clear_hint">Nhấn ba lần để xóa tất cả dữ liệu</string>
-    <string name="your_network">Mạng lưới</string>
+    <!-- Placeholder / UI cÆ¡ báº£n -->
+    <string name="nickname_hint">Biá»‡t danh</string>
+    <string name="message_hint">Nháº­p tin nháº¯nâ€¦</string>
+    <string name="channel_password_hint">Máº­t kháº©u</string>
+    <string name="join_channel">Tham gia kÃªnh</string>
+    <string name="leave_channel">Rá»i khá»i</string>
+    <string name="send_message">Gá»­i</string>
+    <string name="show_commands">Hiá»ƒn thá»‹ lá»‡nh</string>
+    <string name="back">Quay láº¡i</string>
+    <string name="people">Má»i ngÆ°á»i</string>
+    <string name="channels">KÃªnh</string>
+    <string name="online_users">NgÆ°á»i dÃ¹ng trá»±c tuyáº¿n</string>
+    <string name="no_one_connected">KhÃ´ng cÃ³ ai káº¿t ná»‘i</string>
+    <string name="emergency_clear_hint">Nháº¥n ba láº§n Ä‘á»ƒ xÃ³a táº¥t cáº£ dá»¯ liá»‡u</string>
+    <string name="your_network">Máº¡ng lÆ°á»›i</string>
 
-    <!-- Tối ưu hóa pin -->
-    <string name="battery_optimization_detected">Đã phát hiện tối ưu hóa pin</string>
-    <string name="battery_optimization_disabled">Tối ưu hóa pin đã tắt</string>
-    <string name="battery_optimization_not_required">Không cần tối ưu hóa pin</string>
-    <string name="battery_optimization_checking">Đang kiểm tra tối ưu hóa pin</string>
-    <string name="battery_optimization_why_disable">Tại sao nên tắt tối ưu hóa pin?</string>
-    <string name="battery_optimization_explanation">bitchat chạy nền để duy trì kết nối mesh với các thiết bị gần đó. Tối ưu hóa pin có thể làm gián đoạn các kết nối này, gây ra tin nhắn bị trễ hoặc mất.\n\nTắt tối ưu hóa pin đảm bảo liên lạc ngang hàng đáng tin cậy.</string>
-    <string name="battery_optimization_disable_button">Tắt tối ưu hóa pin</string>
-    <string name="battery_optimization_note">Lưu ý: Bạn có thể thay đổi điều này sau trong Android Settings &gt; Apps &gt; bitchat &gt; Battery.</string>
-    <string name="battery_optimization_not_supported_explanation">Thiết bị của bạn không cần cài đặt tối ưu hóa pin. bitchat sẽ chạy bình thường.</string>
-    <string name="battery_optimization_not_supported_message">Thiết bị của bạn không cần cài đặt tối ưu hóa pin. bitchat sẽ chạy bình thường.</string>
-    <string name="battery_optimization_success_message">bitchat có thể chạy đáng tin cậy trong nền</string>
-    <string name="battery_optimization_benefits">• Gửi tin nhắn đáng tin cậy\n• Duy trì kết nối mesh\n• Chuyển tiếp tin nhắn nền\n• Ngăn ngừa mất kết nối</string>
-    <string name="battery_optimization_check_again">Kiểm tra lại</string>
-    <string name="battery_optimization_skip">Bỏ qua ngay</string>
-    <string name="battery_optimization_continue">Tiếp tục</string>
-    <string name="retry">Thử lại</string>
-    <string name="skip">Bỏ qua</string>
+    <!-- Tá»‘i Æ°u hÃ³a pin -->
+    <string name="battery_optimization_detected">ÄÃ£ phÃ¡t hiá»‡n tá»‘i Æ°u hÃ³a pin</string>
+    <string name="battery_optimization_disabled">Tá»‘i Æ°u hÃ³a pin Ä‘Ã£ táº¯t</string>
+    <string name="battery_optimization_not_required">KhÃ´ng cáº§n tá»‘i Æ°u hÃ³a pin</string>
+    <string name="battery_optimization_checking">Äang kiá»ƒm tra tá»‘i Æ°u hÃ³a pin</string>
+    <string name="battery_optimization_why_disable">Táº¡i sao nÃªn táº¯t tá»‘i Æ°u hÃ³a pin?</string>
+    <string name="battery_optimization_explanation">bitchat cháº¡y ná»n Ä‘á»ƒ duy trÃ¬ káº¿t ná»‘i mesh vá»›i cÃ¡c thiáº¿t bá»‹ gáº§n Ä‘Ã³. Tá»‘i Æ°u hÃ³a pin cÃ³ thá»ƒ lÃ m giÃ¡n Ä‘oáº¡n cÃ¡c káº¿t ná»‘i nÃ y, gÃ¢y ra tin nháº¯n bá»‹ trá»… hoáº·c máº¥t.\n\nTáº¯t tá»‘i Æ°u hÃ³a pin Ä‘áº£m báº£o liÃªn láº¡c ngang hÃ ng Ä‘Ã¡ng tin cáº­y.</string>
+    <string name="battery_optimization_disable_button">Táº¯t tá»‘i Æ°u hÃ³a pin</string>
+    <string name="battery_optimization_note">LÆ°u Ã½: Báº¡n cÃ³ thá»ƒ thay Ä‘á»•i Ä‘iá»u nÃ y sau trong Android Settings &gt; Apps &gt; bitchat &gt; Battery.</string>
+    <string name="battery_optimization_not_supported_explanation">Thiáº¿t bá»‹ cá»§a báº¡n khÃ´ng cáº§n cÃ i Ä‘áº·t tá»‘i Æ°u hÃ³a pin. bitchat sáº½ cháº¡y bÃ¬nh thÆ°á»ng.</string>
+    <string name="battery_optimization_not_supported_message">Thiáº¿t bá»‹ cá»§a báº¡n khÃ´ng cáº§n cÃ i Ä‘áº·t tá»‘i Æ°u hÃ³a pin. bitchat sáº½ cháº¡y bÃ¬nh thÆ°á»ng.</string>
+    <string name="battery_optimization_success_message">bitchat cÃ³ thá»ƒ cháº¡y Ä‘Ã¡ng tin cáº­y trong ná»n</string>
+    <string name="battery_optimization_benefits">â€¢ Gá»­i tin nháº¯n Ä‘Ã¡ng tin cáº­y\nâ€¢ Duy trÃ¬ káº¿t ná»‘i mesh\nâ€¢ Chuyá»ƒn tiáº¿p tin nháº¯n ná»n\nâ€¢ NgÄƒn ngá»«a máº¥t káº¿t ná»‘i</string>
+    <string name="battery_optimization_check_again">Kiá»ƒm tra láº¡i</string>
+    <string name="battery_optimization_skip">Bá» qua ngay</string>
+    <string name="battery_optimization_continue">Tiáº¿p tá»¥c</string>
+    <string name="retry">Thá»­ láº¡i</string>
+    <string name="skip">Bá» qua</string>
 
-    <!-- Thông báo -->
-    <string name="notification_summary_more">và %1$d khác</string>
-    <string name="notification_messages_from_people">%1$d tin nhắn từ %2$d người</string>
-    <string name="notification_more_conversations">và %1$d cuộc trò chuyện khác</string>
-    <string name="notification_active_peers_title">👥 bitchatter gần đó!</string>
-    <string name="notification_active_peers_one">1 người gần đó</string>
-    <string name="notification_active_peers_many">%1$d người gần đó</string>
-    <string name="notification_new_messages">Tin nhắn mới</string>
-    <string name="notification_new_location_messages">Tin nhắn vị trí mới</string>
-    <string name="notification_mentions_in">Được nhắc đến trong %1$s</string>
-    <string name="notification_mentions_in_more">Được nhắc đến trong %1$s (+%2$d khác)</string>
-    <string name="notification_mentions_in_plural">%1$d lần nhắc đến trong %2$s</string>
-    <string name="notification_new_activity_in">Hoạt động mới trong %1$s</string>
-    <string name="notification_messages_in">Tin nhắn trong %1$s</string>
-    <string name="notification_joined_conversation">%1$s đã tham gia cuộc trò chuyện</string>
-    <string name="notification_geohash_summary_title_mentions">bitchat – %1$d lần nhắc đến</string>
-    <string name="notification_geohash_summary_title">bitchat – Trò chuyện vị trí</string>
-    <string name="notification_geohash_summary_text">%1$d tin nhắn từ %2$d vị trí</string>
-    <string name="notification_mesh_mention_title_singular">Được nhắc đến trong Mesh Chat</string>
-    <string name="notification_mesh_mention_title_plural">%1$d lần nhắc đến trong Mesh Chat</string>
-    <string name="notification_more_locations">và %1$d vị trí khác</string>
-    <string name="notification_and_more">và %1$d khác</string>
+    <!-- ThÃ´ng bÃ¡o -->
+    <string name="notification_summary_more">vÃ  %1$d khÃ¡c</string>
+    <string name="notification_messages_from_people">%1$d tin nháº¯n tá»« %2$d ngÆ°á»i</string>
+    <string name="notification_more_conversations">vÃ  %1$d cuá»™c trÃ² chuyá»‡n khÃ¡c</string>
+    <string name="notification_active_peers_title">ðŸ‘¥ bitchatter gáº§n Ä‘Ã³!</string>
+    <string name="notification_active_peers_one">1 ngÆ°á»i gáº§n Ä‘Ã³</string>
+    <string name="notification_active_peers_many">%1$d ngÆ°á»i gáº§n Ä‘Ã³</string>
+    <string name="notification_new_messages">Tin nháº¯n má»›i</string>
+    <string name="notification_new_location_messages">Tin nháº¯n vá»‹ trÃ­ má»›i</string>
+    <string name="notification_mentions_in">ÄÆ°á»£c nháº¯c Ä‘áº¿n trong %1$s</string>
+    <string name="notification_mentions_in_more">ÄÆ°á»£c nháº¯c Ä‘áº¿n trong %1$s (+%2$d khÃ¡c)</string>
+    <string name="notification_mentions_in_plural">%1$d láº§n nháº¯c Ä‘áº¿n trong %2$s</string>
+    <string name="notification_new_activity_in">Hoáº¡t Ä‘á»™ng má»›i trong %1$s</string>
+    <string name="notification_messages_in">Tin nháº¯n trong %1$s</string>
+    <string name="notification_joined_conversation">%1$s Ä‘Ã£ tham gia cuá»™c trÃ² chuyá»‡n</string>
+    <string name="notification_geohash_summary_title_mentions">bitchat â€“ %1$d láº§n nháº¯c Ä‘áº¿n</string>
+    <string name="notification_geohash_summary_title">bitchat â€“ TrÃ² chuyá»‡n vá»‹ trÃ­</string>
+    <string name="notification_geohash_summary_text">%1$d tin nháº¯n tá»« %2$d vá»‹ trÃ­</string>
+    <string name="notification_mesh_mention_title_singular">ÄÆ°á»£c nháº¯c Ä‘áº¿n trong Mesh Chat</string>
+    <string name="notification_mesh_mention_title_plural">%1$d láº§n nháº¯c Ä‘áº¿n trong Mesh Chat</string>
+    <string name="notification_more_locations">vÃ  %1$d vá»‹ trÃ­ khÃ¡c</string>
+    <string name="notification_and_more">vÃ  %1$d khÃ¡c</string>
 
-    <!-- Khả năng truy cập yêu thích -->
-    <string name="cd_add_favorite">Thêm vào yêu thích</string>
-    <string name="cd_remove_favorite">Xóa khỏi yêu thích</string>
-    <string name="cd_add_bookmark">Thêm bookmark</string>
+    <!-- Kháº£ nÄƒng truy cáº­p yÃªu thÃ­ch -->
+    <string name="cd_add_favorite">ThÃªm vÃ o yÃªu thÃ­ch</string>
+    <string name="cd_remove_favorite">XÃ³a khá»i yÃªu thÃ­ch</string>
+    <string name="cd_add_bookmark">ThÃªm bookmark</string>
 
-    <!-- Header trò chuyện &amp; khả năng truy cập -->
-    <string name="chat_back">quay lại</string>
-    <string name="chat_channel_prefix">Kênh: %1$s</string>
-    <string name="chat_leave">rời khỏi</string>
-    <string name="cd_nostr_reachable">Có thể tiếp cận qua Nostr</string>
-    <string name="cd_unread_private_messages">Tin nhắn riêng chưa đọc</string>
-    <string name="cd_toggle_bookmark">Bật/tắt bookmark</string>
-    <string name="cd_teleported">Đã dịch chuyển</string>
-    <string name="cd_tor_status">Trạng thái Tor</string>
-    <string name="cd_connected_peers">Peers đã kết nối</string>
-    <string name="cd_geohash_participants">Người tham gia geohash</string>
-    <string name="cd_ready_for_handshake">Sẵn sàng cho handshake</string>
-    <string name="cd_handshake_in_progress">Handshake đang tiến hành</string>
-    <string name="cd_encrypted">Mã hóa đầu cuối</string>
-    <string name="cd_handshake_failed">Handshake thất bại</string>
+    <!-- Header trÃ² chuyá»‡n &amp; kháº£ nÄƒng truy cáº­p -->
+    <string name="chat_back">quay láº¡i</string>
+    <string name="chat_channel_prefix">KÃªnh: %1$s</string>
+    <string name="chat_leave">rá»i khá»i</string>
+    <string name="cd_nostr_reachable">CÃ³ thá»ƒ tiáº¿p cáº­n qua Nostr</string>
+    <string name="cd_unread_private_messages">Tin nháº¯n riÃªng chÆ°a Ä‘á»c</string>
+    <string name="cd_toggle_bookmark">Báº­t/táº¯t bookmark</string>
+    <string name="cd_teleported">ÄÃ£ dá»‹ch chuyá»ƒn</string>
+    <string name="cd_tor_status">Tráº¡ng thÃ¡i Tor</string>
+    <string name="cd_connected_peers">Peers Ä‘Ã£ káº¿t ná»‘i</string>
+    <string name="cd_geohash_participants">NgÆ°á»i tham gia geohash</string>
+    <string name="cd_ready_for_handshake">Sáºµn sÃ ng cho handshake</string>
+    <string name="cd_handshake_in_progress">Handshake Ä‘ang tiáº¿n hÃ nh</string>
+    <string name="cd_encrypted">MÃ£ hÃ³a Ä‘áº§u cuá»‘i</string>
+    <string name="cd_handshake_failed">Handshake tháº¥t báº¡i</string>
 
     <!-- Dialog xem file -->
-    <string name="file_viewer_title">📎 File đã nhận</string>
-    <string name="file_viewer_name">📄 %1$s</string>
-    <string name="file_viewer_size">📏 Kích thước: %1$s</string>
-    <string name="file_viewer_type">🏷️ Loại: %1$s</string>
-    <string name="file_viewer_open_save">📂 Mở / Lưu</string>
-    <string name="close_with_emoji">❌ Đóng</string>
-    <string name="pick_image">Chọn hình ảnh</string>
+    <string name="file_viewer_title">ðŸ“Ž File Ä‘Ã£ nháº­n</string>
+    <string name="file_viewer_name">ðŸ“„ %1$s</string>
+    <string name="file_viewer_size">ðŸ“ KÃ­ch thÆ°á»›c: %1$s</string>
+    <string name="file_viewer_type">ðŸ·ï¸ Loáº¡i: %1$s</string>
+    <string name="file_viewer_open_save">ðŸ“‚ Má»Ÿ / LÆ°u</string>
+    <string name="close_with_emoji">âŒ ÄÃ³ng</string>
+    <string name="pick_image">Chá»n hÃ¬nh áº£nh</string>
 
-    <!-- Sheet giới thiệu -->
-    <string name="about_tagline">trò chuyện mesh phi tập trung với mã hóa đầu cuối</string>
-    <string name="about_offline_mesh_title">Trò chuyện Mesh ngoại tuyến</string>
-    <string name="about_offline_mesh_desc">Liên lạc trực tiếp qua Bluetooth LE mà không cần Internet hoặc máy chủ. Tin nhắn được chuyển tiếp qua các thiết bị gần để mở rộng phạm vi.</string>
-    <string name="about_online_geohash_title">Kênh Geohash trực tuyến</string>
-    <string name="about_online_geohash_desc">Kết nối với những người trong khu vực của bạn qua các kênh dựa trên geohash. Mở rộng mesh qua các relay Internet công cộng.</string>
-    <string name="about_e2e_title">Mã hóa đầu cuối</string>
-    <string name="about_e2e_desc">Tin nhắn riêng được mã hóa. Tin nhắn kênh là công khai.</string>
-    <string name="about_appearance">Giao diện</string>
-    <string name="about_system">Hệ thống</string>
-    <string name="about_light">Sáng</string>
-    <string name="about_dark">Tối</string>
+    <!-- Sheet giá»›i thiá»‡u -->
+    <string name="about_tagline">trÃ² chuyá»‡n mesh phi táº­p trung vá»›i mÃ£ hÃ³a Ä‘áº§u cuá»‘i</string>
+    <string name="about_offline_mesh_title">TrÃ² chuyá»‡n Mesh ngoáº¡i tuyáº¿n</string>
+    <string name="about_offline_mesh_desc">LiÃªn láº¡c trá»±c tiáº¿p qua Bluetooth LE mÃ  khÃ´ng cáº§n Internet hoáº·c mÃ¡y chá»§. Tin nháº¯n Ä‘Æ°á»£c chuyá»ƒn tiáº¿p qua cÃ¡c thiáº¿t bá»‹ gáº§n Ä‘á»ƒ má»Ÿ rá»™ng pháº¡m vi.</string>
+    <string name="about_online_geohash_title">KÃªnh Geohash trá»±c tuyáº¿n</string>
+    <string name="about_online_geohash_desc">Káº¿t ná»‘i vá»›i nhá»¯ng ngÆ°á»i trong khu vá»±c cá»§a báº¡n qua cÃ¡c kÃªnh dá»±a trÃªn geohash. Má»Ÿ rá»™ng mesh qua cÃ¡c relay Internet cÃ´ng cá»™ng.</string>
+    <string name="about_e2e_title">MÃ£ hÃ³a Ä‘áº§u cuá»‘i</string>
+    <string name="about_e2e_desc">Tin nháº¯n riÃªng Ä‘Æ°á»£c mÃ£ hÃ³a. Tin nháº¯n kÃªnh lÃ  cÃ´ng khai.</string>
+    <string name="about_appearance">Giao diá»‡n</string>
+    <string name="about_system">Há»‡ thá»‘ng</string>
+    <string name="about_light">SÃ¡ng</string>
+    <string name="about_dark">Tá»‘i</string>
     <string name="about_pow">Proof of Work</string>
-    <string name="about_pow_off">PoW tắt</string>
-    <string name="about_pow_on">PoW bật</string>
-    <string name="about_pow_tip">Thêm proof of work vào tin nhắn geohash để làm cho spam khó hơn.</string>
-    <string name="about_pow_difficulty">Độ khó: %1$d bit (~%2$s)</string>
-    <string name="about_pow_difficulty_attempts">Độ khó %1$d cần ~%2$s lần thử hash</string>
-    <string name="about_pow_desc_none">không cần proof of work</string>
-    <string name="about_pow_desc_very_low">rất thấp – bảo vệ spam tối thiểu</string>
-    <string name="about_pow_desc_low">thấp – bảo vệ spam cơ bản</string>
-    <string name="about_pow_desc_medium">trung bình – bảo vệ spam tốt</string>
-    <string name="about_pow_desc_high">cao – bảo vệ spam mạnh</string>
-    <string name="about_pow_desc_very_high">rất cao – có thể gây độ trễ</string>
-    <string name="about_pow_desc_extreme">cực cao – cần sức mạnh tính toán đáng kể</string>
-    <string name="about_network">Mạng lưới</string>
-    <string name="about_tor_off">Tor tắt</string>
-    <string name="about_tor_on">Tor bật</string>
-    <string name="about_tor_route">Định tuyến lưu lượng Internet qua Tor để có thêm quyền riêng tư.</string>
-    <string name="about_tor_status">Trạng thái Tor: %1$s, Bootstrap %2$d%%</string>
-    <string name="about_last">Cuối cùng: %1$s</string>
-    <string name="about_emergency_title">Xóa dữ liệu khẩn cấp</string>
-    <string name="about_emergency_tip">Mẹo: Nhấn ba lần vào tiêu đề ứng dụng để xóa tất cả dữ liệu đã lưu – bao gồm tin nhắn, khóa và cài đặt.</string>
-    <string name="about_debug_settings">Cài đặt debug</string>
-    <string name="about_footer">Mã nguồn mở • Quyền riêng tư trước tiên • Phi tập trung</string>
-    <string name="close_plain">Đóng</string>
-    <string name="cancel_lower">hủy</string>
+    <string name="about_pow_off">PoW táº¯t</string>
+    <string name="about_pow_on">PoW báº­t</string>
+    <string name="about_pow_tip">ThÃªm proof of work vÃ o tin nháº¯n geohash Ä‘á»ƒ lÃ m cho spam khÃ³ hÆ¡n.</string>
+    <string name="about_pow_difficulty">Äá»™ khÃ³: %1$d bit (~%2$s)</string>
+    <string name="about_pow_difficulty_attempts">Äá»™ khÃ³ %1$d cáº§n ~%2$s láº§n thá»­ hash</string>
+    <string name="about_pow_desc_none">khÃ´ng cáº§n proof of work</string>
+    <string name="about_pow_desc_very_low">ráº¥t tháº¥p â€“ báº£o vá»‡ spam tá»‘i thiá»ƒu</string>
+    <string name="about_pow_desc_low">tháº¥p â€“ báº£o vá»‡ spam cÆ¡ báº£n</string>
+    <string name="about_pow_desc_medium">trung bÃ¬nh â€“ báº£o vá»‡ spam tá»‘t</string>
+    <string name="about_pow_desc_high">cao â€“ báº£o vá»‡ spam máº¡nh</string>
+    <string name="about_pow_desc_very_high">ráº¥t cao â€“ cÃ³ thá»ƒ gÃ¢y Ä‘á»™ trá»…</string>
+    <string name="about_pow_desc_extreme">cá»±c cao â€“ cáº§n sá»©c máº¡nh tÃ­nh toÃ¡n Ä‘Ã¡ng ká»ƒ</string>
+    <string name="about_network">Máº¡ng lÆ°á»›i</string>
+    <string name="about_tor_off">Tor táº¯t</string>
+    <string name="about_tor_on">Tor báº­t</string>
+    <string name="about_tor_route">Äá»‹nh tuyáº¿n lÆ°u lÆ°á»£ng Internet qua Tor Ä‘á»ƒ cÃ³ thÃªm quyá»n riÃªng tÆ°.</string>
+    <string name="about_tor_status">Tráº¡ng thÃ¡i Tor: %1$s, Bootstrap %2$d%%</string>
+    <string name="about_last">Cuá»‘i cÃ¹ng: %1$s</string>
+    <string name="about_emergency_title">XÃ³a dá»¯ liá»‡u kháº©n cáº¥p</string>
+    <string name="about_emergency_tip">Máº¹o: Nháº¥n ba láº§n vÃ o tiÃªu Ä‘á» á»©ng dá»¥ng Ä‘á»ƒ xÃ³a táº¥t cáº£ dá»¯ liá»‡u Ä‘Ã£ lÆ°u â€“ bao gá»“m tin nháº¯n, khÃ³a vÃ  cÃ i Ä‘áº·t.</string>
+    <string name="about_debug_settings">CÃ i Ä‘áº·t debug</string>
+    <string name="about_footer">MÃ£ nguá»“n má»Ÿ â€¢ Quyá»n riÃªng tÆ° trÆ°á»›c tiÃªn â€¢ Phi táº­p trung</string>
+    <string name="close_plain">ÄÃ³ng</string>
+    <string name="cancel_lower">há»§y</string>
 
-    <!-- Mô tả nội dung chung -->
-    <string name="cd_warning">Cảnh báo</string>
-    <string name="cd_location_services">Dịch vụ vị trí</string>
-    <string name="cd_privacy">Quyền riêng tư</string>
-    <string name="cd_error">Lỗi</string>
-    <string name="cd_battery_optimization">Tối ưu hóa pin</string>
-    <string name="cd_benefits">Lợi ích</string>
-    <string name="cd_checking_battery_optimization">Đang kiểm tra tối ưu hóa pin</string>
-    <string name="cd_not_supported_battery_optimization">Tối ưu hóa pin không được hỗ trợ</string>
+    <!-- MÃ´ táº£ ná»™i dung chung -->
+    <string name="cd_warning">Cáº£nh bÃ¡o</string>
+    <string name="cd_location_services">Dá»‹ch vá»¥ vá»‹ trÃ­</string>
+    <string name="cd_privacy">Quyá»n riÃªng tÆ°</string>
+    <string name="cd_error">Lá»—i</string>
+    <string name="cd_battery_optimization">Tá»‘i Æ°u hÃ³a pin</string>
+    <string name="cd_benefits">Lá»£i Ã­ch</string>
+    <string name="cd_checking_battery_optimization">Äang kiá»ƒm tra tá»‘i Æ°u hÃ³a pin</string>
+    <string name="cd_not_supported_battery_optimization">Tá»‘i Æ°u hÃ³a pin khÃ´ng Ä‘Æ°á»£c há»— trá»£</string>
     <string name="cd_bluetooth">Bluetooth</string>
-    <string name="cd_unread_message">Tin nhắn chưa đọc</string>
-    <string name="cd_open_map">Mở bản đồ</string>
-    <string name="cd_remove_bookmark">Xóa bookmark</string>
-    <string name="cd_teleport">Dịch chuyển</string>
-    <string name="cd_selected">Đã chọn</string>
-    <string name="cd_leave_channel">Rời khỏi kênh</string>
-    <string name="cd_reachable_via_nostr">Có thể tiếp cận qua Nostr</string>
-    <string name="cd_offline_favorite">Yêu thích (ngoại tuyến)</string>
-    <string name="cd_decrease_precision">Giảm độ chính xác</string>
-    <string name="cd_increase_precision">Tăng độ chính xác</string>
-    <string name="cd_select_geohash">Chọn geohash</string>
-    <string name="cd_scroll_to_bottom">Cuộn xuống dưới</string>
+    <string name="cd_unread_message">Tin nháº¯n chÆ°a Ä‘á»c</string>
+    <string name="cd_open_map">Má»Ÿ báº£n Ä‘á»“</string>
+    <string name="cd_remove_bookmark">XÃ³a bookmark</string>
+    <string name="cd_teleport">Dá»‹ch chuyá»ƒn</string>
+    <string name="cd_selected">ÄÃ£ chá»n</string>
+    <string name="cd_leave_channel">Rá»i khá»i kÃªnh</string>
+    <string name="cd_reachable_via_nostr">CÃ³ thá»ƒ tiáº¿p cáº­n qua Nostr</string>
+    <string name="cd_offline_favorite">YÃªu thÃ­ch (ngoáº¡i tuyáº¿n)</string>
+    <string name="cd_decrease_precision">Giáº£m Ä‘á»™ chÃ­nh xÃ¡c</string>
+    <string name="cd_increase_precision">TÄƒng Ä‘á»™ chÃ­nh xÃ¡c</string>
+    <string name="cd_select_geohash">Chá»n geohash</string>
+    <string name="cd_scroll_to_bottom">Cuá»™n xuá»‘ng dÆ°á»›i</string>
     <string name="cd_file">File</string>
-    <string name="cd_image">Hình ảnh</string>
-    <string name="cd_cancel">Hủy</string>
-    <string name="cd_link">Liên kết</string>
-    <string name="cd_pick_media">Chọn media</string>
-    <string name="cd_pick_file">Chọn file</string>
-    <string name="cd_save_current_image">Lưu hình ảnh hiện tại</string>
-    <string name="cd_close">Đóng</string>
-    <string name="cd_image_index_of">Hình ảnh %1$d trong %2$d</string>
-    <string name="cd_privacy_protected">Quyền riêng tư được bảo vệ</string>
-    <string name="cd_record_voice">Ghi tin nhắn thoại</string>
-    <string name="cd_offline_mesh_chat">Trò chuyện Mesh ngoại tuyến</string>
-    <string name="cd_online_geohash_channels">Kênh Geohash trực tuyến</string>
-    <string name="cd_end_to_end_encryption">Mã hóa đầu cuối</string>
+    <string name="cd_image">HÃ¬nh áº£nh</string>
+    <string name="cd_cancel">Há»§y</string>
+    <string name="cd_link">LiÃªn káº¿t</string>
+    <string name="cd_pick_media">Chá»n media</string>
+    <string name="cd_pick_file">Chá»n file</string>
+    <string name="cd_save_current_image">LÆ°u hÃ¬nh áº£nh hiá»‡n táº¡i</string>
+    <string name="cd_close">ÄÃ³ng</string>
+    <string name="cd_image_index_of">HÃ¬nh áº£nh %1$d trong %2$d</string>
+    <string name="cd_privacy_protected">Quyá»n riÃªng tÆ° Ä‘Æ°á»£c báº£o vá»‡</string>
+    <string name="cd_record_voice">Ghi tin nháº¯n thoáº¡i</string>
+    <string name="cd_offline_mesh_chat">TrÃ² chuyá»‡n Mesh ngoáº¡i tuyáº¿n</string>
+    <string name="cd_online_geohash_channels">KÃªnh Geohash trá»±c tuyáº¿n</string>
+    <string name="cd_end_to_end_encryption">MÃ£ hÃ³a Ä‘áº§u cuá»‘i</string>
 
-    <!-- Hình ảnh &amp; file -->
-    <string name="image_page_of">Hình ảnh %1$d trong %2$d</string>
-    <string name="image_unavailable">Hình ảnh không có sẵn</string>
-    <string name="image_saved_to_downloads">Hình ảnh đã lưu vào \"Downloads\"</string>
-    <string name="image_save_failed">Không thể lưu hình ảnh</string>
-    <string name="toast_image_saved">Hình ảnh đã lưu vào \"Downloads\"</string>
-    <string name="toast_failed_to_save_image">Không thể lưu hình ảnh</string>
-    <string name="pick_file">Chọn file</string>
-    <string name="file_unavailable">[File không có sẵn]</string>
-    <string name="unknown">không rõ</string>
+    <!-- HÃ¬nh áº£nh &amp; file -->
+    <string name="image_page_of">HÃ¬nh áº£nh %1$d trong %2$d</string>
+    <string name="image_unavailable">HÃ¬nh áº£nh khÃ´ng cÃ³ sáºµn</string>
+    <string name="image_saved_to_downloads">HÃ¬nh áº£nh Ä‘Ã£ lÆ°u vÃ o \"Downloads\"</string>
+    <string name="image_save_failed">KhÃ´ng thá»ƒ lÆ°u hÃ¬nh áº£nh</string>
+    <string name="toast_image_saved">HÃ¬nh áº£nh Ä‘Ã£ lÆ°u vÃ o \"Downloads\"</string>
+    <string name="toast_failed_to_save_image">KhÃ´ng thá»ƒ lÆ°u hÃ¬nh áº£nh</string>
+    <string name="pick_file">Chá»n file</string>
+    <string name="file_unavailable">[File khÃ´ng cÃ³ sáºµn]</string>
+    <string name="unknown">khÃ´ng rÃµ</string>
 
-    <!-- Sheet hành động người dùng -->
-    <string name="choose_action_message_or_user">Chọn hành động cho tin nhắn hoặc người dùng này</string>
-    <string name="choose_action_user">Chọn hành động cho người dùng này</string>
-    <string name="action_copy_message_title">Sao chép tin nhắn</string>
-    <string name="action_copy_message_subtitle">Sao chép tin nhắn này vào clipboard</string>
-    <string name="action_slap_title">Tát %1$s</string>
-    <string name="action_slap_subtitle">Gửi một cái tát vui nhộn</string>
-    <string name="action_hug_title">Ôm %1$s</string>
-    <string name="action_hug_subtitle">Gửi một cái ôm thân thiện</string>
-    <string name="action_block_title">Chặn %1$s</string>
-    <string name="action_block_subtitle">Chặn tất cả tin nhắn từ người dùng này</string>
+    <!-- Sheet hÃ nh Ä‘á»™ng ngÆ°á»i dÃ¹ng -->
+    <string name="choose_action_message_or_user">Chá»n hÃ nh Ä‘á»™ng cho tin nháº¯n hoáº·c ngÆ°á»i dÃ¹ng nÃ y</string>
+    <string name="choose_action_user">Chá»n hÃ nh Ä‘á»™ng cho ngÆ°á»i dÃ¹ng nÃ y</string>
+    <string name="action_copy_message_title">Sao chÃ©p tin nháº¯n</string>
+    <string name="action_copy_message_subtitle">Sao chÃ©p tin nháº¯n nÃ y vÃ o clipboard</string>
+    <string name="action_slap_title">TÃ¡t %1$s</string>
+    <string name="action_slap_subtitle">Gá»­i má»™t cÃ¡i tÃ¡t vui nhá»™n</string>
+    <string name="action_hug_title">Ã”m %1$s</string>
+    <string name="action_hug_subtitle">Gá»­i má»™t cÃ¡i Ã´m thÃ¢n thiá»‡n</string>
+    <string name="action_block_title">Cháº·n %1$s</string>
+    <string name="action_block_subtitle">Cháº·n táº¥t cáº£ tin nháº¯n tá»« ngÆ°á»i dÃ¹ng nÃ y</string>
 
-    <!-- Sheet kênh geohash -->
-    <string name="location_channels_title">#Kênh vị trí</string>
-    <string name="location_channels_desc">Trò chuyện với những người gần bạn qua các kênh geohash. Chỉ geohash thô được chia sẻ, không phải dữ liệu GPS chính xác. Vui lòng không chụp màn hình hoặc chia sẻ chế độ xem này để bảo vệ quyền riêng tư.</string>
-    <string name="grant_location_permission">Cấp quyền vị trí</string>
-    <string name="location_permission_denied">Quyền vị trí bị từ chối. Hãy bật trong Cài đặt để sử dụng kênh vị trí.</string>
-    <string name="open_settings">Mở Cài đặt</string>
-    <string name="location_permission_granted">\u2713 Đã cấp quyền vị trí</string>
-    <string name="checking_permissions">Đang kiểm tra quyền …</string>
-    <string name="finding_nearby_channels">Đang tìm kênh gần đó …</string>
-    <string name="bookmarked">Đã bookmark</string>
+    <!-- Sheet kÃªnh geohash -->
+    <string name="location_channels_title">#KÃªnh vá»‹ trÃ­</string>
+    <string name="location_channels_desc">TrÃ² chuyá»‡n vá»›i nhá»¯ng ngÆ°á»i gáº§n báº¡n qua cÃ¡c kÃªnh geohash. Chá»‰ geohash thÃ´ Ä‘Æ°á»£c chia sáº», khÃ´ng pháº£i dá»¯ liá»‡u GPS chÃ­nh xÃ¡c. Vui lÃ²ng khÃ´ng chá»¥p mÃ n hÃ¬nh hoáº·c chia sáº» cháº¿ Ä‘á»™ xem nÃ y Ä‘á»ƒ báº£o vá»‡ quyá»n riÃªng tÆ°.</string>
+    <string name="grant_location_permission">Cáº¥p quyá»n vá»‹ trÃ­</string>
+    <string name="location_permission_denied">Quyá»n vá»‹ trÃ­ bá»‹ tá»« chá»‘i. HÃ£y báº­t trong CÃ i Ä‘áº·t Ä‘á»ƒ sá»­ dá»¥ng kÃªnh vá»‹ trÃ­.</string>
+    <string name="open_settings">Má»Ÿ CÃ i Ä‘áº·t</string>
+    <string name="location_permission_granted">\u2713 ÄÃ£ cáº¥p quyá»n vá»‹ trÃ­</string>
+    <string name="checking_permissions">Äang kiá»ƒm tra quyá»n â€¦</string>
+    <string name="finding_nearby_channels">Äang tÃ¬m kÃªnh gáº§n Ä‘Ã³ â€¦</string>
+    <string name="bookmarked">ÄÃ£ bookmark</string>
     <string name="geohash_placeholder">Geohash</string>
-    <string name="invalid_geohash">Geohash không hợp lệ</string>
-    <string name="teleport">dịch chuyển</string>
-    <string name="disable_location_services">Tắt dịch vụ vị trí</string>
-    <string name="enable_location_services">Bật dịch vụ vị trí</string>
+    <string name="invalid_geohash">Geohash khÃ´ng há»£p lá»‡</string>
+    <string name="teleport">dá»‹ch chuyá»ƒn</string>
+    <string name="disable_location_services">Táº¯t dá»‹ch vá»¥ vá»‹ trÃ­</string>
+    <string name="enable_location_services">Báº­t dá»‹ch vá»¥ vá»‹ trÃ­</string>
     <string name="mesh_label">mesh</string>
-    <string name="location_level_block">Khối</string>
-    <string name="location_level_neighborhood">Khu phố</string>
-    <string name="location_level_city">Thành phố</string>
-    <string name="location_level_province">Tỉnh</string>
-    <string name="location_level_region">Khu vực</string>
-    <string name="location_bluetooth_subtitle">#bluetooth • %1$s</string>
+    <string name="location_level_block">Khá»‘i</string>
+    <string name="location_level_neighborhood">Khu phá»‘</string>
+    <string name="location_level_city">ThÃ nh phá»‘</string>
+    <string name="location_level_province">Tá»‰nh</string>
+    <string name="location_level_region">Khu vá»±c</string>
+    <string name="location_bluetooth_subtitle">#bluetooth â€¢ %1$s</string>
 
-    <!-- Debug / Chẩn đoán -->
-    <string name="debug_tools">Công cụ debug</string>
-    <string name="debug_tools_desc">Công cụ nhà phát triển cho chẩn đoán và điều khiển</string>
-    <string name="debug_verbose_logging">ghi log chi tiết</string>
-    <string name="debug_verbose_hint">Ghi log peer join/leave, hướng kết nối, chuyển tiếp gói và relay</string>
-    <string name="debug_bluetooth_roles">Vai trò Bluetooth</string>
+    <!-- Debug / Cháº©n Ä‘oÃ¡n -->
+    <string name="debug_tools">CÃ´ng cá»¥ debug</string>
+    <string name="debug_tools_desc">CÃ´ng cá»¥ nhÃ  phÃ¡t triá»ƒn cho cháº©n Ä‘oÃ¡n vÃ  Ä‘iá»u khiá»ƒn</string>
+    <string name="debug_verbose_logging">ghi log chi tiáº¿t</string>
+    <string name="debug_verbose_hint">Ghi log peer join/leave, hÆ°á»›ng káº¿t ná»‘i, chuyá»ƒn tiáº¿p gÃ³i vÃ  relay</string>
+    <string name="debug_bluetooth_roles">Vai trÃ² Bluetooth</string>
     <string name="debug_gatt_server">GATT Server</string>
-    <string name="debug_connections_fmt">Kết nối: %1$d / %2$d</string>
-    <string name="debug_max_server">server tối đa</string>
+    <string name="debug_connections_fmt">Káº¿t ná»‘i: %1$d / %2$d</string>
+    <string name="debug_max_server">server tá»‘i Ä‘a</string>
     <string name="debug_gatt_client">GATT Client</string>
-    <string name="debug_max_client">client tối đa</string>
-    <string name="debug_overall_connections_fmt">Kết nối: %1$d / %2$d</string>
-    <string name="debug_max_overall">tối đa tổng</string>
+    <string name="debug_max_client">client tá»‘i Ä‘a</string>
+    <string name="debug_overall_connections_fmt">Káº¿t ná»‘i: %1$d / %2$d</string>
+    <string name="debug_max_overall">tá»‘i Ä‘a tá»•ng</string>
     <string name="debug_packet_relay">Packet Relay</string>
-    <string name="debug_since_start_fmt">từ lúc bắt đầu: %1$d</string>
-    <string name="debug_roles_hint">Bật/tắt vai trò và đóng tất cả kết nối khi tắt</string>
-    <string name="debug_sync_settings">Cài đặt sync</string>
-    <string name="debug_max_packets_per_sync_fmt">gói tối đa mỗi sync: %1$d</string>
-    <string name="debug_max_gcs_filter_size_fmt">kích thước bộ lọc GCS tối đa: %1$d Byte (128–1024)</string>
-    <string name="debug_target_fpr_fmt">FPR mục tiêu: %1$.2f%%</string>
-    <string name="debug_connected_devices">thiết bị đã kết nối</string>
-    <string name="debug_our_device_id_fmt">ID thiết bị của chúng tôi: %1$s</string>
-    <string name="debug_none">không có</string>
-    <string name="debug_disconnect">ngắt kết nối</string>
-    <string name="debug_recent_scan_results">thiết bị được quét gần đây</string>
-    <string name="debug_connect">kết nối</string>
+    <string name="debug_since_start_fmt">tá»« lÃºc báº¯t Ä‘áº§u: %1$d</string>
+    <string name="debug_roles_hint">Báº­t/táº¯t vai trÃ² vÃ  Ä‘Ã³ng táº¥t cáº£ káº¿t ná»‘i khi táº¯t</string>
+    <string name="debug_sync_settings">CÃ i Ä‘áº·t sync</string>
+    <string name="debug_max_packets_per_sync_fmt">gÃ³i tá»‘i Ä‘a má»—i sync: %1$d</string>
+    <string name="debug_max_gcs_filter_size_fmt">kÃ­ch thÆ°á»›c bá»™ lá»c GCS tá»‘i Ä‘a: %1$d Byte (128â€“1024)</string>
+    <string name="debug_target_fpr_fmt">FPR má»¥c tiÃªu: %1$.2f%%</string>
+    <string name="debug_connected_devices">thiáº¿t bá»‹ Ä‘Ã£ káº¿t ná»‘i</string>
+    <string name="debug_our_device_id_fmt">ID thiáº¿t bá»‹ cá»§a chÃºng tÃ´i: %1$s</string>
+    <string name="debug_none">khÃ´ng cÃ³</string>
+    <string name="debug_disconnect">ngáº¯t káº¿t ná»‘i</string>
+    <string name="debug_recent_scan_results">thiáº¿t bá»‹ Ä‘Æ°á»£c quÃ©t gáº§n Ä‘Ã¢y</string>
+    <string name="debug_connect">káº¿t ná»‘i</string>
     <string name="debug_debug_console">Console debug</string>
-    <string name="debug_clear">xóa</string>
-    <string name="debug_relays_window_fmt">10s cuối: %1$d • 1m: %2$d • 15m: %3$d</string>
-    <string name="debug_derived_p_fmt">P dẫn xuất: %1$s • phần tử tối đa ước tính: %2$s</string>
-    <string name="debug_direct_suffix"> • trực tiếp</string>
-    <string name="debug_role_server">làm server (chúng tôi host)</string>
-    <string name="debug_role_client">làm client (chúng tôi kết nối)</string>
+    <string name="debug_clear">xÃ³a</string>
+    <string name="debug_relays_window_fmt">10s cuá»‘i: %1$d â€¢ 1m: %2$d â€¢ 15m: %3$d</string>
+    <string name="debug_derived_p_fmt">P dáº«n xuáº¥t: %1$s â€¢ pháº§n tá»­ tá»‘i Ä‘a Æ°á»›c tÃ­nh: %2$s</string>
+    <string name="debug_direct_suffix"> â€¢ trá»±c tiáº¿p</string>
+    <string name="debug_role_server">lÃ m server (chÃºng tÃ´i host)</string>
+    <string name="debug_role_client">lÃ m client (chÃºng tÃ´i káº¿t ná»‘i)</string>
 
-    <!-- Màn hình onboarding -->
-    <string name="location_services_required">Yêu cầu dịch vụ vị trí</string>
-    <string name="privacy_first">Quyền riêng tư trước tiên</string>
-    <string name="location_explanation">bitchat KHÔNG theo dõi vị trí của bạn.\n\nDịch vụ vị trí cần thiết cho quét Bluetooth và tính năng geohash chat.</string>
-    <string name="location_needs_for">bitchat cần dịch vụ vị trí cho:</string>
-    <string name="location_needs_bullets">• Quét thiết bị Bluetooth\n• Khám phá người dùng gần đó trong mạng mesh\n• Tính năng geohash chat\n• Không theo dõi hoặc thu thập vị trí</string>
-    <string name="open_location_settings">Mở cài đặt vị trí</string>
-    <string name="check_again">Kiểm tra lại</string>
-    <string name="location_services_unavailable">Dịch vụ vị trí không có sẵn</string>
-    <string name="location_unavailable_explanation">Dịch vụ vị trí không có sẵn trên thiết bị này. Điều này bất thường vì dịch vụ vị trí là tiêu chuẩn trên thiết bị Android.\n\nbitchat cần dịch vụ vị trí để quét Bluetooth hoạt động đúng (yêu cầu Android). Không có nó, ứng dụng không thể khám phá người dùng gần đó.</string>
-    <string name="checking_location_services">Đang kiểm tra dịch vụ vị trí …</string>
-    <string name="bluetooth_required">Yêu cầu Bluetooth</string>
-    <string name="bluetooth_needs_for">bitchat cần Bluetooth cho:</string>
-    <string name="bluetooth_needs_bullets">• Khám phá người dùng gần đó\n• Tạo kết nối mạng mesh\n• Gửi và nhận tin nhắn\n• Hoạt động mà không cần Internet hoặc máy chủ</string>
-    <string name="enable_bluetooth">Bật Bluetooth</string>
-    <string name="bluetooth_not_supported">Bluetooth không được hỗ trợ</string>
-    <string name="bluetooth_unsupported_explanation">Thiết bị này không hỗ trợ Bluetooth Low Energy (BLE), cần thiết để bitchat hoạt động.\n\nbitchat cần BLE để tạo mạng mesh và liên lạc với thiết bị gần đó mà không cần Internet.</string>
-    <string name="checking_bluetooth_status">Đang kiểm tra trạng thái Bluetooth …</string>
-    <string name="battery_optimization_detected_title">Đã phát hiện tối ưu hóa pin</string>
-    <string name="battery_optimization_enabled_title">Tối ưu hóa pin đã bật</string>
-    <string name="battery_optimization_explanation_short">bitchat phải chạy nền để duy trì kết nối mesh. Tối ưu hóa pin có thể làm gián đoạn các kết nối này.</string>
-    <string name="benefits_of_disabling">Lợi ích của việc tắt</string>
-    <string name="battery_benefits_short">• gửi tin nhắn đáng tin cậy\n• duy trì kết nối mesh\n• ngăn ngừa mất kết nối</string>
-    <string name="disable_battery_optimization">Tắt tối ưu hóa pin</string>
-    <string name="battery_optimization_disabled_title">Tối ưu hóa pin đã tắt</string>
-    <string name="continue_btn">Tiếp tục</string>
-    <string name="initializing_mesh_network">Đang khởi tạo mạng mesh</string>
-    <string name="setting_up_bluetooth">Đang thiết lập mạng Bluetooth mesh …</string>
-    <string name="should_take_seconds">Điều này chỉ mất vài giây</string>
-    <string name="setup_not_complete">Thiết lập chưa hoàn thành</string>
-    <string name="try_again">Thử lại</string>
-    <string name="privacy_protected">Quyền riêng tư của bạn được bảo vệ</string>
-    <string name="privacy_bullets">• không theo dõi hoặc thu thập dữ liệu\n• Bluetooth mesh chat hoàn toàn ngoại tuyến\n• Geohash chat sử dụng Internet</string>
-    <string name="permissions_header">Quyền</string>
-    <string name="grant_permissions">Cấp quyền</string>
-    <string name="location_tracking_warning">bitchat KHÔNG theo dõi vị trí của bạn</string>
-    <string name="geohash_people_header">MỌI NGƯỜI</string>
-    <string name="nobody_around">không có ai xung quanh …</string>
-    <string name="you_suffix"> (bạn)</string>
-    <string name="pan_zoom_instruction">di chuyển và zoom để chọn geohash</string>
-    <string name="select">chọn</string>
-    <string name="type_a_message_placeholder">Nhập tin nhắn …</string>
-    <string name="mention">nhắc đến</string>
+    <!-- MÃ n hÃ¬nh onboarding -->
+    <string name="location_services_required">YÃªu cáº§u dá»‹ch vá»¥ vá»‹ trÃ­</string>
+    <string name="privacy_first">Quyá»n riÃªng tÆ° trÆ°á»›c tiÃªn</string>
+    <string name="location_explanation">bitchat KHÃ”NG theo dÃµi vá»‹ trÃ­ cá»§a báº¡n.\n\nDá»‹ch vá»¥ vá»‹ trÃ­ cáº§n thiáº¿t cho quÃ©t Bluetooth vÃ  tÃ­nh nÄƒng geohash chat.</string>
+    <string name="location_needs_for">bitchat cáº§n dá»‹ch vá»¥ vá»‹ trÃ­ cho:</string>
+    <string name="location_needs_bullets">â€¢ QuÃ©t thiáº¿t bá»‹ Bluetooth\nâ€¢ KhÃ¡m phÃ¡ ngÆ°á»i dÃ¹ng gáº§n Ä‘Ã³ trong máº¡ng mesh\nâ€¢ TÃ­nh nÄƒng geohash chat\nâ€¢ KhÃ´ng theo dÃµi hoáº·c thu tháº­p vá»‹ trÃ­</string>
+    <string name="open_location_settings">Má»Ÿ cÃ i Ä‘áº·t vá»‹ trÃ­</string>
+    <string name="check_again">Kiá»ƒm tra láº¡i</string>
+    <string name="location_services_unavailable">Dá»‹ch vá»¥ vá»‹ trÃ­ khÃ´ng cÃ³ sáºµn</string>
+    <string name="location_unavailable_explanation">Dá»‹ch vá»¥ vá»‹ trÃ­ khÃ´ng cÃ³ sáºµn trÃªn thiáº¿t bá»‹ nÃ y. Äiá»u nÃ y báº¥t thÆ°á»ng vÃ¬ dá»‹ch vá»¥ vá»‹ trÃ­ lÃ  tiÃªu chuáº©n trÃªn thiáº¿t bá»‹ Android.\n\nbitchat cáº§n dá»‹ch vá»¥ vá»‹ trÃ­ Ä‘á»ƒ quÃ©t Bluetooth hoáº¡t Ä‘á»™ng Ä‘Ãºng (yÃªu cáº§u Android). KhÃ´ng cÃ³ nÃ³, á»©ng dá»¥ng khÃ´ng thá»ƒ khÃ¡m phÃ¡ ngÆ°á»i dÃ¹ng gáº§n Ä‘Ã³.</string>
+    <string name="checking_location_services">Äang kiá»ƒm tra dá»‹ch vá»¥ vá»‹ trÃ­ â€¦</string>
+    <string name="bluetooth_required">YÃªu cáº§u Bluetooth</string>
+    <string name="bluetooth_needs_for">bitchat cáº§n Bluetooth cho:</string>
+    <string name="bluetooth_needs_bullets">â€¢ KhÃ¡m phÃ¡ ngÆ°á»i dÃ¹ng gáº§n Ä‘Ã³\nâ€¢ Táº¡o káº¿t ná»‘i máº¡ng mesh\nâ€¢ Gá»­i vÃ  nháº­n tin nháº¯n\nâ€¢ Hoáº¡t Ä‘á»™ng mÃ  khÃ´ng cáº§n Internet hoáº·c mÃ¡y chá»§</string>
+    <string name="enable_bluetooth">Báº­t Bluetooth</string>
+    <string name="bluetooth_not_supported">Bluetooth khÃ´ng Ä‘Æ°á»£c há»— trá»£</string>
+    <string name="bluetooth_unsupported_explanation">Thiáº¿t bá»‹ nÃ y khÃ´ng há»— trá»£ Bluetooth Low Energy (BLE), cáº§n thiáº¿t Ä‘á»ƒ bitchat hoáº¡t Ä‘á»™ng.\n\nbitchat cáº§n BLE Ä‘á»ƒ táº¡o máº¡ng mesh vÃ  liÃªn láº¡c vá»›i thiáº¿t bá»‹ gáº§n Ä‘Ã³ mÃ  khÃ´ng cáº§n Internet.</string>
+    <string name="checking_bluetooth_status">Äang kiá»ƒm tra tráº¡ng thÃ¡i Bluetooth â€¦</string>
+    <string name="battery_optimization_detected_title">ÄÃ£ phÃ¡t hiá»‡n tá»‘i Æ°u hÃ³a pin</string>
+    <string name="battery_optimization_enabled_title">Tá»‘i Æ°u hÃ³a pin Ä‘Ã£ báº­t</string>
+    <string name="battery_optimization_explanation_short">bitchat pháº£i cháº¡y ná»n Ä‘á»ƒ duy trÃ¬ káº¿t ná»‘i mesh. Tá»‘i Æ°u hÃ³a pin cÃ³ thá»ƒ lÃ m giÃ¡n Ä‘oáº¡n cÃ¡c káº¿t ná»‘i nÃ y.</string>
+    <string name="benefits_of_disabling">Lá»£i Ã­ch cá»§a viá»‡c táº¯t</string>
+    <string name="battery_benefits_short">â€¢ gá»­i tin nháº¯n Ä‘Ã¡ng tin cáº­y\nâ€¢ duy trÃ¬ káº¿t ná»‘i mesh\nâ€¢ ngÄƒn ngá»«a máº¥t káº¿t ná»‘i</string>
+    <string name="disable_battery_optimization">Táº¯t tá»‘i Æ°u hÃ³a pin</string>
+    <string name="battery_optimization_disabled_title">Tá»‘i Æ°u hÃ³a pin Ä‘Ã£ táº¯t</string>
+    <string name="continue_btn">Tiáº¿p tá»¥c</string>
+    <string name="initializing_mesh_network">Äang khá»Ÿi táº¡o máº¡ng mesh</string>
+    <string name="setting_up_bluetooth">Äang thiáº¿t láº­p máº¡ng Bluetooth mesh â€¦</string>
+    <string name="should_take_seconds">Äiá»u nÃ y chá»‰ máº¥t vÃ i giÃ¢y</string>
+    <string name="setup_not_complete">Thiáº¿t láº­p chÆ°a hoÃ n thÃ nh</string>
+    <string name="try_again">Thá»­ láº¡i</string>
+    <string name="privacy_protected">Quyá»n riÃªng tÆ° cá»§a báº¡n Ä‘Æ°á»£c báº£o vá»‡</string>
+    <string name="privacy_bullets">â€¢ khÃ´ng theo dÃµi hoáº·c thu tháº­p dá»¯ liá»‡u\nâ€¢ Bluetooth mesh chat hoÃ n toÃ n ngoáº¡i tuyáº¿n\nâ€¢ Geohash chat sá»­ dá»¥ng Internet</string>
+    <string name="permissions_header">Quyá»n</string>
+    <string name="grant_permissions">Cáº¥p quyá»n</string>
+    <string name="location_tracking_warning">bitchat KHÃ”NG theo dÃµi vá»‹ trÃ­ cá»§a báº¡n</string>
+    <string name="geohash_people_header">Má»ŒI NGÆ¯á»œI</string>
+    <string name="nobody_around">khÃ´ng cÃ³ ai xung quanh â€¦</string>
+    <string name="you_suffix"> (báº¡n)</string>
+    <string name="pan_zoom_instruction">di chuyá»ƒn vÃ  zoom Ä‘á»ƒ chá»n geohash</string>
+    <string name="select">chá»n</string>
+    <string name="type_a_message_placeholder">Nháº­p tin nháº¯n â€¦</string>
+    <string name="mention">nháº¯c Ä‘áº¿n</string>
     <string name="pow_time_estimate">(~%1$s)</string>
     <string name="version_prefix">v%1$s</string>
     <string name="image_star">image/*</string>
-    <string name="media_type_image">Hình ảnh</string>
+    <string name="media_type_image">HÃ¬nh áº£nh</string>
     <string name="media_type_file">File</string>
 
-    <!-- Trợ giúp văn bản thông báo -->
-    <string name="notification_sent_image">📷 đã gửi hình ảnh</string>
-    <string name="notification_sent_voice">🎤 đã gửi tin nhắn thoại</string>
-    <string name="notification_sent_file">📎 đã gửi file</string>
+    <!-- Trá»£ giÃºp vÄƒn báº£n thÃ´ng bÃ¡o -->
+    <string name="notification_sent_image">ðŸ“· Ä‘Ã£ gá»­i hÃ¬nh áº£nh</string>
+    <string name="notification_sent_voice">ðŸŽ¤ Ä‘Ã£ gá»­i tin nháº¯n thoáº¡i</string>
+    <string name="notification_sent_file">ðŸ“Ž Ä‘Ã£ gá»­i file</string>
 
-    <!-- Khả năng truy cập trình phát thoại -->
-    <string name="cd_play_voice">Phát</string>
-    <string name="cd_pause_voice">Tạm dừng</string>
-    <string name="cd_mining_pow">Đang mining PoW</string>
-    <string name="cd_pow_enabled">PoW đã bật</string>
+    <!-- Kháº£ nÄƒng truy cáº­p trÃ¬nh phÃ¡t thoáº¡i -->
+    <string name="cd_play_voice">PhÃ¡t</string>
+    <string name="cd_pause_voice">Táº¡m dá»«ng</string>
+    <string name="cd_mining_pow">Äang mining PoW</string>
+    <string name="cd_pow_enabled">PoW Ä‘Ã£ báº­t</string>
     <string name="cd_proof_of_work">Proof of Work</string>
-    <string name="pow_mining_ellipsis">Đang mining …</string>
+    <string name="pow_mining_ellipsis">Äang mining â€¦</string>
     <string name="pow_label_format">pow: %1$dbit</string>
 
-    <!-- Mô tả quyền -->
-    <string name="perm_nearby_devices_desc">Cần thiết để khám phá người dùng bitchat qua Bluetooth</string>
-    <string name="perm_nearby_devices_system">Cho phép bitchat kết nối với thiết bị gần đó</string>
-    <string name="perm_location_desc">Android yêu cầu để khám phá người dùng bitchat gần đó qua Bluetooth</string>
-    <string name="perm_location_system">bitchat cần điều này để quét thiết bị gần đó</string>
-    <string name="perm_notifications_desc">Nhận thông báo khi bạn nhận tin nhắn riêng</string>
-    <string name="perm_notifications_system">Cho phép bitchat gửi thông báo cho bạn</string>
-    <string name="perm_battery_desc">Tắt tối ưu hóa pin để đảm bảo bitchat chạy đáng tin cậy trong nền và duy trì kết nối mạng mesh</string>
-    <string name="perm_battery_system">Cho phép bitchat chạy mà không bị giới hạn pin</string>
+    <!-- MÃ´ táº£ quyá»n -->
+    <string name="perm_nearby_devices_desc">Cáº§n thiáº¿t Ä‘á»ƒ khÃ¡m phÃ¡ ngÆ°á»i dÃ¹ng bitchat qua Bluetooth</string>
+    <string name="perm_nearby_devices_system">Cho phÃ©p bitchat káº¿t ná»‘i vá»›i thiáº¿t bá»‹ gáº§n Ä‘Ã³</string>
+    <string name="perm_location_desc">Android yÃªu cáº§u Ä‘á»ƒ khÃ¡m phÃ¡ ngÆ°á»i dÃ¹ng bitchat gáº§n Ä‘Ã³ qua Bluetooth</string>
+    <string name="perm_location_system">bitchat cáº§n Ä‘iá»u nÃ y Ä‘á»ƒ quÃ©t thiáº¿t bá»‹ gáº§n Ä‘Ã³</string>
+    <string name="perm_notifications_desc">Nháº­n thÃ´ng bÃ¡o khi báº¡n nháº­n tin nháº¯n riÃªng</string>
+    <string name="perm_notifications_system">Cho phÃ©p bitchat gá»­i thÃ´ng bÃ¡o cho báº¡n</string>
+    <string name="perm_battery_desc">Táº¯t tá»‘i Æ°u hÃ³a pin Ä‘á»ƒ Ä‘áº£m báº£o bitchat cháº¡y Ä‘Ã¡ng tin cáº­y trong ná»n vÃ  duy trÃ¬ káº¿t ná»‘i máº¡ng mesh</string>
+    <string name="perm_battery_system">Cho phÃ©p bitchat cháº¡y mÃ  khÃ´ng bá»‹ giá»›i háº¡n pin</string>
 
-    <!-- Loại quyền -->
-    <string name="perm_type_nearby_devices">Thiết bị gần đó</string>
-    <string name="perm_type_precise_location">Vị trí chính xác</string>
+    <!-- Loáº¡i quyá»n -->
+    <string name="perm_type_nearby_devices">Thiáº¿t bá»‹ gáº§n Ä‘Ã³</string>
+    <string name="perm_type_precise_location">Vá»‹ trÃ­ chÃ­nh xÃ¡c</string>
     <string name="perm_type_microphone">Microphone</string>
-    <string name="perm_type_notifications">Thông báo</string>
-    <string name="perm_type_battery_optimization">Tối ưu hóa pin</string>
-    <string name="perm_type_other">Khác</string>
+    <string name="perm_type_notifications">ThÃ´ng bÃ¡o</string>
+    <string name="perm_type_battery_optimization">Tá»‘i Æ°u hÃ³a pin</string>
+    <string name="perm_type_other">KhÃ¡c</string>
 
-    <!-- Dialog mật khẩu -->
-    <string name="pwd_prompt_title">Nhập mật khẩu kênh</string>
-    <string name="pwd_prompt_message">Kênh %1$s được bảo vệ bằng mật khẩu. Nhập mật khẩu để tham gia.</string>
-    <string name="pwd_label">Mật khẩu</string>
+    <!-- Dialog máº­t kháº©u -->
+    <string name="pwd_prompt_title">Nháº­p máº­t kháº©u kÃªnh</string>
+    <string name="pwd_prompt_message">KÃªnh %1$s Ä‘Æ°á»£c báº£o vá»‡ báº±ng máº­t kháº©u. Nháº­p máº­t kháº©u Ä‘á»ƒ tham gia.</string>
+    <string name="pwd_label">Máº­t kháº©u</string>
     <string name="join">Tham gia</string>
-    <string name="cancel">Hủy</string>
+    <string name="cancel">Há»§y</string>
 
-    <!-- Số nhiều -->
+    <!-- Sá»‘ nhiá»u -->
     <plurals name="notification_and_more">
-        <item quantity="one">và %d khác</item>
-        <item quantity="other">và %d khác</item>
+        <item quantity="one">vÃ  %d khÃ¡c</item>
+        <item quantity="other">vÃ  %d khÃ¡c</item>
     </plurals>
 
     <plurals name="people_count">
-        <item quantity="one">1 người</item>
-        <item quantity="other">%d người</item>
+        <item quantity="one">1 ngÆ°á»i</item>
+        <item quantity="other">%d ngÆ°á»i</item>
     </plurals>
 
-    <string name="mesh_service_notification_content">Mesh đang chạy — %1$d ngang hàng</string>
+    <string name="mesh_service_notification_content">Mesh Ä‘ang cháº¡y â€” %1$d ngang hÃ ng</string>
 
   <string name="verify_title">verify</string>
   <string name="verify_my_qr_title">scan to verify me</string>
@@ -387,3 +387,4 @@
   <string name="verify_success_body">You verified %1$s</string>
   <string name="verify_success_system_message">verified %1$s</string>
 </resources>
+

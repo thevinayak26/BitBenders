@@ -104,7 +104,7 @@ class SosDetectionService : Service(), SensorEventListener {
 
         sosManager.onBroadcastSos = { packet ->
             SosStateStore.setLatestSos(packet)
-            MeshServiceHolder.meshService?.sendMessage("${SosMessageBridge.SOS_PREFIX}${packet.toJson()}")
+            MeshServiceHolder.meshService?.sendMessage("${SosMessageBridge.SOS_PREFIX}${packet.toReadableMeshMessage()}")
             if (SosStateStore.uiState.value.isGatewayMode) {
                 startService(
                     Intent(this, GatewayBridgeService::class.java)
@@ -143,8 +143,8 @@ class SosDetectionService : Service(), SensorEventListener {
             ACTION_INCOMING_SOS -> {
                 val json = intent.getStringExtra(EXTRA_JSON)
                 if (!json.isNullOrBlank()) {
-                    runCatching { SosPacket.fromJson(json) }
-                        .recoverCatching { SosPacket.fromWireFormat(json) }
+                    runCatching { SosPacket.fromWireFormat(json) }
+                        .recoverCatching { SosPacket.fromJson(json) }
                         .onSuccess {
                             SosStateStore.setLatestSos(it)
                             sosManager.onSosReceived(it, nodeId)
