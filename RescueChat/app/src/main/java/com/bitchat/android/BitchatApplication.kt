@@ -53,6 +53,9 @@ class BitchatApplication : Application() {
         // Proactively start the foreground service to keep mesh alive
         try { com.bitchat.android.service.MeshForegroundService.start(this) } catch (_: Exception) { }
 
+        // Keep fall/crash detection running even when UI is not open.
+        try { com.bitchat.android.sos.SosDetectionService.start(this) } catch (_: Exception) { }
+
         // TorManager already initialized above
     }
 }
