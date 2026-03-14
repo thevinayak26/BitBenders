@@ -41,6 +41,8 @@ import androidx.compose.material.icons.filled.Close
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.BorderStroke
 import com.bitchat.android.ui.media.FileMessageItem
 import com.bitchat.android.model.BitchatMessageType
 import com.bitchat.android.R
@@ -375,6 +377,7 @@ fun MessageItem(
             timeFormatter = timeFormatter
         )
         val sosMapUrl = extractSosMapUrl(message.content)
+        val isSosEmergency = isSosEmergencyMessage(message.content)
         
         // Check if this message was sent by self to avoid click interactions on own nickname
         val isSelf = message.senderPeerID == meshService.myPeerID || 
@@ -384,100 +387,135 @@ fun MessageItem(
         val haptic = LocalHapticFeedback.current
         val context = LocalContext.current
         var textLayoutResult by remember { mutableStateOf<TextLayoutResult?>(null) }
+        val bubbleShape = RoundedCornerShape(14.dp)
+        val bubbleContainer = if (isSelf) {
+            colorScheme.primaryContainer.copy(alpha = 0.45f)
+        } else {
+            colorScheme.surfaceVariant.copy(alpha = 0.55f)
+        }
+
         Column(modifier = modifier) {
-            Text(
-                text = annotatedText,
-                modifier = Modifier.pointerInput(message) {
-                    detectTapGestures(
-                        onTap = { position ->
-                            val layout = textLayoutResult ?: return@detectTapGestures
-                            val offset = layout.getOffsetForPosition(position)
-                            // Nickname click only when not self
-                            if (!isSelf && onNicknameClick != null) {
-                                val nicknameAnnotations = annotatedText.getStringAnnotations(
-                                    tag = "nickname_click",
-                                    start = offset,
-                                    end = offset
-                                )
-                                if (nicknameAnnotations.isNotEmpty()) {
-                                    val nickname = nicknameAnnotations.first().item
-                                    haptic.performHapticFeedback(HapticFeedbackType.TextHandleMove)
-                                    onNicknameClick.invoke(nickname)
-                                    return@detectTapGestures
+            Surface(
+                color = bubbleContainer,
+                shape = bubbleShape,
+                border = BorderStroke(1.dp, colorScheme.outline.copy(alpha = 0.16f))
+            ) {
+                Column(modifier = Modifier.padding(horizontal = 10.dp, vertical = 8.dp)) {
+                    Text(
+                        text = annotatedText,
+                        modifier = Modifier.pointerInput(message) {
+                            detectTapGestures(
+                                onTap = { position ->
+                                    val layout = textLayoutResult ?: return@detectTapGestures
+                                    val offset = layout.getOffsetForPosition(position)
+                                    // Nickname click only when not self
+                                    if (!isSelf && onNicknameClick != null) {
+                                        val nicknameAnnotations = annotatedText.getStringAnnotations(
+                                            tag = "nickname_click",
+                                            start = offset,
+                                            end = offset
+                                        )
+                                        if (nicknameAnnotations.isNotEmpty()) {
+                                            val nickname = nicknameAnnotations.first().item
+                                            haptic.performHapticFeedback(HapticFeedbackType.TextHandleMove)
+                                            onNicknameClick.invoke(nickname)
+                                            return@detectTapGestures
+                                        }
+                                    }
+                                    // Geohash teleport (all messages)
+                                    val geohashAnnotations = annotatedText.getStringAnnotations(
+                                        tag = "geohash_click",
+                                        start = offset,
+                                        end = offset
+                                    )
+                                    if (geohashAnnotations.isNotEmpty()) {
+                                        val geohash = geohashAnnotations.first().item
+                                        try {
+                                            val locationManager = com.bitchat.android.geohash.LocationChannelManager.getInstance(
+                                                context
+                                            )
+                                            val level = when (geohash.length) {
+                                                in 0..2 -> com.bitchat.android.geohash.GeohashChannelLevel.REGION
+                                                in 3..4 -> com.bitchat.android.geohash.GeohashChannelLevel.PROVINCE
+                                                5 -> com.bitchat.android.geohash.GeohashChannelLevel.CITY
+                                                6 -> com.bitchat.android.geohash.GeohashChannelLevel.NEIGHBORHOOD
+                                                else -> com.bitchat.android.geohash.GeohashChannelLevel.BLOCK
+                                            }
+                                            val channel = com.bitchat.android.geohash.GeohashChannel(level, geohash.lowercase())
+                                            locationManager.setTeleported(true)
+                                            locationManager.select(com.bitchat.android.geohash.ChannelID.Location(channel))
+                                        } catch (_: Exception) { }
+                                        haptic.performHapticFeedback(HapticFeedbackType.TextHandleMove)
+                                        return@detectTapGestures
+                                    }
+                                    // URL open (all messages)
+                                    val urlAnnotations = annotatedText.getStringAnnotations(
+                                        tag = "url_click",
+                                        start = offset,
+                                        end = offset
+                                    )
+                                    if (urlAnnotations.isNotEmpty()) {
+                                        val raw = urlAnnotations.first().item
+                                        val resolved = if (raw.startsWith("http://", ignoreCase = true) || raw.startsWith("https://", ignoreCase = true)) raw else "https://$raw"
+                                        try {
+                                            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(resolved))
+                                            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                                            context.startActivity(intent)
+                                        } catch (_: Exception) { }
+                                        haptic.performHapticFeedback(HapticFeedbackType.TextHandleMove)
+                                        return@detectTapGestures
+                                    }
+                                },
+                                onLongPress = {
+                                    haptic.performHapticFeedback(HapticFeedbackType.LongPress)
+                                    onMessageLongPress?.invoke(message)
+                                }
+                            )
+                        },
+                        fontFamily = FontFamily.Monospace,
+                        softWrap = true,
+                        overflow = TextOverflow.Visible,
+                        style = androidx.compose.ui.text.TextStyle(
+                            color = colorScheme.onSurface,
+                            lineHeight = 20.sp,
+                            fontSize = 14.sp
+                        ),
+                        onTextLayout = { result -> textLayoutResult = result }
+                    )
+
+                    if (sosMapUrl != null || isSosEmergency) {
+                        Spacer(modifier = Modifier.height(6.dp))
+                        Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                            if (sosMapUrl != null) {
+                                TextButton(
+                                    onClick = {
+                                        try {
+                                            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(sosMapUrl))
+                                            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                                            context.startActivity(intent)
+                                        } catch (_: Exception) { }
+                                    },
+                                    contentPadding = PaddingValues(horizontal = 8.dp, vertical = 0.dp)
+                                ) {
+                                    Text(text = stringResource(R.string.sos_open_location))
                                 }
                             }
-                            // Geohash teleport (all messages)
-                            val geohashAnnotations = annotatedText.getStringAnnotations(
-                                tag = "geohash_click",
-                                start = offset,
-                                end = offset
-                            )
-                            if (geohashAnnotations.isNotEmpty()) {
-                                val geohash = geohashAnnotations.first().item
-                                try {
-                                    val locationManager = com.bitchat.android.geohash.LocationChannelManager.getInstance(
-                                        context
-                                    )
-                                    val level = when (geohash.length) {
-                                        in 0..2 -> com.bitchat.android.geohash.GeohashChannelLevel.REGION
-                                        in 3..4 -> com.bitchat.android.geohash.GeohashChannelLevel.PROVINCE
-                                        5 -> com.bitchat.android.geohash.GeohashChannelLevel.CITY
-                                        6 -> com.bitchat.android.geohash.GeohashChannelLevel.NEIGHBORHOOD
-                                        else -> com.bitchat.android.geohash.GeohashChannelLevel.BLOCK
-                                    }
-                                    val channel = com.bitchat.android.geohash.GeohashChannel(level, geohash.lowercase())
-                                    locationManager.setTeleported(true)
-                                    locationManager.select(com.bitchat.android.geohash.ChannelID.Location(channel))
-                                } catch (_: Exception) { }
-                                haptic.performHapticFeedback(HapticFeedbackType.TextHandleMove)
-                                return@detectTapGestures
+                            if (isSosEmergency) {
+                                TextButton(
+                                    onClick = {
+                                        try {
+                                            val intent = Intent(Intent.ACTION_DIAL, Uri.parse("tel:112"))
+                                            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                                            context.startActivity(intent)
+                                        } catch (_: Exception) { }
+                                    },
+                                    contentPadding = PaddingValues(horizontal = 8.dp, vertical = 0.dp)
+                                ) {
+                                    Text(text = stringResource(R.string.sos_call_112))
+                                }
                             }
-                            // URL open (all messages)
-                            val urlAnnotations = annotatedText.getStringAnnotations(
-                                tag = "url_click",
-                                start = offset,
-                                end = offset
-                            )
-                            if (urlAnnotations.isNotEmpty()) {
-                                val raw = urlAnnotations.first().item
-                                val resolved = if (raw.startsWith("http://", ignoreCase = true) || raw.startsWith("https://", ignoreCase = true)) raw else "https://$raw"
-                                try {
-                                    val intent = Intent(Intent.ACTION_VIEW, Uri.parse(resolved))
-                                    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
-                                    context.startActivity(intent)
-                                } catch (_: Exception) { }
-                                haptic.performHapticFeedback(HapticFeedbackType.TextHandleMove)
-                                return@detectTapGestures
-                            }
-                        },
-                        onLongPress = {
-                            haptic.performHapticFeedback(HapticFeedbackType.LongPress)
-                            onMessageLongPress?.invoke(message)
                         }
-                    )
-                },
-                fontFamily = FontFamily.Monospace,
-                softWrap = true,
-                overflow = TextOverflow.Visible,
-                style = androidx.compose.ui.text.TextStyle(
-                    color = colorScheme.onSurface
-                ),
-                onTextLayout = { result -> textLayoutResult = result }
-            )
-
-            if (sosMapUrl != null) {
-                Spacer(modifier = Modifier.height(6.dp))
-                TextButton(
-                    onClick = {
-                        try {
-                            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(sosMapUrl))
-                            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
-                            context.startActivity(intent)
-                        } catch (_: Exception) { }
-                    },
-                    contentPadding = PaddingValues(horizontal = 8.dp, vertical = 0.dp)
-                ) {
-                    Text(text = "Open SOS Location")
+                    }
                 }
             }
         }
@@ -552,4 +590,9 @@ private fun extractSosMapUrl(content: String): String? {
     val lat = loc?.groupValues?.getOrNull(1)
     val lon = loc?.groupValues?.getOrNull(2)
     return if (lat != null && lon != null) "https://maps.google.com/?q=$lat,$lon" else null
+}
+
+private fun isSosEmergencyMessage(content: String): Boolean {
+    val text = toDisplayMessageContent(content)
+    return text.startsWith("EMERGENCY SOS ALERT", ignoreCase = true)
 }
